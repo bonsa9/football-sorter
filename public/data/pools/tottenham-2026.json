@@ -1,0 +1,117 @@
+{
+  "id": "tottenham-2026",
+  "teamId": "tottenham",
+  "title": "Tottenham Hotspur 2026/27",
+  "kind": "squad",
+  "crestUrl": "https://player-sorter.github.io/assets/teams/mens-clubs/premier-league/tottenham/crest.png",
+  "kits": {
+    "home": {
+      "label": "Home",
+      "paper": "#F2F3F7",
+      "card": "#FFFFFF",
+      "ink": "#132257",
+      "muted": "#5B6170",
+      "primary": "#132257",
+      "onPrimary": "#FFFFFF",
+      "accent": "#132257",
+      "onAccent": "#FFFFFF",
+      "header": "#FFFFFF",
+      "onHeader": "#132257",
+      "headerBand": "#132257",
+      "rowTint": "#132257",
+      "rowTintStrength": 0.2,
+      "rowTintFloor": 0.5,
+      "pattern": {
+        "type": "tipping",
+        "base": "#E6E9F0",
+        "bands": [
+          "#132257",
+          "#132257"
+        ]
+      }
+    },
+    "away": {
+      "label": "Away",
+      "dark": true,
+      "paper": "#0B1230",
+      "card": "#16204A",
+      "line": "rgba(255,255,255,0.12)",
+      "ink": "#F2F3FA",
+      "muted": "#9EA6C6",
+      "primary": "#FF4FA3",
+      "onPrimary": "#0B1230",
+      "accent": "#9B5CFF",
+      "onAccent": "#FFFFFF",
+      "header": "#0E1638",
+      "onHeader": "#FF4FA3",
+      "headerBand": "#FF8A3D",
+      "pattern": {
+        "type": "zigzag",
+        "base": "#0E1638",
+        "bands": [
+          "#FF4FA3",
+          "#9B5CFF",
+          "#FF8A3D"
+        ]
+      }
+    },
+    "third": {
+      "label": "Third",
+      "paper": "#6C4AB6",
+      "card": "#FFFFFF",
+      "onPaper": "#FFFFFF",
+      "onPaperMuted": "rgba(255,255,255,0.82)",
+      "paperPrimary": "#FFFFFF",
+      "paperOnPrimary": "#6C4AB6",
+      "line": "rgba(0,0,0,0.16)",
+      "ink": "#1E1240",
+      "muted": "#5B6170",
+      "primary": "#5B3AA8",
+      "onPrimary": "#FFFFFF",
+      "accent": "#D7A6E8",
+      "onAccent": "#2A1450",
+      "header": "#6C4AB6",
+      "onHeader": "#FFFFFF",
+      "headerBand": "#FFFFFF",
+      "rowTintStrength": 0.15,
+      "pattern": {
+        "type": "pinstripe",
+        "base": "#6C4AB6",
+        "bands": [
+          "#8466C8"
+        ]
+      }
+    }
+  },
+  "memberIds": [
+    "tottenham-kinsky",
+    "tottenham-dubravka",
+    "tottenham-austin",
+    "tottenham-robertson",
+    "tottenham-adarabioyo",
+    "tottenham-senesi",
+    "tottenham-van-hecke",
+    "tottenham-udogie",
+    "tottenham-porro",
+    "tottenham-ben-davies",
+    "tottenham-van-de-ven",
+    "tottenham-xavi-simons",
+    "tottenham-gallagher",
+    "tottenham-maddison",
+    "tottenham-archie-gray",
+    "tottenham-bergvall",
+    "tottenham-tonali",
+    "tottenham-fernandes",
+    "tottenham-kulusevski",
+    "tottenham-bentancur",
+    "tottenham-williams-barnett",
+    "tottenham-tel",
+    "tottenham-savio",
+    "tottenham-solanke",
+    "tottenham-kudus",
+    "tottenham-marmoush",
+    "tottenham-mudryk",
+    "tottenham-odobert"
+  ],
+  "createdAt": "2026-11-10T12:00:00Z"
+}

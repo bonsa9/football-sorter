@@ -1,0 +1,115 @@
+{
+  "id": "aston-villa-2026",
+  "teamId": "aston-villa",
+  "title": "Aston Villa 2026/27",
+  "kind": "squad",
+  "crestUrl": "https://player-sorter.github.io/assets/teams/mens-clubs/premier-league/aston-villa/crest.png",
+  "kits": {
+    "home": {
+      "label": "Home",
+      "paper": "#670E36",
+      "card": "#FFFFFF",
+      "onPaper": "#FFFFFF",
+      "onPaperMuted": "rgba(255,255,255,0.82)",
+      "paperPrimary": "#FFFFFF",
+      "paperOnPrimary": "#670E36",
+      "line": "rgba(0,0,0,0.16)",
+      "ink": "#2A0616",
+      "muted": "#5B6170",
+      "primary": "#670E36",
+      "onPrimary": "#FFFFFF",
+      "accent": "#95BFE5",
+      "onAccent": "#2A0616",
+      "header": "#670E36",
+      "onHeader": "#FFFFFF",
+      "headerBand": "#95BFE5",
+      "rowTintStrength": 0.15,
+      "pattern": {
+        "type": "sleeves",
+        "base": "#670E36",
+        "bands": [
+          "#95BFE5"
+        ]
+      }
+    },
+    "away": {
+      "label": "Away",
+      "dark": true,
+      "paper": "#0D0C0A",
+      "card": "#1A1815",
+      "line": "rgba(255,255,255,0.12)",
+      "ink": "#F4F0E6",
+      "muted": "#A69F8E",
+      "primary": "#C9A646",
+      "onPrimary": "#0D0C0A",
+      "accent": "#670E36",
+      "onAccent": "#FFFFFF",
+      "header": "#111111",
+      "onHeader": "#C9A646",
+      "headerBand": "#C9A646",
+      "pattern": {
+        "type": "pinstripe",
+        "base": "#121110",
+        "bands": [
+          "#2A2620"
+        ]
+      }
+    },
+    "third": {
+      "label": "Third",
+      "paper": "#E3EEF8",
+      "card": "#FFFFFF",
+      "ink": "#2A0616",
+      "muted": "#5B6170",
+      "primary": "#670E36",
+      "onPrimary": "#FFFFFF",
+      "accent": "#4E86BF",
+      "onAccent": "#FFFFFF",
+      "header": "#A9CCEB",
+      "onHeader": "#670E36",
+      "headerBand": "#670E36",
+      "rowTint": "#670E36",
+      "rowTintStrength": 0.2,
+      "rowTintFloor": 0.5,
+      "pattern": {
+        "type": "tipping",
+        "base": "#BBD7EF",
+        "bands": [
+          "#670E36",
+          "#670E36"
+        ]
+      }
+    }
+  },
+  "memberIds": [
+    "aston-villa-suzuki",
+    "aston-villa-bizot",
+    "aston-villa-wright",
+    "aston-villa-cash",
+    "aston-villa-lindelof",
+    "aston-villa-harwood-bellis",
+    "aston-villa-mings",
+    "aston-villa-pau-torres",
+    "aston-villa-maatsen",
+    "aston-villa-bogarde",
+    "aston-villa-wan-bissaka",
+    "aston-villa-ruggeri",
+    "aston-villa-barkley",
+    "aston-villa-mcginn",
+    "aston-villa-onana",
+    "aston-villa-hemmings",
+    "aston-villa-kamara",
+    "aston-villa-goretzka",
+    "aston-villa-joao-gomes",
+    "aston-villa-manzambi",
+    "aston-villa-buendia",
+    "aston-villa-nicolas-jackson",
+    "aston-villa-garnacho",
+    "aston-villa-abraham",
+    "aston-villa-mbaye",
+    "aston-villa-jimoh-aloba",
+    "aston-villa-madjo",
+    "aston-villa-alysson"
+  ],
+  "createdAt": "2026-11-10T12:00:00Z"
+}

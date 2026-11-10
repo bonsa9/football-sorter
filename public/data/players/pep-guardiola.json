@@ -1,11 +1,12 @@
 {
   "id": "pep-guardiola",
   "name": "Pep Guardiola",
-  "clubId": "manchester-city",
-  "nationality": "Spain",
   "position": "MGR",
-  "birthDate": "1971-01-18",
-  "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Pep_2017_%28cropped%29.jpg/440px-Pep_2017_%28cropped%29.jpg",
+  "clubId": "manchester-city",
+  "clubName": "Manchester City",
+  "nationality": "ESP",
+  "crestUrl": "https://player-sorter.github.io/assets/teams/mens-clubs/premier-league/manchester-city/crest.png",
+  "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Josep_Guardiola_2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2797_%28cropped%29.jpg/500px-Josep_Guardiola_2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2797_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "source": "https://en.wikipedia.org/wiki/Pep_Guardiola",
   "lastUpdated": "2026-11-10"
 }

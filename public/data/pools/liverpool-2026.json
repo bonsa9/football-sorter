@@ -1,0 +1,143 @@
+{
+  "id": "liverpool-2026",
+  "teamId": "liverpool",
+  "title": "Liverpool 2026/27",
+  "kind": "squad",
+  "crestUrl": "https://player-sorter.github.io/assets/teams/mens-clubs/premier-league/liverpool/crest.png",
+  "kits": {
+    "home": {
+      "label": "Home",
+      "paper": "#C8102E",
+      "crest": "crest-white.svg",
+      "card": "#FFFFFF",
+      "onPaper": "#FFFFFF",
+      "onPaperMuted": "rgba(255,255,255,0.82)",
+      "paperPrimary": "#FFFFFF",
+      "paperOnPrimary": "#C8102E",
+      "line": "rgba(0,0,0,0.16)",
+      "ink": "#1A0A0E",
+      "muted": "#5B6170",
+      "primary": "#C8102E",
+      "onPrimary": "#FFFFFF",
+      "accent": "#F6EB61",
+      "onAccent": "#5A0A16",
+      "header": "#C8102E",
+      "onHeader": "#FFFFFF",
+      "headerBand": "#FFFFFF",
+      "rowTintStrength": 0.15,
+      "pattern": {
+        "type": "scatter",
+        "base": "#C8102E",
+        "bands": [
+          "#FFFFFF",
+          "#F7B4BE"
+        ]
+      }
+    },
+    "away": {
+      "label": "Away",
+      "paper": "#EEEEF0",
+      "card": "#FFFFFF",
+      "ink": "#1A1A1A",
+      "muted": "#5B6170",
+      "primary": "#C8102E",
+      "onPrimary": "#FFFFFF",
+      "accent": "#6B6E73",
+      "onAccent": "#FFFFFF",
+      "header": "#FFFFFF",
+      "onHeader": "#C8102E",
+      "headerBand": "#C8102E",
+      "rowTint": "#C8102E",
+      "rowTintStrength": 0.2,
+      "rowTintFloor": 0.5,
+      "headerStripes": [
+        [
+          "#A31F3A",
+          6
+        ],
+        [
+          "#FFFFFF",
+          1.5
+        ],
+        [
+          "#A31F3A",
+          2.5
+        ]
+      ],
+      "pattern": {
+        "type": "lines",
+        "base": "#FFFFFF",
+        "bands": [
+          "#A31F3A"
+        ],
+        "lines": [
+          [
+            "#A31F3A",
+            0.26,
+            0.35
+          ],
+          [
+            "#A31F3A",
+            0.4,
+            0.43
+          ]
+        ]
+      }
+    },
+    "third": {
+      "label": "Third",
+      "dark": true,
+      "paper": "#0E0C0D",
+      "card": "#1C1719",
+      "line": "rgba(255,255,255,0.12)",
+      "ink": "#F3F1F2",
+      "muted": "#A49A9E",
+      "primary": "#C9CCD1",
+      "onPrimary": "#0E0C0D",
+      "accent": "#5E1A32",
+      "onAccent": "#FFFFFF",
+      "header": "#141012",
+      "onHeader": "#C9CCD1",
+      "headerBand": "#B8BCC4",
+      "pattern": {
+        "type": "skewchecks",
+        "base": "#12100F",
+        "bands": [
+          "#6B1D38"
+        ]
+      }
+    }
+  },
+  "memberIds": [
+    "liverpool-alisson",
+    "liverpool-mamardashvili",
+    "liverpool-woodman",
+    "liverpool-jaros",
+    "liverpool-gomez",
+    "liverpool-van-dijk",
+    "liverpool-jacquet",
+    "liverpool-kerkez",
+    "liverpool-bradley",
+    "liverpool-leoni",
+    "liverpool-tsimikas",
+    "liverpool-frimpong",
+    "liverpool-araujo",
+    "liverpool-chambers",
+    "liverpool-wirtz",
+    "liverpool-szoboszlai",
+    "liverpool-mac-allister",
+    "liverpool-victor-munoz",
+    "liverpool-gravenberch",
+    "liverpool-nyoni",
+    "liverpool-mcconnell",
+    "liverpool-endo",
+    "liverpool-koumas",
+    "liverpool-isak",
+    "liverpool-gakpo",
+    "liverpool-ekitike",
+    "liverpool-barcola",
+    "liverpool-ngumoha",
+    "liverpool-chiesa"
+  ],
+  "createdAt": "2026-11-10T12:00:00Z"
+}

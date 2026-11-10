@@ -120,18 +120,37 @@ export const VoteCard: React.FC<VoteCardProps> = ({
           tabIndex={0}
           onKeyDown={(e) => e.key === "Enter" && onVote("a")}
         >
-          <div className="battle-card-crest">{getBadge(playerA)}</div>
+          <div className="battle-card-crest">
+            {playerA.crestUrl ? (
+              <img src={playerA.crestUrl} alt="crest" className="battle-card-crest-img" />
+            ) : (
+              <span>{getBadge(playerA)}</span>
+            )}
+          </div>
           <div className="battle-card-avatar">
             <PlayerAvatar player={playerA} kitColor={kitColor} size="lg" />
           </div>
           <div className="battle-card-info">
-            <span className="card-position-kicker">
-              {getPositionLabel(playerA.position)}
-            </span>
-            <h2 className="card-player-name">{playerA.name}</h2>
-            <div className="card-player-sub">
-              {playerA.number ? `#${playerA.number} · ` : ""}{playerA.nationality || "PRO"}
+            <div className="battle-card-text">
+              <span className="card-position-kicker">
+                {getPositionLabel(playerA.position)}
+              </span>
+              <h2 className="card-player-name">{playerA.name}</h2>
+              <div className="card-player-sub">
+                {playerA.number ? `#${playerA.number} · ` : ""}{playerA.clubName ? `${playerA.clubName}` : (playerA.nationality || "PRO")}
+              </div>
             </div>
+            <button
+              type="button"
+              className="card-exclude-btn"
+              title="Skip or minimize"
+              onClick={(e) => {
+                e.stopPropagation();
+                onVote("tie");
+              }}
+            >
+              —
+            </button>
           </div>
         </div>
 
@@ -146,18 +165,37 @@ export const VoteCard: React.FC<VoteCardProps> = ({
           tabIndex={0}
           onKeyDown={(e) => e.key === "Enter" && onVote("b")}
         >
-          <div className="battle-card-crest">{getBadge(playerB)}</div>
+          <div className="battle-card-crest">
+            {playerB.crestUrl ? (
+              <img src={playerB.crestUrl} alt="crest" className="battle-card-crest-img" />
+            ) : (
+              <span>{getBadge(playerB)}</span>
+            )}
+          </div>
           <div className="battle-card-avatar">
             <PlayerAvatar player={playerB} kitColor={kitColor} size="lg" />
           </div>
           <div className="battle-card-info">
-            <span className="card-position-kicker">
-              {getPositionLabel(playerB.position)}
-            </span>
-            <h2 className="card-player-name">{playerB.name}</h2>
-            <div className="card-player-sub">
-              {playerB.number ? `#${playerB.number} · ` : ""}{playerB.nationality || "PRO"}
+            <div className="battle-card-text">
+              <span className="card-position-kicker">
+                {getPositionLabel(playerB.position)}
+              </span>
+              <h2 className="card-player-name">{playerB.name}</h2>
+              <div className="card-player-sub">
+                {playerB.number ? `#${playerB.number} · ` : ""}{playerB.clubName ? `${playerB.clubName}` : (playerB.nationality || "PRO")}
+              </div>
             </div>
+            <button
+              type="button"
+              className="card-exclude-btn"
+              title="Skip or minimize"
+              onClick={(e) => {
+                e.stopPropagation();
+                onVote("tie");
+              }}
+            >
+              —
+            </button>
           </div>
         </div>
       </div>

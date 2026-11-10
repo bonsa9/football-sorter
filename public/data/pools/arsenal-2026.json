@@ -1,22 +1,132 @@
 {
   "id": "arsenal-2026",
+  "teamId": "arsenal",
   "title": "Arsenal 2026/27",
   "kind": "squad",
+  "crestUrl": "https://player-sorter.github.io/assets/teams/mens-clubs/premier-league/arsenal/crest.png",
+  "kits": {
+    "home": {
+      "label": "Home",
+      "paper": "#DB0007",
+      "card": "#FFFFFF",
+      "onPaper": "#FFFFFF",
+      "onPaperMuted": "rgba(255,255,255,0.82)",
+      "paperPrimary": "#FFFFFF",
+      "paperOnPrimary": "#DB0007",
+      "line": "rgba(0,0,0,0.16)",
+      "ink": "#0E1B33",
+      "muted": "#5B6170",
+      "primary": "#EF0107",
+      "onPrimary": "#FFFFFF",
+      "accent": "#063672",
+      "onAccent": "#FFFFFF",
+      "header": "#EF0107",
+      "onHeader": "#FFFFFF",
+      "headerBand": "#7A1426",
+      "rowTintStrength": 0.15,
+      "pattern": {
+        "type": "raglan",
+        "base": "#EF0107",
+        "bands": [
+          "#FFFFFF",
+          "#7A1426",
+          "#8B0F1D"
+        ]
+      }
+    },
+    "away": {
+      "label": "Away",
+      "dark": true,
+      "paper": "#0D1526",
+      "card": "#18233A",
+      "ink": "#F1F3F8",
+      "muted": "#9AA4B8",
+      "line": "rgba(255,255,255,0.12)",
+      "primary": "#F5C518",
+      "onPrimary": "#0D1526",
+      "accent": "#F5C518",
+      "onAccent": "#13294B",
+      "header": "#1F3274",
+      "onHeader": "#F5C518",
+      "headerBand": "#EFBF2B",
+      "headerStripes": [
+        [
+          "#EFBF2B",
+          1
+        ],
+        [
+          "#C8102E",
+          1
+        ]
+      ],
+      "pattern": {
+        "type": "herring",
+        "base": "#1F3274",
+        "bands": [
+          "#4A68BC"
+        ]
+      }
+    },
+    "third": {
+      "label": "Third",
+      "paper": "#F7F2D3",
+      "card": "#FFFFFF",
+      "ink": "#0E1E3D",
+      "muted": "#6A6550",
+      "primary": "#13294B",
+      "onPrimary": "#FFFFFF",
+      "accent": "#13294B",
+      "onAccent": "#FFFFFF",
+      "header": "#F1E6A2",
+      "onHeader": "#13294B",
+      "headerBand": "#5A241C",
+      "rowTint": "#13294B",
+      "rowTintStrength": 0.2,
+      "rowTintFloor": 0.5,
+      "headerStripes": [
+        [
+          "#C8102E",
+          1
+        ],
+        [
+          "#13294B",
+          1
+        ]
+      ],
+      "pattern": {
+        "type": "pinstripe",
+        "base": "#F1E6A2",
+        "bands": [
+          "#E9DB8F"
+        ]
+      }
+    }
+  },
   "memberIds": [
-    "david-raya",
-    "william-saliba",
-    "gabriel-magalhaes",
-    "ben-white",
-    "jurrien-timber",
-    "riccardo-calafiori",
-    "declan-rice",
-    "martin-odegaard",
-    "mikel-merino",
-    "kai-havertz",
-    "bukayo-saka",
-    "viktor-gyokeres",
-    "gabriel-martinelli",
-    "gabriel-jesus"
+    "arsenal-raya",
+    "arsenal-kepa",
+    "arsenal-meslier",
+    "arsenal-saliba",
+    "arsenal-mosquera",
+    "arsenal-white",
+    "arsenal-hincapie",
+    "arsenal-gabriel",
+    "arsenal-timber",
+    "arsenal-konsa",
+    "arsenal-calafiori",
+    "arsenal-odegaard",
+    "arsenal-eze",
+    "arsenal-madueke",
+    "arsenal-merino",
+    "arsenal-havertz",
+    "arsenal-zubimendi",
+    "arsenal-bruno-guimaraes",
+    "arsenal-rice",
+    "arsenal-lewis-skelly",
+    "arsenal-dowman",
+    "arsenal-saka",
+    "arsenal-gyokeres",
+    "arsenal-tzolis"
   ],
-  "createdAt": "2026-11-10T11:00:00Z"
+  "createdAt": "2026-11-10T12:00:00Z"
 }

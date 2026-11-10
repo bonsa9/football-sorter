@@ -1,0 +1,113 @@
+{
+  "id": "mancity-2026",
+  "teamId": "manchester-city",
+  "title": "Manchester City 2026/27",
+  "kind": "squad",
+  "crestUrl": "https://player-sorter.github.io/assets/teams/mens-clubs/premier-league/manchester-city/crest.png",
+  "kits": {
+    "home": {
+      "label": "Home",
+      "paper": "#6CABDD",
+      "card": "#FFFFFF",
+      "onPaper": "#0B1E3D",
+      "onPaperMuted": "rgba(11,30,61,0.75)",
+      "paperPrimary": "#0B1E3D",
+      "paperOnPrimary": "#FFFFFF",
+      "line": "rgba(0,0,0,0.16)",
+      "ink": "#0B1E3D",
+      "muted": "#5B6170",
+      "primary": "#2E78C2",
+      "onPrimary": "#FFFFFF",
+      "accent": "#1C2C5B",
+      "onAccent": "#FFFFFF",
+      "header": "#6CABDD",
+      "onHeader": "#0B1E3D",
+      "headerBand": "#FFFFFF",
+      "rowTintStrength": 0.15,
+      "pattern": {
+        "type": "gradient",
+        "base": "#4E93CF",
+        "bands": [
+          "#EAF4FC"
+        ]
+      }
+    },
+    "away": {
+      "label": "Away",
+      "dark": true,
+      "paper": "#0D0D0D",
+      "card": "#1A1A1A",
+      "line": "rgba(255,255,255,0.12)",
+      "ink": "#F5F5F5",
+      "muted": "#A3A3A3",
+      "primary": "#E2BE84",
+      "onPrimary": "#0D0D0D",
+      "accent": "#E2BE84",
+      "onAccent": "#0D0D0D",
+      "header": "#1B1917",
+      "onHeader": "#E2BE84",
+      "headerBand": "#E2BE84",
+      "pattern": {
+        "type": "bees",
+        "base": "#1B1917",
+        "bands": [
+          "#3A3631"
+        ]
+      }
+    },
+    "third": {
+      "label": "Third",
+      "paper": "#ECEEF2",
+      "card": "#FFFFFF",
+      "ink": "#0B1E3D",
+      "muted": "#5B6170",
+      "primary": "#1C2C5B",
+      "onPrimary": "#FFFFFF",
+      "accent": "#6CABDD",
+      "onAccent": "#0B1E3D",
+      "header": "#FFFFFF",
+      "onHeader": "#1C2C5B",
+      "headerBand": "#8CC8F0",
+      "rowTint": "#1C2C5B",
+      "rowTintStrength": 0.2,
+      "rowTintFloor": 0.5,
+      "pattern": {
+        "type": "pole",
+        "base": "#FFFFFF",
+        "bands": [
+          "#17408F",
+          "#86BFEA"
+        ]
+      }
+    }
+  },
+  "memberIds": [
+    "manchester-city-donnarumma",
+    "manchester-city-bettinelli",
+    "manchester-city-rulli",
+    "manchester-city-chabot",
+    "manchester-city-ruben-dias",
+    "manchester-city-guehi",
+    "manchester-city-ait-nouri",
+    "manchester-city-vitor-reis",
+    "manchester-city-gvardiol",
+    "manchester-city-khusanov",
+    "manchester-city-rico-lewis",
+    "manchester-city-anderson",
+    "manchester-city-kovacic",
+    "manchester-city-cherki",
+    "manchester-city-doku",
+    "manchester-city-enzo-fernandez",
+    "manchester-city-nunes",
+    "manchester-city-bouaddi",
+    "manchester-city-oreilly",
+    "manchester-city-foden",
+    "manchester-city-samba",
+    "manchester-city-ndiaye",
+    "manchester-city-haaland",
+    "manchester-city-elias",
+    "manchester-city-semenyo",
+    "manchester-city-mcaidoo"
+  ],
+  "createdAt": "2026-11-10T12:00:00Z"
+}

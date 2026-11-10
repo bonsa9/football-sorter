@@ -1,0 +1,19 @@
+{
+  "id": "pl-managers",
+  "title": "Premier League Managers",
+  "kind": "managers",
+  "crestUrl": "https://player-sorter.github.io/assets/teams/mens-clubs/premier-league/arsenal/crest.png",
+  "memberIds": [
+    "pep-guardiola",
+    "mikel-arteta",
+    "arne-slot",
+    "unai-emery",
+    "ange-postecoglou",
+    "enzo-maresca",
+    "ruben-amorim",
+    "eddie-howe",
+    "thomas-frank",
+    "marco-silva"
+  ],
+  "createdAt": "2026-11-10T12:00:00Z"
+}

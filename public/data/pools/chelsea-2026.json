@@ -1,0 +1,115 @@
+{
+  "id": "chelsea-2026",
+  "teamId": "chelsea",
+  "title": "Chelsea 2026/27",
+  "kind": "squad",
+  "crestUrl": "https://player-sorter.github.io/assets/teams/mens-clubs/premier-league/chelsea/crest.png",
+  "kits": {
+    "home": {
+      "label": "Home",
+      "paper": "#153D8A",
+      "card": "#FFFFFF",
+      "onPaper": "#FFFFFF",
+      "onPaperMuted": "rgba(255,255,255,0.82)",
+      "paperPrimary": "#FFFFFF",
+      "paperOnPrimary": "#153D8A",
+      "line": "rgba(0,0,0,0.16)",
+      "ink": "#0C1E45",
+      "muted": "#5B6170",
+      "primary": "#153D8A",
+      "onPrimary": "#FFFFFF",
+      "accent": "#DEA600",
+      "onAccent": "#0C1E45",
+      "header": "#1450A8",
+      "onHeader": "#FFFFFF",
+      "headerBand": "#DEA600",
+      "rowTintStrength": 0.15,
+      "pattern": {
+        "type": "pinstripe",
+        "base": "#1450A8",
+        "bands": [
+          "#123F87"
+        ]
+      }
+    },
+    "away": {
+      "label": "Away",
+      "dark": true,
+      "paper": "#0C0C0E",
+      "card": "#1A1A1E",
+      "line": "rgba(255,255,255,0.12)",
+      "ink": "#F4F1E6",
+      "muted": "#A39F92",
+      "primary": "#DEA600",
+      "onPrimary": "#0C0C0E",
+      "accent": "#F4F1E6",
+      "onAccent": "#0C0C0E",
+      "header": "#111113",
+      "onHeader": "#DEA600",
+      "headerBand": "#DEA600",
+      "pattern": {
+        "type": "tipping",
+        "base": "#121214",
+        "bands": [
+          "#DEA600"
+        ]
+      }
+    },
+    "third": {
+      "label": "Third",
+      "paper": "#EEF0F5",
+      "card": "#FFFFFF",
+      "ink": "#0C1E45",
+      "muted": "#5B6170",
+      "primary": "#153D8A",
+      "onPrimary": "#FFFFFF",
+      "accent": "#E30613",
+      "onAccent": "#FFFFFF",
+      "header": "#FFFFFF",
+      "onHeader": "#153D8A",
+      "headerBand": "#E30613",
+      "rowTint": "#153D8A",
+      "rowTintStrength": 0.2,
+      "rowTintFloor": 0.5,
+      "pattern": {
+        "type": "pinstripe",
+        "base": "#F2F3F7",
+        "bands": [
+          "#E30613"
+        ]
+      }
+    }
+  },
+  "memberIds": [
+    "chelsea-emiliano-martinez",
+    "chelsea-sharman-lowe",
+    "chelsea-slonina",
+    "chelsea-penders",
+    "chelsea-palestra",
+    "chelsea-fofana",
+    "chelsea-barco",
+    "chelsea-lacroix",
+    "chelsea-colwill",
+    "chelsea-hato",
+    "chelsea-reece-james",
+    "chelsea-gusto",
+    "chelsea-chavarria",
+    "chelsea-anselmino",
+    "chelsea-acheampong",
+    "chelsea-palmer",
+    "chelsea-henderson",
+    "chelsea-rogers",
+    "chelsea-caicedo",
+    "chelsea-lavia",
+    "chelsea-reggie-watson",
+    "chelsea-nicoll-jazuli",
+    "chelsea-neto",
+    "chelsea-joao-pedro",
+    "chelsea-gittens",
+    "chelsea-welbeck",
+    "chelsea-emegha",
+    "chelsea-quenda",
+    "chelsea-estevao"
+  ],
+  "createdAt": "2026-11-10T12:00:00Z"
+}

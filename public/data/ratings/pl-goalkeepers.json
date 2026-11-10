@@ -1,0 +1,103 @@
+{
+  "poolId": "pl-goalkeepers",
+  "computedAt": "2026-11-10T12:00:00Z",
+  "totalVotes": 0,
+  "ratings": [
+    {
+      "poolId": "pl-goalkeepers",
+      "entityId": "arsenal-raya",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-goalkeepers",
+      "entityId": "liverpool-alisson",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-goalkeepers",
+      "entityId": "manchester-city-donnarumma",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-goalkeepers",
+      "entityId": "chelsea-emiliano-martinez",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-goalkeepers",
+      "entityId": "tottenham-dubravka",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-goalkeepers",
+      "entityId": "tottenham-kinsky",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-goalkeepers",
+      "entityId": "aston-villa-suzuki",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-goalkeepers",
+      "entityId": "arsenal-kepa",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-goalkeepers",
+      "entityId": "arsenal-meslier",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-goalkeepers",
+      "entityId": "liverpool-mamardashvili",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-goalkeepers",
+      "entityId": "manchester-united-lammens",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-goalkeepers",
+      "entityId": "manchester-city-bettinelli",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "poolId": "pl-midfielders",
+  "computedAt": "2026-11-10T12:00:00Z",
+  "totalVotes": 0,
+  "ratings": [
+    {
+      "poolId": "pl-midfielders",
+      "entityId": "arsenal-rice",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-midfielders",
+      "entityId": "arsenal-odegaard",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-midfielders",
+      "entityId": "arsenal-merino",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-midfielders",
+      "entityId": "arsenal-havertz",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-midfielders",
+      "entityId": "arsenal-zubimendi",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-midfielders",
+      "entityId": "arsenal-bruno-guimaraes",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-midfielders",
+      "entityId": "arsenal-eze",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-midfielders",
+      "entityId": "liverpool-wirtz",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-midfielders",
+      "entityId": "liverpool-szoboszlai",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-midfielders",
+      "entityId": "liverpool-mac-allister",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-midfielders",
+      "entityId": "liverpool-gravenberch",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-midfielders",
+      "entityId": "chelsea-palmer",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-midfielders",
+      "entityId": "chelsea-caicedo",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-midfielders",
+      "entityId": "chelsea-lavia",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-midfielders",
+      "entityId": "manchester-united-bruno-fernandes",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-midfielders",
+      "entityId": "manchester-united-mainoo",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-midfielders",
+      "entityId": "tottenham-maddison",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-midfielders",
+      "entityId": "tottenham-kulusevski",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-midfielders",
+      "entityId": "tottenham-xavi-simons",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-midfielders",
+      "entityId": "manchester-city-foden",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-midfielders",
+      "entityId": "manchester-city-enzo-fernandez",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-midfielders",
+      "entityId": "manchester-city-cherki",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-midfielders",
+      "entityId": "manchester-city-doku",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-midfielders",
+      "entityId": "aston-villa-mcginn",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    }
+  ]
+}

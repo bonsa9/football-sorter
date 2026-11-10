@@ -1,0 +1,32 @@
+{
+  "id": "pl-centre-backs",
+  "title": "Premier League Defenders",
+  "kind": "award",
+  "crestUrl": "https://player-sorter.github.io/assets/teams/mens-clubs/premier-league/arsenal/crest.png",
+  "memberIds": [
+    "arsenal-saliba",
+    "arsenal-gabriel",
+    "liverpool-van-dijk",
+    "manchester-city-ruben-dias",
+    "manchester-city-guehi",
+    "tottenham-van-de-ven",
+    "tottenham-porro",
+    "tottenham-udogie",
+    "arsenal-calafiori",
+    "arsenal-timber",
+    "arsenal-white",
+    "arsenal-konsa",
+    "chelsea-colwill",
+    "chelsea-reece-james",
+    "chelsea-gusto",
+    "liverpool-frimpong",
+    "liverpool-kerkez",
+    "manchester-city-gvardiol",
+    "manchester-city-ait-nouri",
+    "manchester-united-lisandro-martinez",
+    "manchester-united-de-ligt",
+    "aston-villa-pau-torres",
+    "aston-villa-maatsen"
+  ],
+  "createdAt": "2026-11-10T12:00:00Z"
+}

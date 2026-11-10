@@ -1,0 +1,231 @@
+{
+  "poolId": "aston-villa-2026",
+  "computedAt": "2026-11-10T12:00:00Z",
+  "totalVotes": 0,
+  "ratings": [
+    {
+      "poolId": "aston-villa-2026",
+      "entityId": "aston-villa-suzuki",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "aston-villa-2026",
+      "entityId": "aston-villa-bizot",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "aston-villa-2026",
+      "entityId": "aston-villa-wright",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "aston-villa-2026",
+      "entityId": "aston-villa-cash",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "aston-villa-2026",
+      "entityId": "aston-villa-lindelof",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "aston-villa-2026",
+      "entityId": "aston-villa-harwood-bellis",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "aston-villa-2026",
+      "entityId": "aston-villa-mings",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "aston-villa-2026",
+      "entityId": "aston-villa-pau-torres",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "aston-villa-2026",
+      "entityId": "aston-villa-maatsen",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "aston-villa-2026",
+      "entityId": "aston-villa-bogarde",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "aston-villa-2026",
+      "entityId": "aston-villa-wan-bissaka",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "aston-villa-2026",
+      "entityId": "aston-villa-ruggeri",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "aston-villa-2026",
+      "entityId": "aston-villa-barkley",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "aston-villa-2026",
+      "entityId": "aston-villa-mcginn",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "aston-villa-2026",
+      "entityId": "aston-villa-onana",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "aston-villa-2026",
+      "entityId": "aston-villa-hemmings",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "aston-villa-2026",
+      "entityId": "aston-villa-kamara",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "aston-villa-2026",
+      "entityId": "aston-villa-goretzka",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "aston-villa-2026",
+      "entityId": "aston-villa-joao-gomes",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "aston-villa-2026",
+      "entityId": "aston-villa-manzambi",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "aston-villa-2026",
+      "entityId": "aston-villa-buendia",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "aston-villa-2026",
+      "entityId": "aston-villa-nicolas-jackson",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "aston-villa-2026",
+      "entityId": "aston-villa-garnacho",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "aston-villa-2026",
+      "entityId": "aston-villa-abraham",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "aston-villa-2026",
+      "entityId": "aston-villa-mbaye",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "aston-villa-2026",
+      "entityId": "aston-villa-jimoh-aloba",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "aston-villa-2026",
+      "entityId": "aston-villa-madjo",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "aston-villa-2026",
+      "entityId": "aston-villa-alysson",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    }
+  ]
+}

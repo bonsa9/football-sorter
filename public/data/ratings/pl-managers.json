@@ -1,0 +1,87 @@
+{
+  "poolId": "pl-managers",
+  "computedAt": "2026-11-10T12:00:00Z",
+  "totalVotes": 0,
+  "ratings": [
+    {
+      "poolId": "pl-managers",
+      "entityId": "pep-guardiola",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-managers",
+      "entityId": "mikel-arteta",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-managers",
+      "entityId": "arne-slot",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-managers",
+      "entityId": "unai-emery",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-managers",
+      "entityId": "ange-postecoglou",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-managers",
+      "entityId": "enzo-maresca",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-managers",
+      "entityId": "ruben-amorim",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-managers",
+      "entityId": "eddie-howe",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-managers",
+      "entityId": "thomas-frank",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-managers",
+      "entityId": "marco-silva",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    }
+  ]
+}

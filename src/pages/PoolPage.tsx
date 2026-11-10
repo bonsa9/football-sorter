@@ -164,8 +164,45 @@ export const PoolPage: React.FC<PoolPageProps> = ({ pool, players, onBack }) => 
   const playerA = currentPair ? playersMap.get(currentPair[0]) : null;
   const playerB = currentPair ? playersMap.get(currentPair[1]) : null;
 
+  // Dynamic background matching authentic club kit colors
+  const pageBgColor = useMemo(() => {
+    if (pool.kits?.[kitColor]?.paper) {
+      return pool.kits[kitColor].paper;
+    }
+    if (pool.id.includes("arsenal")) {
+      return kitColor === "home" ? "#DB0007" : kitColor === "away" ? "#063672" : "#F5E6CC";
+    }
+    if (pool.id.includes("liverpool")) {
+      return kitColor === "home" ? "#C8102E" : kitColor === "away" ? "#001f3f" : "#D2B48C";
+    }
+    if (pool.id.includes("mancity")) {
+      return kitColor === "home" ? "#6CABDD" : kitColor === "away" ? "#1C2C5B" : "#1B2838";
+    }
+    if (pool.id.includes("chelsea")) {
+      return kitColor === "home" ? "#034694" : kitColor === "away" ? "#111827" : "#0D9488";
+    }
+    if (pool.id.includes("manutd")) {
+      return kitColor === "home" ? "#DA291C" : kitColor === "away" ? "#062A4E" : "#18181B";
+    }
+    if (pool.id.includes("tottenham")) {
+      return kitColor === "home" ? "#132257" : kitColor === "away" ? "#0A122A" : "#15803D";
+    }
+    if (pool.id.includes("aston-villa")) {
+      return kitColor === "home" ? "#670E36" : kitColor === "away" ? "#1E293B" : "#0C2340";
+    }
+    if (pool.id.includes("strikers")) return "#9a3412";
+    if (pool.id.includes("midfielders")) return "#4c1d95";
+    if (pool.id.includes("centre-backs")) return "#064e3b";
+    if (pool.id.includes("goalkeepers")) return "#78350f";
+    if (pool.id.includes("managers")) return "#0f172a";
+    return kitColor === "home" ? "#C60B1E" : kitColor === "away" ? "#001f3f" : "#f7ede2";
+  }, [pool, kitColor]);
+
   return (
-    <div className={`squad-page-wrapper theme-${kitColor}`}>
+    <div
+      className={`squad-page-wrapper theme-${kitColor}`}
+      style={{ backgroundColor: pageBgColor }}
+    >
       {/* 1. VOTING / MATCHUP BATTLE VIEW */}
       {viewState === "voting" && (
         <div className="battle-view-container">
@@ -247,10 +284,19 @@ export const PoolPage: React.FC<PoolPageProps> = ({ pool, players, onBack }) => 
 
           {/* Squad Header */}
           <div className="squad-hero-header">
-            <div className="squad-badge-large">{getPoolBadge(pool.id)}</div>
+            {pool.crestUrl ? (
+              <img
+                src={pool.crestUrl}
+                alt="crest"
+                className="squad-crest-large"
+                referrerPolicy="no-referrer"
+              />
+            ) : (
+              <div className="squad-badge-large">{getPoolBadge(pool.id)}</div>
+            )}
             <div className="squad-title-group">
               <span className="squad-season-tag">
-                {pool.kind === "managers" ? "WORLD ELITE" : "2026/27 ROSTER"}
+                {pool.kind === "managers" ? "PREMIER LEAGUE" : "2026/27 ROSTER"}
               </span>
               <h1 className="squad-huge-name">{pool.title.toUpperCase()}</h1>
             </div>

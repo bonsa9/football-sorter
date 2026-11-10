@@ -1,0 +1,33 @@
+{
+  "id": "pl-midfielders",
+  "title": "Premier League Midfielders",
+  "kind": "award",
+  "crestUrl": "https://player-sorter.github.io/assets/teams/mens-clubs/premier-league/arsenal/crest.png",
+  "memberIds": [
+    "arsenal-rice",
+    "arsenal-odegaard",
+    "arsenal-merino",
+    "arsenal-havertz",
+    "arsenal-zubimendi",
+    "arsenal-bruno-guimaraes",
+    "arsenal-eze",
+    "liverpool-wirtz",
+    "liverpool-szoboszlai",
+    "liverpool-mac-allister",
+    "liverpool-gravenberch",
+    "chelsea-palmer",
+    "chelsea-caicedo",
+    "chelsea-lavia",
+    "manchester-united-bruno-fernandes",
+    "manchester-united-mainoo",
+    "tottenham-maddison",
+    "tottenham-kulusevski",
+    "tottenham-xavi-simons",
+    "manchester-city-foden",
+    "manchester-city-enzo-fernandez",
+    "manchester-city-cherki",
+    "manchester-city-doku",
+    "aston-villa-mcginn"
+  ],
+  "createdAt": "2026-11-10T12:00:00Z"
+}

@@ -1,0 +1,116 @@
+{
+  "id": "manutd-2026",
+  "teamId": "manchester-united",
+  "title": "Manchester United 2026/27",
+  "kind": "squad",
+  "crestUrl": "https://player-sorter.github.io/assets/teams/mens-clubs/premier-league/manchester-united/crest.png",
+  "kits": {
+    "home": {
+      "label": "Home",
+      "paper": "#DA291C",
+      "card": "#FFFFFF",
+      "onPaper": "#FFFFFF",
+      "onPaperMuted": "rgba(255,255,255,0.82)",
+      "paperPrimary": "#FFFFFF",
+      "paperOnPrimary": "#DA291C",
+      "line": "rgba(0,0,0,0.16)",
+      "ink": "#1A0B09",
+      "muted": "#5B6170",
+      "primary": "#DA291C",
+      "onPrimary": "#FFFFFF",
+      "accent": "#111111",
+      "onAccent": "#FFFFFF",
+      "header": "#DA291C",
+      "onHeader": "#FFFFFF",
+      "headerBand": "#FBE122",
+      "rowTintStrength": 0.15,
+      "pattern": {
+        "type": "solid",
+        "base": "#DA291C"
+      }
+    },
+    "away": {
+      "label": "Away",
+      "paper": "#1E3A9E",
+      "card": "#FFFFFF",
+      "onPaper": "#FFFFFF",
+      "onPaperMuted": "rgba(255,255,255,0.82)",
+      "paperPrimary": "#FFFFFF",
+      "paperOnPrimary": "#1E3A9E",
+      "line": "rgba(0,0,0,0.16)",
+      "ink": "#0D1B45",
+      "muted": "#5B6170",
+      "primary": "#1E3A9E",
+      "onPrimary": "#FFFFFF",
+      "accent": "#DA291C",
+      "onAccent": "#FFFFFF",
+      "header": "#1E3A9E",
+      "onHeader": "#FFFFFF",
+      "headerBand": "#DA291C",
+      "rowTintStrength": 0.15,
+      "pattern": {
+        "type": "pinstripe",
+        "base": "#1E3A9E",
+        "bands": [
+          "#2A4BB8"
+        ]
+      }
+    },
+    "third": {
+      "label": "Third",
+      "paper": "#F3EEE2",
+      "card": "#FFFFFF",
+      "ink": "#3A0D16",
+      "muted": "#6E6358",
+      "primary": "#7A1F2B",
+      "onPrimary": "#FFFFFF",
+      "accent": "#2F6B3A",
+      "onAccent": "#FFFFFF",
+      "header": "#F7F1E3",
+      "onHeader": "#7A1F2B",
+      "headerBand": "#7A1F2B",
+      "rowTint": "#7A1F2B",
+      "rowTintStrength": 0.2,
+      "rowTintFloor": 0.5,
+      "pattern": {
+        "type": "tipping",
+        "base": "#EFE7D4",
+        "bands": [
+          "#7A1F2B",
+          "#2F6B3A"
+        ]
+      }
+    }
+  },
+  "memberIds": [
+    "manchester-united-lammens",
+    "manchester-united-darlow",
+    "manchester-united-heaton",
+    "manchester-united-mee",
+    "manchester-united-dalot",
+    "manchester-united-mazraoui",
+    "manchester-united-de-ligt",
+    "manchester-united-maguire",
+    "manchester-united-lisandro-martinez",
+    "manchester-united-dorgu",
+    "manchester-united-yoro",
+    "manchester-united-shaw",
+    "manchester-united-mount",
+    "manchester-united-bruno-fernandes",
+    "manchester-united-andrey-santos",
+    "manchester-united-tielemans",
+    "manchester-united-baleba",
+    "manchester-united-ugarte",
+    "manchester-united-heaven",
+    "manchester-united-mainoo",
+    "manchester-united-rashford",
+    "manchester-united-cunha",
+    "manchester-united-zirkzee",
+    "manchester-united-amad",
+    "manchester-united-mbeumo",
+    "manchester-united-tynan-thompson",
+    "manchester-united-sesko",
+    "manchester-united-shea-lacey"
+  ],
+  "createdAt": "2026-11-10T12:00:00Z"
+}

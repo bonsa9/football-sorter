@@ -1,0 +1,167 @@
+{
+  "poolId": "pl-strikers",
+  "computedAt": "2026-11-10T12:00:00Z",
+  "totalVotes": 0,
+  "ratings": [
+    {
+      "poolId": "pl-strikers",
+      "entityId": "manchester-city-haaland",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-strikers",
+      "entityId": "arsenal-saka",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-strikers",
+      "entityId": "arsenal-gyokeres",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-strikers",
+      "entityId": "liverpool-isak",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-strikers",
+      "entityId": "liverpool-gakpo",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-strikers",
+      "entityId": "liverpool-barcola",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-strikers",
+      "entityId": "liverpool-ekitike",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-strikers",
+      "entityId": "tottenham-solanke",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-strikers",
+      "entityId": "tottenham-savio",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-strikers",
+      "entityId": "tottenham-kudus",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-strikers",
+      "entityId": "tottenham-marmoush",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-strikers",
+      "entityId": "chelsea-neto",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-strikers",
+      "entityId": "chelsea-joao-pedro",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-strikers",
+      "entityId": "chelsea-estevao",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-strikers",
+      "entityId": "manchester-united-rashford",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-strikers",
+      "entityId": "manchester-united-cunha",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-strikers",
+      "entityId": "manchester-united-sesko",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-strikers",
+      "entityId": "aston-villa-nicolas-jackson",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-strikers",
+      "entityId": "aston-villa-garnacho",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-strikers",
+      "entityId": "aston-villa-abraham",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    }
+  ]
+}

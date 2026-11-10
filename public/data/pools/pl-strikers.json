@@ -1,0 +1,29 @@
+{
+  "id": "pl-strikers",
+  "title": "Premier League Strikers & Forwards",
+  "kind": "award",
+  "crestUrl": "https://player-sorter.github.io/assets/teams/mens-clubs/premier-league/arsenal/crest.png",
+  "memberIds": [
+    "manchester-city-haaland",
+    "arsenal-saka",
+    "arsenal-gyokeres",
+    "liverpool-isak",
+    "liverpool-gakpo",
+    "liverpool-barcola",
+    "liverpool-ekitike",
+    "tottenham-solanke",
+    "tottenham-savio",
+    "tottenham-kudus",
+    "tottenham-marmoush",
+    "chelsea-neto",
+    "chelsea-joao-pedro",
+    "chelsea-estevao",
+    "manchester-united-rashford",
+    "manchester-united-cunha",
+    "manchester-united-sesko",
+    "aston-villa-nicolas-jackson",
+    "aston-villa-garnacho",
+    "aston-villa-abraham"
+  ],
+  "createdAt": "2026-11-10T12:00:00Z"
+}

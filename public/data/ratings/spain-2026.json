@@ -1,11 +1,11 @@
 {
   "poolId": "spain-2026",
-  "computedAt": "2026-11-10T11:00:00Z",
+  "computedAt": "2026-11-10T12:00:00Z",
   "totalVotes": 0,
   "ratings": [
     {
       "poolId": "spain-2026",
-      "entityId": "unai-simon",
+      "entityId": "spain-raya",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -13,7 +13,7 @@
     },
     {
       "poolId": "spain-2026",
-      "entityId": "david-raya",
+      "entityId": "spain-joan-garcia",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -21,7 +21,7 @@
     },
     {
       "poolId": "spain-2026",
-      "entityId": "dani-carvajal",
+      "entityId": "spain-unai-simon",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -29,7 +29,7 @@
     },
     {
       "poolId": "spain-2026",
-      "entityId": "robin-le-normand",
+      "entityId": "spain-pubill",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -37,7 +37,7 @@
     },
     {
       "poolId": "spain-2026",
-      "entityId": "aymeric-laporte",
+      "entityId": "spain-grimaldo",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -45,7 +45,7 @@
     },
     {
       "poolId": "spain-2026",
-      "entityId": "pau-cubarsi",
+      "entityId": "spain-eric-garcia",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -53,7 +53,7 @@
     },
     {
       "poolId": "spain-2026",
-      "entityId": "marc-cucurella",
+      "entityId": "spain-llorente",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -61,7 +61,7 @@
     },
     {
       "poolId": "spain-2026",
-      "entityId": "alejandro-grimaldo",
+      "entityId": "spain-porro",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -69,7 +69,7 @@
     },
     {
       "poolId": "spain-2026",
-      "entityId": "pedro-porro",
+      "entityId": "spain-laporte",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -77,7 +77,7 @@
     },
     {
       "poolId": "spain-2026",
-      "entityId": "rodri",
+      "entityId": "spain-cubarsi",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -85,7 +85,7 @@
     },
     {
       "poolId": "spain-2026",
-      "entityId": "martin-zubimendi",
+      "entityId": "spain-cucurella",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -93,7 +93,7 @@
     },
     {
       "poolId": "spain-2026",
-      "entityId": "pedri",
+      "entityId": "spain-merino",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -101,7 +101,7 @@
     },
     {
       "poolId": "spain-2026",
-      "entityId": "dani-olmo",
+      "entityId": "spain-fabian-ruiz",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -109,7 +109,7 @@
     },
     {
       "poolId": "spain-2026",
-      "entityId": "fabian-ruiz",
+      "entityId": "spain-gavi",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -117,7 +117,7 @@
     },
     {
       "poolId": "spain-2026",
-      "entityId": "mikel-merino",
+      "entityId": "spain-baena",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -125,7 +125,7 @@
     },
     {
       "poolId": "spain-2026",
-      "entityId": "lamine-yamal",
+      "entityId": "spain-rodri",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -133,7 +133,7 @@
     },
     {
       "poolId": "spain-2026",
-      "entityId": "nico-williams",
+      "entityId": "spain-zubimendi",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -141,7 +141,7 @@
     },
     {
       "poolId": "spain-2026",
-      "entityId": "alvaro-morata",
+      "entityId": "spain-pedri",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -149,7 +149,7 @@
     },
     {
       "poolId": "spain-2026",
-      "entityId": "mikel-oyarzabal",
+      "entityId": "spain-ferran-torres",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -157,7 +157,55 @@
     },
     {
       "poolId": "spain-2026",
-      "entityId": "ferran-torres",
+      "entityId": "spain-olmo",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "spain-2026",
+      "entityId": "spain-yeremy-pino",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "spain-2026",
+      "entityId": "spain-nico-williams",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "spain-2026",
+      "entityId": "spain-lamine-yamal",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "spain-2026",
+      "entityId": "spain-oyarzabal",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "spain-2026",
+      "entityId": "spain-victor-munoz",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "spain-2026",
+      "entityId": "spain-borja-iglesias",
       "strength": 0,
       "votes": 0,
       "low": 0,

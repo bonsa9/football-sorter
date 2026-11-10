@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import type { Player } from "../engine/types";
 
 interface PlayerAvatarProps {
@@ -13,6 +13,11 @@ export const PlayerAvatar: React.FC<PlayerAvatarProps> = ({
   size = "lg",
 }) => {
   const [imageError, setImageError] = useState(false);
+
+  // Reset image error state whenever player changes
+  useEffect(() => {
+    setImageError(false);
+  }, [player.id, player.photoUrl]);
 
   const getKitColors = () => {
     switch (kitColor) {
@@ -52,6 +57,7 @@ export const PlayerAvatar: React.FC<PlayerAvatarProps> = ({
           src={player.photoUrl}
           alt={player.name}
           className="player-avatar-sm-img"
+          referrerPolicy="no-referrer"
           onError={() => setImageError(true)}
           loading="lazy"
         />
@@ -72,6 +78,7 @@ export const PlayerAvatar: React.FC<PlayerAvatarProps> = ({
           src={player.photoUrl}
           alt={player.name}
           className="player-card-photo"
+          referrerPolicy="no-referrer"
           onError={() => setImageError(true)}
           loading="eager"
         />

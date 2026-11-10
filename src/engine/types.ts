@@ -1,14 +1,16 @@
 export type Position = "GK" | "DEF" | "MID" | "FWD" | "MGR";
 
 export type Player = {
-  id: string; // stable slug, e.g. "lamine-yamal"
+  id: string; // stable slug, e.g. "arsenal-saka"
   name: string;
   number?: number;
   clubId?: string;
+  clubName?: string;
   nationality?: string;
   position?: Position;
   birthDate?: string; // ISO date
   photoUrl?: string; // Direct image URL
+  crestUrl?: string; // Club / country crest URL
   source: string; // where the data came from
   lastUpdated: string; // ISO date
 };
@@ -16,8 +18,11 @@ export type Player = {
 export type PoolKind = "squad" | "custom" | "award" | "moments" | "managers";
 
 export type Pool = {
-  id: string; // e.g. "world-strikers", "spain-2026"
-  title: string; // e.g. "World's Best Strikers"
+  id: string; // e.g. "pl-strikers", "arsenal-2026"
+  title: string; // e.g. "Arsenal 2026/27"
+  teamId?: string;
+  crestUrl?: string;
+  kits?: Record<string, any>;
   kind: PoolKind;
   memberIds: string[]; // entities ranked in this pool
   createdAt: string;

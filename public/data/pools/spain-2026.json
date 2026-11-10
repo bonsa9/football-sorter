@@ -1,28 +1,99 @@
 {
   "id": "spain-2026",
+  "teamId": "spain",
   "title": "Spain 2026",
   "kind": "squad",
+  "crestUrl": "https://player-sorter.github.io/assets/teams/wcs/world-cup-2026/2026-spain/crest.png",
+  "kits": {
+    "home": {
+      "label": "Home",
+      "paper": "#C8102E",
+      "card": "#FFFFFF",
+      "onPaper": "#FFFFFF",
+      "onPaperMuted": "rgba(255,255,255,0.82)",
+      "paperPrimary": "#FFFFFF",
+      "paperOnPrimary": "#C8102E",
+      "line": "rgba(0,0,0,0.16)",
+      "ink": "#15203A",
+      "muted": "#5B6170",
+      "primary": "#C8102E",
+      "onPrimary": "#FFFFFF",
+      "accent": "#1B2A4A",
+      "onAccent": "#FFFFFF",
+      "header": "#C8102E",
+      "onHeader": "#FFFFFF",
+      "headerBand": "#F1BF00",
+      "rowTintStrength": 0.15,
+      "pattern": {
+        "type": "pinstripe",
+        "base": "#C8102E",
+        "bands": [
+          "#F1BF00"
+        ]
+      }
+    },
+    "away": {
+      "label": "Away",
+      "paper": "#F3EDE0",
+      "card": "#FFFFFF",
+      "ink": "#2A1218",
+      "muted": "#6E5F57",
+      "primary": "#7A1F2B",
+      "onPrimary": "#FFFFFF",
+      "accent": "#B8913A",
+      "onAccent": "#2A1218",
+      "header": "#F1EADA",
+      "onHeader": "#7A1F2B",
+      "headerBand": "#B8913A",
+      "rowTint": "#7A1F2B",
+      "rowTintStrength": 0.2,
+      "rowTintFloor": 0.5,
+      "headerStripes": [
+        [
+          "#B3202F",
+          3
+        ],
+        [
+          "#D5A532",
+          1.6
+        ]
+      ],
+      "pattern": {
+        "type": "scrolls",
+        "base": "#F1EADA",
+        "bands": [
+          "#C9BA9E"
+        ]
+      }
+    }
+  },
   "memberIds": [
-    "unai-simon",
-    "david-raya",
-    "dani-carvajal",
-    "robin-le-normand",
-    "aymeric-laporte",
-    "pau-cubarsi",
-    "marc-cucurella",
-    "alejandro-grimaldo",
-    "pedro-porro",
-    "rodri",
-    "martin-zubimendi",
-    "pedri",
-    "dani-olmo",
-    "fabian-ruiz",
-    "mikel-merino",
-    "lamine-yamal",
-    "nico-williams",
-    "alvaro-morata",
-    "mikel-oyarzabal",
-    "ferran-torres"
+    "spain-raya",
+    "spain-joan-garcia",
+    "spain-unai-simon",
+    "spain-pubill",
+    "spain-grimaldo",
+    "spain-eric-garcia",
+    "spain-llorente",
+    "spain-porro",
+    "spain-laporte",
+    "spain-cubarsi",
+    "spain-cucurella",
+    "spain-merino",
+    "spain-fabian-ruiz",
+    "spain-gavi",
+    "spain-baena",
+    "spain-rodri",
+    "spain-zubimendi",
+    "spain-pedri",
+    "spain-ferran-torres",
+    "spain-olmo",
+    "spain-yeremy-pino",
+    "spain-nico-williams",
+    "spain-lamine-yamal",
+    "spain-oyarzabal",
+    "spain-victor-munoz",
+    "spain-borja-iglesias"
   ],
   "createdAt": "2026-11-10T10:00:00Z"
 }

@@ -1,128 +1,1086 @@
 [
   {
-    "id": "world-strikers",
-    "title": "World's Best Strikers",
-    "kind": "award",
-    "memberIds": [
-      "erling-haaland",
-      "kylian-mbappe",
-      "vinicius-junior",
-      "harry-kane",
-      "mohamed-salah",
-      "robert-lewandowski",
-      "viktor-gyokeres",
-      "bukayo-saka",
-      "lamine-yamal",
-      "lautaro-martinez",
-      "cole-palmer",
-      "victor-osimhen"
-    ],
-    "createdAt": "2026-11-10T11:00:00Z"
-  },
-  {
-    "id": "world-midfielders",
-    "title": "World's Best Midfielders",
-    "kind": "award",
-    "memberIds": [
-      "rodri",
-      "jude-bellingham",
-      "kevin-de-bruyne",
-      "pedri",
-      "florian-wirtz",
-      "martin-odegaard",
-      "federico-valverde",
-      "declan-rice",
-      "jamal-musiala",
-      "luka-modric",
-      "bruno-fernandes",
-      "dani-olmo"
-    ],
-    "createdAt": "2026-11-10T11:00:00Z"
-  },
-  {
-    "id": "world-goalkeepers",
-    "title": "World's Best Goalkeepers",
-    "kind": "award",
-    "memberIds": [
-      "thibaut-courtois",
-      "alisson-becker",
-      "ederson",
-      "david-raya",
-      "emiliano-martinez",
-      "gianluigi-donnarumma",
-      "jan-oblak",
-      "marc-andre-ter-stegen",
-      "mike-maignan",
-      "unai-simon"
-    ],
-    "createdAt": "2026-11-10T11:00:00Z"
-  },
-  {
-    "id": "world-managers",
-    "title": "World's Top Managers",
-    "kind": "managers",
-    "memberIds": [
-      "pep-guardiola",
-      "carlo-ancelotti",
-      "mikel-arteta",
-      "jurgen-klopp",
-      "xabi-alonso",
-      "luis-de-la-fuente",
-      "hansi-flick",
-      "diego-simeone",
-      "unai-emery",
-      "simone-inzaghi"
-    ],
-    "createdAt": "2026-11-10T11:00:00Z"
-  },
-  {
     "id": "arsenal-2026",
+    "teamId": "arsenal",
     "title": "Arsenal 2026/27",
     "kind": "squad",
+    "crestUrl": "https://player-sorter.github.io/assets/teams/mens-clubs/premier-league/arsenal/crest.png",
+    "kits": {
+      "home": {
+        "label": "Home",
+        "paper": "#DB0007",
+        "card": "#FFFFFF",
+        "onPaper": "#FFFFFF",
+        "onPaperMuted": "rgba(255,255,255,0.82)",
+        "paperPrimary": "#FFFFFF",
+        "paperOnPrimary": "#DB0007",
+        "line": "rgba(0,0,0,0.16)",
+        "ink": "#0E1B33",
+        "muted": "#5B6170",
+        "primary": "#EF0107",
+        "onPrimary": "#FFFFFF",
+        "accent": "#063672",
+        "onAccent": "#FFFFFF",
+        "header": "#EF0107",
+        "onHeader": "#FFFFFF",
+        "headerBand": "#7A1426",
+        "rowTintStrength": 0.15,
+        "pattern": {
+          "type": "raglan",
+          "base": "#EF0107",
+          "bands": [
+            "#FFFFFF",
+            "#7A1426",
+            "#8B0F1D"
+          ]
+        }
+      },
+      "away": {
+        "label": "Away",
+        "dark": true,
+        "paper": "#0D1526",
+        "card": "#18233A",
+        "ink": "#F1F3F8",
+        "muted": "#9AA4B8",
+        "line": "rgba(255,255,255,0.12)",
+        "primary": "#F5C518",
+        "onPrimary": "#0D1526",
+        "accent": "#F5C518",
+        "onAccent": "#13294B",
+        "header": "#1F3274",
+        "onHeader": "#F5C518",
+        "headerBand": "#EFBF2B",
+        "headerStripes": [
+          [
+            "#EFBF2B",
+            1
+          ],
+          [
+            "#C8102E",
+            1
+          ]
+        ],
+        "pattern": {
+          "type": "herring",
+          "base": "#1F3274",
+          "bands": [
+            "#4A68BC"
+          ]
+        }
+      },
+      "third": {
+        "label": "Third",
+        "paper": "#F7F2D3",
+        "card": "#FFFFFF",
+        "ink": "#0E1E3D",
+        "muted": "#6A6550",
+        "primary": "#13294B",
+        "onPrimary": "#FFFFFF",
+        "accent": "#13294B",
+        "onAccent": "#FFFFFF",
+        "header": "#F1E6A2",
+        "onHeader": "#13294B",
+        "headerBand": "#5A241C",
+        "rowTint": "#13294B",
+        "rowTintStrength": 0.2,
+        "rowTintFloor": 0.5,
+        "headerStripes": [
+          [
+            "#C8102E",
+            1
+          ],
+          [
+            "#13294B",
+            1
+          ]
+        ],
+        "pattern": {
+          "type": "pinstripe",
+          "base": "#F1E6A2",
+          "bands": [
+            "#E9DB8F"
+          ]
+        }
+      }
+    },
     "memberIds": [
-      "david-raya",
-      "william-saliba",
-      "gabriel-magalhaes",
-      "ben-white",
-      "jurrien-timber",
-      "riccardo-calafiori",
-      "declan-rice",
-      "martin-odegaard",
-      "mikel-merino",
-      "kai-havertz",
-      "bukayo-saka",
-      "viktor-gyokeres",
-      "gabriel-martinelli",
-      "gabriel-jesus"
+      "arsenal-raya",
+      "arsenal-kepa",
+      "arsenal-meslier",
+      "arsenal-saliba",
+      "arsenal-mosquera",
+      "arsenal-white",
+      "arsenal-hincapie",
+      "arsenal-gabriel",
+      "arsenal-timber",
+      "arsenal-konsa",
+      "arsenal-calafiori",
+      "arsenal-odegaard",
+      "arsenal-eze",
+      "arsenal-madueke",
+      "arsenal-merino",
+      "arsenal-havertz",
+      "arsenal-zubimendi",
+      "arsenal-bruno-guimaraes",
+      "arsenal-rice",
+      "arsenal-lewis-skelly",
+      "arsenal-dowman",
+      "arsenal-saka",
+      "arsenal-gyokeres",
+      "arsenal-tzolis"
     ],
-    "createdAt": "2026-11-10T11:00:00Z"
+    "createdAt": "2026-11-10T12:00:00Z"
+  },
+  {
+    "id": "liverpool-2026",
+    "teamId": "liverpool",
+    "title": "Liverpool 2026/27",
+    "kind": "squad",
+    "crestUrl": "https://player-sorter.github.io/assets/teams/mens-clubs/premier-league/liverpool/crest.png",
+    "kits": {
+      "home": {
+        "label": "Home",
+        "paper": "#C8102E",
+        "crest": "crest-white.svg",
+        "card": "#FFFFFF",
+        "onPaper": "#FFFFFF",
+        "onPaperMuted": "rgba(255,255,255,0.82)",
+        "paperPrimary": "#FFFFFF",
+        "paperOnPrimary": "#C8102E",
+        "line": "rgba(0,0,0,0.16)",
+        "ink": "#1A0A0E",
+        "muted": "#5B6170",
+        "primary": "#C8102E",
+        "onPrimary": "#FFFFFF",
+        "accent": "#F6EB61",
+        "onAccent": "#5A0A16",
+        "header": "#C8102E",
+        "onHeader": "#FFFFFF",
+        "headerBand": "#FFFFFF",
+        "rowTintStrength": 0.15,
+        "pattern": {
+          "type": "scatter",
+          "base": "#C8102E",
+          "bands": [
+            "#FFFFFF",
+            "#F7B4BE"
+          ]
+        }
+      },
+      "away": {
+        "label": "Away",
+        "paper": "#EEEEF0",
+        "card": "#FFFFFF",
+        "ink": "#1A1A1A",
+        "muted": "#5B6170",
+        "primary": "#C8102E",
+        "onPrimary": "#FFFFFF",
+        "accent": "#6B6E73",
+        "onAccent": "#FFFFFF",
+        "header": "#FFFFFF",
+        "onHeader": "#C8102E",
+        "headerBand": "#C8102E",
+        "rowTint": "#C8102E",
+        "rowTintStrength": 0.2,
+        "rowTintFloor": 0.5,
+        "headerStripes": [
+          [
+            "#A31F3A",
+            6
+          ],
+          [
+            "#FFFFFF",
+            1.5
+          ],
+          [
+            "#A31F3A",
+            2.5
+          ]
+        ],
+        "pattern": {
+          "type": "lines",
+          "base": "#FFFFFF",
+          "bands": [
+            "#A31F3A"
+          ],
+          "lines": [
+            [
+              "#A31F3A",
+              0.26,
+              0.35
+            ],
+            [
+              "#A31F3A",
+              0.4,
+              0.43
+            ]
+          ]
+        }
+      },
+      "third": {
+        "label": "Third",
+        "dark": true,
+        "paper": "#0E0C0D",
+        "card": "#1C1719",
+        "line": "rgba(255,255,255,0.12)",
+        "ink": "#F3F1F2",
+        "muted": "#A49A9E",
+        "primary": "#C9CCD1",
+        "onPrimary": "#0E0C0D",
+        "accent": "#5E1A32",
+        "onAccent": "#FFFFFF",
+        "header": "#141012",
+        "onHeader": "#C9CCD1",
+        "headerBand": "#B8BCC4",
+        "pattern": {
+          "type": "skewchecks",
+          "base": "#12100F",
+          "bands": [
+            "#6B1D38"
+          ]
+        }
+      }
+    },
+    "memberIds": [
+      "liverpool-alisson",
+      "liverpool-mamardashvili",
+      "liverpool-woodman",
+      "liverpool-jaros",
+      "liverpool-gomez",
+      "liverpool-van-dijk",
+      "liverpool-jacquet",
+      "liverpool-kerkez",
+      "liverpool-bradley",
+      "liverpool-leoni",
+      "liverpool-tsimikas",
+      "liverpool-frimpong",
+      "liverpool-araujo",
+      "liverpool-chambers",
+      "liverpool-wirtz",
+      "liverpool-szoboszlai",
+      "liverpool-mac-allister",
+      "liverpool-victor-munoz",
+      "liverpool-gravenberch",
+      "liverpool-nyoni",
+      "liverpool-mcconnell",
+      "liverpool-endo",
+      "liverpool-koumas",
+      "liverpool-isak",
+      "liverpool-gakpo",
+      "liverpool-ekitike",
+      "liverpool-barcola",
+      "liverpool-ngumoha",
+      "liverpool-chiesa"
+    ],
+    "createdAt": "2026-11-10T12:00:00Z"
+  },
+  {
+    "id": "mancity-2026",
+    "teamId": "manchester-city",
+    "title": "Manchester City 2026/27",
+    "kind": "squad",
+    "crestUrl": "https://player-sorter.github.io/assets/teams/mens-clubs/premier-league/manchester-city/crest.png",
+    "kits": {
+      "home": {
+        "label": "Home",
+        "paper": "#6CABDD",
+        "card": "#FFFFFF",
+        "onPaper": "#0B1E3D",
+        "onPaperMuted": "rgba(11,30,61,0.75)",
+        "paperPrimary": "#0B1E3D",
+        "paperOnPrimary": "#FFFFFF",
+        "line": "rgba(0,0,0,0.16)",
+        "ink": "#0B1E3D",
+        "muted": "#5B6170",
+        "primary": "#2E78C2",
+        "onPrimary": "#FFFFFF",
+        "accent": "#1C2C5B",
+        "onAccent": "#FFFFFF",
+        "header": "#6CABDD",
+        "onHeader": "#0B1E3D",
+        "headerBand": "#FFFFFF",
+        "rowTintStrength": 0.15,
+        "pattern": {
+          "type": "gradient",
+          "base": "#4E93CF",
+          "bands": [
+            "#EAF4FC"
+          ]
+        }
+      },
+      "away": {
+        "label": "Away",
+        "dark": true,
+        "paper": "#0D0D0D",
+        "card": "#1A1A1A",
+        "line": "rgba(255,255,255,0.12)",
+        "ink": "#F5F5F5",
+        "muted": "#A3A3A3",
+        "primary": "#E2BE84",
+        "onPrimary": "#0D0D0D",
+        "accent": "#E2BE84",
+        "onAccent": "#0D0D0D",
+        "header": "#1B1917",
+        "onHeader": "#E2BE84",
+        "headerBand": "#E2BE84",
+        "pattern": {
+          "type": "bees",
+          "base": "#1B1917",
+          "bands": [
+            "#3A3631"
+          ]
+        }
+      },
+      "third": {
+        "label": "Third",
+        "paper": "#ECEEF2",
+        "card": "#FFFFFF",
+        "ink": "#0B1E3D",
+        "muted": "#5B6170",
+        "primary": "#1C2C5B",
+        "onPrimary": "#FFFFFF",
+        "accent": "#6CABDD",
+        "onAccent": "#0B1E3D",
+        "header": "#FFFFFF",
+        "onHeader": "#1C2C5B",
+        "headerBand": "#8CC8F0",
+        "rowTint": "#1C2C5B",
+        "rowTintStrength": 0.2,
+        "rowTintFloor": 0.5,
+        "pattern": {
+          "type": "pole",
+          "base": "#FFFFFF",
+          "bands": [
+            "#17408F",
+            "#86BFEA"
+          ]
+        }
+      }
+    },
+    "memberIds": [
+      "manchester-city-donnarumma",
+      "manchester-city-bettinelli",
+      "manchester-city-rulli",
+      "manchester-city-chabot",
+      "manchester-city-ruben-dias",
+      "manchester-city-guehi",
+      "manchester-city-ait-nouri",
+      "manchester-city-vitor-reis",
+      "manchester-city-gvardiol",
+      "manchester-city-khusanov",
+      "manchester-city-rico-lewis",
+      "manchester-city-anderson",
+      "manchester-city-kovacic",
+      "manchester-city-cherki",
+      "manchester-city-doku",
+      "manchester-city-enzo-fernandez",
+      "manchester-city-nunes",
+      "manchester-city-bouaddi",
+      "manchester-city-oreilly",
+      "manchester-city-foden",
+      "manchester-city-samba",
+      "manchester-city-ndiaye",
+      "manchester-city-haaland",
+      "manchester-city-elias",
+      "manchester-city-semenyo",
+      "manchester-city-mcaidoo"
+    ],
+    "createdAt": "2026-11-10T12:00:00Z"
+  },
+  {
+    "id": "chelsea-2026",
+    "teamId": "chelsea",
+    "title": "Chelsea 2026/27",
+    "kind": "squad",
+    "crestUrl": "https://player-sorter.github.io/assets/teams/mens-clubs/premier-league/chelsea/crest.png",
+    "kits": {
+      "home": {
+        "label": "Home",
+        "paper": "#153D8A",
+        "card": "#FFFFFF",
+        "onPaper": "#FFFFFF",
+        "onPaperMuted": "rgba(255,255,255,0.82)",
+        "paperPrimary": "#FFFFFF",
+        "paperOnPrimary": "#153D8A",
+        "line": "rgba(0,0,0,0.16)",
+        "ink": "#0C1E45",
+        "muted": "#5B6170",
+        "primary": "#153D8A",
+        "onPrimary": "#FFFFFF",
+        "accent": "#DEA600",
+        "onAccent": "#0C1E45",
+        "header": "#1450A8",
+        "onHeader": "#FFFFFF",
+        "headerBand": "#DEA600",
+        "rowTintStrength": 0.15,
+        "pattern": {
+          "type": "pinstripe",
+          "base": "#1450A8",
+          "bands": [
+            "#123F87"
+          ]
+        }
+      },
+      "away": {
+        "label": "Away",
+        "dark": true,
+        "paper": "#0C0C0E",
+        "card": "#1A1A1E",
+        "line": "rgba(255,255,255,0.12)",
+        "ink": "#F4F1E6",
+        "muted": "#A39F92",
+        "primary": "#DEA600",
+        "onPrimary": "#0C0C0E",
+        "accent": "#F4F1E6",
+        "onAccent": "#0C0C0E",
+        "header": "#111113",
+        "onHeader": "#DEA600",
+        "headerBand": "#DEA600",
+        "pattern": {
+          "type": "tipping",
+          "base": "#121214",
+          "bands": [
+            "#DEA600"
+          ]
+        }
+      },
+      "third": {
+        "label": "Third",
+        "paper": "#EEF0F5",
+        "card": "#FFFFFF",
+        "ink": "#0C1E45",
+        "muted": "#5B6170",
+        "primary": "#153D8A",
+        "onPrimary": "#FFFFFF",
+        "accent": "#E30613",
+        "onAccent": "#FFFFFF",
+        "header": "#FFFFFF",
+        "onHeader": "#153D8A",
+        "headerBand": "#E30613",
+        "rowTint": "#153D8A",
+        "rowTintStrength": 0.2,
+        "rowTintFloor": 0.5,
+        "pattern": {
+          "type": "pinstripe",
+          "base": "#F2F3F7",
+          "bands": [
+            "#E30613"
+          ]
+        }
+      }
+    },
+    "memberIds": [
+      "chelsea-emiliano-martinez",
+      "chelsea-sharman-lowe",
+      "chelsea-slonina",
+      "chelsea-penders",
+      "chelsea-palestra",
+      "chelsea-fofana",
+      "chelsea-barco",
+      "chelsea-lacroix",
+      "chelsea-colwill",
+      "chelsea-hato",
+      "chelsea-reece-james",
+      "chelsea-gusto",
+      "chelsea-chavarria",
+      "chelsea-anselmino",
+      "chelsea-acheampong",
+      "chelsea-palmer",
+      "chelsea-henderson",
+      "chelsea-rogers",
+      "chelsea-caicedo",
+      "chelsea-lavia",
+      "chelsea-reggie-watson",
+      "chelsea-nicoll-jazuli",
+      "chelsea-neto",
+      "chelsea-joao-pedro",
+      "chelsea-gittens",
+      "chelsea-welbeck",
+      "chelsea-emegha",
+      "chelsea-quenda",
+      "chelsea-estevao"
+    ],
+    "createdAt": "2026-11-10T12:00:00Z"
+  },
+  {
+    "id": "manutd-2026",
+    "teamId": "manchester-united",
+    "title": "Manchester United 2026/27",
+    "kind": "squad",
+    "crestUrl": "https://player-sorter.github.io/assets/teams/mens-clubs/premier-league/manchester-united/crest.png",
+    "kits": {
+      "home": {
+        "label": "Home",
+        "paper": "#DA291C",
+        "card": "#FFFFFF",
+        "onPaper": "#FFFFFF",
+        "onPaperMuted": "rgba(255,255,255,0.82)",
+        "paperPrimary": "#FFFFFF",
+        "paperOnPrimary": "#DA291C",
+        "line": "rgba(0,0,0,0.16)",
+        "ink": "#1A0B09",
+        "muted": "#5B6170",
+        "primary": "#DA291C",
+        "onPrimary": "#FFFFFF",
+        "accent": "#111111",
+        "onAccent": "#FFFFFF",
+        "header": "#DA291C",
+        "onHeader": "#FFFFFF",
+        "headerBand": "#FBE122",
+        "rowTintStrength": 0.15,
+        "pattern": {
+          "type": "solid",
+          "base": "#DA291C"
+        }
+      },
+      "away": {
+        "label": "Away",
+        "paper": "#1E3A9E",
+        "card": "#FFFFFF",
+        "onPaper": "#FFFFFF",
+        "onPaperMuted": "rgba(255,255,255,0.82)",
+        "paperPrimary": "#FFFFFF",
+        "paperOnPrimary": "#1E3A9E",
+        "line": "rgba(0,0,0,0.16)",
+        "ink": "#0D1B45",
+        "muted": "#5B6170",
+        "primary": "#1E3A9E",
+        "onPrimary": "#FFFFFF",
+        "accent": "#DA291C",
+        "onAccent": "#FFFFFF",
+        "header": "#1E3A9E",
+        "onHeader": "#FFFFFF",
+        "headerBand": "#DA291C",
+        "rowTintStrength": 0.15,
+        "pattern": {
+          "type": "pinstripe",
+          "base": "#1E3A9E",
+          "bands": [
+            "#2A4BB8"
+          ]
+        }
+      },
+      "third": {
+        "label": "Third",
+        "paper": "#F3EEE2",
+        "card": "#FFFFFF",
+        "ink": "#3A0D16",
+        "muted": "#6E6358",
+        "primary": "#7A1F2B",
+        "onPrimary": "#FFFFFF",
+        "accent": "#2F6B3A",
+        "onAccent": "#FFFFFF",
+        "header": "#F7F1E3",
+        "onHeader": "#7A1F2B",
+        "headerBand": "#7A1F2B",
+        "rowTint": "#7A1F2B",
+        "rowTintStrength": 0.2,
+        "rowTintFloor": 0.5,
+        "pattern": {
+          "type": "tipping",
+          "base": "#EFE7D4",
+          "bands": [
+            "#7A1F2B",
+            "#2F6B3A"
+          ]
+        }
+      }
+    },
+    "memberIds": [
+      "manchester-united-lammens",
+      "manchester-united-darlow",
+      "manchester-united-heaton",
+      "manchester-united-mee",
+      "manchester-united-dalot",
+      "manchester-united-mazraoui",
+      "manchester-united-de-ligt",
+      "manchester-united-maguire",
+      "manchester-united-lisandro-martinez",
+      "manchester-united-dorgu",
+      "manchester-united-yoro",
+      "manchester-united-shaw",
+      "manchester-united-mount",
+      "manchester-united-bruno-fernandes",
+      "manchester-united-andrey-santos",
+      "manchester-united-tielemans",
+      "manchester-united-baleba",
+      "manchester-united-ugarte",
+      "manchester-united-heaven",
+      "manchester-united-mainoo",
+      "manchester-united-rashford",
+      "manchester-united-cunha",
+      "manchester-united-zirkzee",
+      "manchester-united-amad",
+      "manchester-united-mbeumo",
+      "manchester-united-tynan-thompson",
+      "manchester-united-sesko",
+      "manchester-united-shea-lacey"
+    ],
+    "createdAt": "2026-11-10T12:00:00Z"
+  },
+  {
+    "id": "tottenham-2026",
+    "teamId": "tottenham",
+    "title": "Tottenham Hotspur 2026/27",
+    "kind": "squad",
+    "crestUrl": "https://player-sorter.github.io/assets/teams/mens-clubs/premier-league/tottenham/crest.png",
+    "kits": {
+      "home": {
+        "label": "Home",
+        "paper": "#F2F3F7",
+        "card": "#FFFFFF",
+        "ink": "#132257",
+        "muted": "#5B6170",
+        "primary": "#132257",
+        "onPrimary": "#FFFFFF",
+        "accent": "#132257",
+        "onAccent": "#FFFFFF",
+        "header": "#FFFFFF",
+        "onHeader": "#132257",
+        "headerBand": "#132257",
+        "rowTint": "#132257",
+        "rowTintStrength": 0.2,
+        "rowTintFloor": 0.5,
+        "pattern": {
+          "type": "tipping",
+          "base": "#E6E9F0",
+          "bands": [
+            "#132257",
+            "#132257"
+          ]
+        }
+      },
+      "away": {
+        "label": "Away",
+        "dark": true,
+        "paper": "#0B1230",
+        "card": "#16204A",
+        "line": "rgba(255,255,255,0.12)",
+        "ink": "#F2F3FA",
+        "muted": "#9EA6C6",
+        "primary": "#FF4FA3",
+        "onPrimary": "#0B1230",
+        "accent": "#9B5CFF",
+        "onAccent": "#FFFFFF",
+        "header": "#0E1638",
+        "onHeader": "#FF4FA3",
+        "headerBand": "#FF8A3D",
+        "pattern": {
+          "type": "zigzag",
+          "base": "#0E1638",
+          "bands": [
+            "#FF4FA3",
+            "#9B5CFF",
+            "#FF8A3D"
+          ]
+        }
+      },
+      "third": {
+        "label": "Third",
+        "paper": "#6C4AB6",
+        "card": "#FFFFFF",
+        "onPaper": "#FFFFFF",
+        "onPaperMuted": "rgba(255,255,255,0.82)",
+        "paperPrimary": "#FFFFFF",
+        "paperOnPrimary": "#6C4AB6",
+        "line": "rgba(0,0,0,0.16)",
+        "ink": "#1E1240",
+        "muted": "#5B6170",
+        "primary": "#5B3AA8",
+        "onPrimary": "#FFFFFF",
+        "accent": "#D7A6E8",
+        "onAccent": "#2A1450",
+        "header": "#6C4AB6",
+        "onHeader": "#FFFFFF",
+        "headerBand": "#FFFFFF",
+        "rowTintStrength": 0.15,
+        "pattern": {
+          "type": "pinstripe",
+          "base": "#6C4AB6",
+          "bands": [
+            "#8466C8"
+          ]
+        }
+      }
+    },
+    "memberIds": [
+      "tottenham-kinsky",
+      "tottenham-dubravka",
+      "tottenham-austin",
+      "tottenham-robertson",
+      "tottenham-adarabioyo",
+      "tottenham-senesi",
+      "tottenham-van-hecke",
+      "tottenham-udogie",
+      "tottenham-porro",
+      "tottenham-ben-davies",
+      "tottenham-van-de-ven",
+      "tottenham-xavi-simons",
+      "tottenham-gallagher",
+      "tottenham-maddison",
+      "tottenham-archie-gray",
+      "tottenham-bergvall",
+      "tottenham-tonali",
+      "tottenham-fernandes",
+      "tottenham-kulusevski",
+      "tottenham-bentancur",
+      "tottenham-williams-barnett",
+      "tottenham-tel",
+      "tottenham-savio",
+      "tottenham-solanke",
+      "tottenham-kudus",
+      "tottenham-marmoush",
+      "tottenham-mudryk",
+      "tottenham-odobert"
+    ],
+    "createdAt": "2026-11-10T12:00:00Z"
+  },
+  {
+    "id": "aston-villa-2026",
+    "teamId": "aston-villa",
+    "title": "Aston Villa 2026/27",
+    "kind": "squad",
+    "crestUrl": "https://player-sorter.github.io/assets/teams/mens-clubs/premier-league/aston-villa/crest.png",
+    "kits": {
+      "home": {
+        "label": "Home",
+        "paper": "#670E36",
+        "card": "#FFFFFF",
+        "onPaper": "#FFFFFF",
+        "onPaperMuted": "rgba(255,255,255,0.82)",
+        "paperPrimary": "#FFFFFF",
+        "paperOnPrimary": "#670E36",
+        "line": "rgba(0,0,0,0.16)",
+        "ink": "#2A0616",
+        "muted": "#5B6170",
+        "primary": "#670E36",
+        "onPrimary": "#FFFFFF",
+        "accent": "#95BFE5",
+        "onAccent": "#2A0616",
+        "header": "#670E36",
+        "onHeader": "#FFFFFF",
+        "headerBand": "#95BFE5",
+        "rowTintStrength": 0.15,
+        "pattern": {
+          "type": "sleeves",
+          "base": "#670E36",
+          "bands": [
+            "#95BFE5"
+          ]
+        }
+      },
+      "away": {
+        "label": "Away",
+        "dark": true,
+        "paper": "#0D0C0A",
+        "card": "#1A1815",
+        "line": "rgba(255,255,255,0.12)",
+        "ink": "#F4F0E6",
+        "muted": "#A69F8E",
+        "primary": "#C9A646",
+        "onPrimary": "#0D0C0A",
+        "accent": "#670E36",
+        "onAccent": "#FFFFFF",
+        "header": "#111111",
+        "onHeader": "#C9A646",
+        "headerBand": "#C9A646",
+        "pattern": {
+          "type": "pinstripe",
+          "base": "#121110",
+          "bands": [
+            "#2A2620"
+          ]
+        }
+      },
+      "third": {
+        "label": "Third",
+        "paper": "#E3EEF8",
+        "card": "#FFFFFF",
+        "ink": "#2A0616",
+        "muted": "#5B6170",
+        "primary": "#670E36",
+        "onPrimary": "#FFFFFF",
+        "accent": "#4E86BF",
+        "onAccent": "#FFFFFF",
+        "header": "#A9CCEB",
+        "onHeader": "#670E36",
+        "headerBand": "#670E36",
+        "rowTint": "#670E36",
+        "rowTintStrength": 0.2,
+        "rowTintFloor": 0.5,
+        "pattern": {
+          "type": "tipping",
+          "base": "#BBD7EF",
+          "bands": [
+            "#670E36",
+            "#670E36"
+          ]
+        }
+      }
+    },
+    "memberIds": [
+      "aston-villa-suzuki",
+      "aston-villa-bizot",
+      "aston-villa-wright",
+      "aston-villa-cash",
+      "aston-villa-lindelof",
+      "aston-villa-harwood-bellis",
+      "aston-villa-mings",
+      "aston-villa-pau-torres",
+      "aston-villa-maatsen",
+      "aston-villa-bogarde",
+      "aston-villa-wan-bissaka",
+      "aston-villa-ruggeri",
+      "aston-villa-barkley",
+      "aston-villa-mcginn",
+      "aston-villa-onana",
+      "aston-villa-hemmings",
+      "aston-villa-kamara",
+      "aston-villa-goretzka",
+      "aston-villa-joao-gomes",
+      "aston-villa-manzambi",
+      "aston-villa-buendia",
+      "aston-villa-nicolas-jackson",
+      "aston-villa-garnacho",
+      "aston-villa-abraham",
+      "aston-villa-mbaye",
+      "aston-villa-jimoh-aloba",
+      "aston-villa-madjo",
+      "aston-villa-alysson"
+    ],
+    "createdAt": "2026-11-10T12:00:00Z"
   },
   {
     "id": "spain-2026",
+    "teamId": "spain",
     "title": "Spain 2026",
     "kind": "squad",
+    "crestUrl": "https://player-sorter.github.io/assets/teams/wcs/world-cup-2026/2026-spain/crest.png",
+    "kits": {
+      "home": {
+        "label": "Home",
+        "paper": "#C8102E",
+        "card": "#FFFFFF",
+        "onPaper": "#FFFFFF",
+        "onPaperMuted": "rgba(255,255,255,0.82)",
+        "paperPrimary": "#FFFFFF",
+        "paperOnPrimary": "#C8102E",
+        "line": "rgba(0,0,0,0.16)",
+        "ink": "#15203A",
+        "muted": "#5B6170",
+        "primary": "#C8102E",
+        "onPrimary": "#FFFFFF",
+        "accent": "#1B2A4A",
+        "onAccent": "#FFFFFF",
+        "header": "#C8102E",
+        "onHeader": "#FFFFFF",
+        "headerBand": "#F1BF00",
+        "rowTintStrength": 0.15,
+        "pattern": {
+          "type": "pinstripe",
+          "base": "#C8102E",
+          "bands": [
+            "#F1BF00"
+          ]
+        }
+      },
+      "away": {
+        "label": "Away",
+        "paper": "#F3EDE0",
+        "card": "#FFFFFF",
+        "ink": "#2A1218",
+        "muted": "#6E5F57",
+        "primary": "#7A1F2B",
+        "onPrimary": "#FFFFFF",
+        "accent": "#B8913A",
+        "onAccent": "#2A1218",
+        "header": "#F1EADA",
+        "onHeader": "#7A1F2B",
+        "headerBand": "#B8913A",
+        "rowTint": "#7A1F2B",
+        "rowTintStrength": 0.2,
+        "rowTintFloor": 0.5,
+        "headerStripes": [
+          [
+            "#B3202F",
+            3
+          ],
+          [
+            "#D5A532",
+            1.6
+          ]
+        ],
+        "pattern": {
+          "type": "scrolls",
+          "base": "#F1EADA",
+          "bands": [
+            "#C9BA9E"
+          ]
+        }
+      }
+    },
     "memberIds": [
-      "unai-simon",
-      "david-raya",
-      "dani-carvajal",
-      "robin-le-normand",
-      "aymeric-laporte",
-      "pau-cubarsi",
-      "marc-cucurella",
-      "alejandro-grimaldo",
-      "pedro-porro",
-      "rodri",
-      "martin-zubimendi",
-      "pedri",
-      "dani-olmo",
-      "fabian-ruiz",
-      "mikel-merino",
-      "lamine-yamal",
-      "nico-williams",
-      "alvaro-morata",
-      "mikel-oyarzabal",
-      "ferran-torres"
+      "spain-raya",
+      "spain-joan-garcia",
+      "spain-unai-simon",
+      "spain-pubill",
+      "spain-grimaldo",
+      "spain-eric-garcia",
+      "spain-llorente",
+      "spain-porro",
+      "spain-laporte",
+      "spain-cubarsi",
+      "spain-cucurella",
+      "spain-merino",
+      "spain-fabian-ruiz",
+      "spain-gavi",
+      "spain-baena",
+      "spain-rodri",
+      "spain-zubimendi",
+      "spain-pedri",
+      "spain-ferran-torres",
+      "spain-olmo",
+      "spain-yeremy-pino",
+      "spain-nico-williams",
+      "spain-lamine-yamal",
+      "spain-oyarzabal",
+      "spain-victor-munoz",
+      "spain-borja-iglesias"
     ],
     "createdAt": "2026-11-10T10:00:00Z"
+  },
+  {
+    "id": "pl-managers",
+    "title": "Premier League Managers",
+    "kind": "managers",
+    "crestUrl": "https://player-sorter.github.io/assets/teams/mens-clubs/premier-league/arsenal/crest.png",
+    "memberIds": [
+      "pep-guardiola",
+      "mikel-arteta",
+      "arne-slot",
+      "unai-emery",
+      "ange-postecoglou",
+      "enzo-maresca",
+      "ruben-amorim",
+      "eddie-howe",
+      "thomas-frank",
+      "marco-silva"
+    ],
+    "createdAt": "2026-11-10T12:00:00Z"
+  },
+  {
+    "id": "pl-goalkeepers",
+    "title": "Premier League Goalkeepers",
+    "kind": "award",
+    "crestUrl": "https://player-sorter.github.io/assets/teams/mens-clubs/premier-league/arsenal/crest.png",
+    "memberIds": [
+      "arsenal-raya",
+      "liverpool-alisson",
+      "manchester-city-donnarumma",
+      "chelsea-emiliano-martinez",
+      "tottenham-dubravka",
+      "tottenham-kinsky",
+      "aston-villa-suzuki",
+      "arsenal-kepa",
+      "arsenal-meslier",
+      "liverpool-mamardashvili",
+      "manchester-united-lammens",
+      "manchester-city-bettinelli"
+    ],
+    "createdAt": "2026-11-10T12:00:00Z"
+  },
+  {
+    "id": "pl-centre-backs",
+    "title": "Premier League Defenders",
+    "kind": "award",
+    "crestUrl": "https://player-sorter.github.io/assets/teams/mens-clubs/premier-league/arsenal/crest.png",
+    "memberIds": [
+      "arsenal-saliba",
+      "arsenal-gabriel",
+      "liverpool-van-dijk",
+      "manchester-city-ruben-dias",
+      "manchester-city-guehi",
+      "tottenham-van-de-ven",
+      "tottenham-porro",
+      "tottenham-udogie",
+      "arsenal-calafiori",
+      "arsenal-timber",
+      "arsenal-white",
+      "arsenal-konsa",
+      "chelsea-colwill",
+      "chelsea-reece-james",
+      "chelsea-gusto",
+      "liverpool-frimpong",
+      "liverpool-kerkez",
+      "manchester-city-gvardiol",
+      "manchester-city-ait-nouri",
+      "manchester-united-lisandro-martinez",
+      "manchester-united-de-ligt",
+      "aston-villa-pau-torres",
+      "aston-villa-maatsen"
+    ],
+    "createdAt": "2026-11-10T12:00:00Z"
+  },
+  {
+    "id": "pl-midfielders",
+    "title": "Premier League Midfielders",
+    "kind": "award",
+    "crestUrl": "https://player-sorter.github.io/assets/teams/mens-clubs/premier-league/arsenal/crest.png",
+    "memberIds": [
+      "arsenal-rice",
+      "arsenal-odegaard",
+      "arsenal-merino",
+      "arsenal-havertz",
+      "arsenal-zubimendi",
+      "arsenal-bruno-guimaraes",
+      "arsenal-eze",
+      "liverpool-wirtz",
+      "liverpool-szoboszlai",
+      "liverpool-mac-allister",
+      "liverpool-gravenberch",
+      "chelsea-palmer",
+      "chelsea-caicedo",
+      "chelsea-lavia",
+      "manchester-united-bruno-fernandes",
+      "manchester-united-mainoo",
+      "tottenham-maddison",
+      "tottenham-kulusevski",
+      "tottenham-xavi-simons",
+      "manchester-city-foden",
+      "manchester-city-enzo-fernandez",
+      "manchester-city-cherki",
+      "manchester-city-doku",
+      "aston-villa-mcginn"
+    ],
+    "createdAt": "2026-11-10T12:00:00Z"
+  },
+  {
+    "id": "pl-strikers",
+    "title": "Premier League Strikers & Forwards",
+    "kind": "award",
+    "crestUrl": "https://player-sorter.github.io/assets/teams/mens-clubs/premier-league/arsenal/crest.png",
+    "memberIds": [
+      "manchester-city-haaland",
+      "arsenal-saka",
+      "arsenal-gyokeres",
+      "liverpool-isak",
+      "liverpool-gakpo",
+      "liverpool-barcola",
+      "liverpool-ekitike",
+      "tottenham-solanke",
+      "tottenham-savio",
+      "tottenham-kudus",
+      "tottenham-marmoush",
+      "chelsea-neto",
+      "chelsea-joao-pedro",
+      "chelsea-estevao",
+      "manchester-united-rashford",
+      "manchester-united-cunha",
+      "manchester-united-sesko",
+      "aston-villa-nicolas-jackson",
+      "aston-villa-garnacho",
+      "aston-villa-abraham"
+    ],
+    "createdAt": "2026-11-10T12:00:00Z"
   }
 ]

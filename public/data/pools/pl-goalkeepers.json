@@ -1,0 +1,21 @@
+{
+  "id": "pl-goalkeepers",
+  "title": "Premier League Goalkeepers",
+  "kind": "award",
+  "crestUrl": "https://player-sorter.github.io/assets/teams/mens-clubs/premier-league/arsenal/crest.png",
+  "memberIds": [
+    "arsenal-raya",
+    "liverpool-alisson",
+    "manchester-city-donnarumma",
+    "chelsea-emiliano-martinez",
+    "tottenham-dubravka",
+    "tottenham-kinsky",
+    "aston-villa-suzuki",
+    "arsenal-kepa",
+    "arsenal-meslier",
+    "liverpool-mamardashvili",
+    "manchester-united-lammens",
+    "manchester-city-bettinelli"
+  ],
+  "createdAt": "2026-11-10T12:00:00Z"
+}

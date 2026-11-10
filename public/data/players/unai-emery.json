@@ -1,11 +1,12 @@
 {
   "id": "unai-emery",
   "name": "Unai Emery",
-  "clubId": "aston-villa",
-  "nationality": "Spain",
   "position": "MGR",
-  "birthDate": "1971-11-03",
-  "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Unai_Emery_2019.jpg/440px-Unai_Emery_2019.jpg",
+  "clubId": "aston-villa",
+  "clubName": "Aston Villa",
+  "nationality": "ESP",
+  "crestUrl": "https://player-sorter.github.io/assets/teams/mens-clubs/premier-league/aston-villa/crest.png",
+  "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Unai_Emery_-_Sevilla_%28cropped%29.jpg/500px-Unai_Emery_-_Sevilla_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "source": "https://en.wikipedia.org/wiki/Unai_Emery",
   "lastUpdated": "2026-11-10"
 }

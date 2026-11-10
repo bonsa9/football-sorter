@@ -1,11 +1,12 @@
 {
   "id": "mikel-arteta",
   "name": "Mikel Arteta",
-  "clubId": "arsenal",
-  "nationality": "Spain",
   "position": "MGR",
-  "birthDate": "1982-03-26",
-  "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Mikel_Arteta_2022.jpg/440px-Mikel_Arteta_2022.jpg",
+  "clubId": "arsenal",
+  "clubName": "Arsenal",
+  "nationality": "ESP",
+  "crestUrl": "https://player-sorter.github.io/assets/teams/mens-clubs/premier-league/arsenal/crest.png",
+  "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Arsenal_v_Everton_-_52223142689_%28cropped%29.jpg/500px-Arsenal_v_Everton_-_52223142689_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "source": "https://en.wikipedia.org/wiki/Mikel_Arteta",
   "lastUpdated": "2026-11-10"
 }
