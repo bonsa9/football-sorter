@@ -47,3 +47,4 @@ export type RatingFile = {
   totalVotes: number;
   ratings: Rating[]; // sorted best to worst
 };
+

@@ -6,7 +6,8 @@ interface VoteCardProps {
   playerB: Player;
   onVote: (winner: "a" | "b" | "tie") => void;
   voteCount: number;
-  totalPossiblePairs: number;
+  targetVotes: number;
+  onFinishEarly?: () => void;
 }
 
 export const VoteCard: React.FC<VoteCardProps> = ({
@@ -14,15 +15,37 @@ export const VoteCard: React.FC<VoteCardProps> = ({
   playerB,
   onVote,
   voteCount,
-  totalPossiblePairs,
+  targetVotes,
+  onFinishEarly,
 }) => {
+  const currentRound = Math.min(voteCount + 1, targetVotes);
+  const progressPercent = Math.min(100, Math.round((voteCount / targetVotes) * 100));
+
   return (
     <div className="vote-container">
       <div className="vote-header">
-        <span className="vote-badge">Head-to-Head Comparison</span>
-        <span className="vote-progress">
-          Votes recorded: <strong>{voteCount}</strong> / {totalPossiblePairs} pairs
-        </span>
+        <div className="vote-progress-info">
+          <span className="vote-badge">Pairwise Calibration</span>
+          <span className="vote-progress-text">
+            Vote <strong>{currentRound}</strong> of {targetVotes} ({progressPercent}%)
+          </span>
+        </div>
+        {voteCount >= 5 && onFinishEarly && (
+          <button
+            type="button"
+            className="btn btn-outline btn-sm finish-early-btn"
+            onClick={onFinishEarly}
+          >
+            Finish & View Rankings →
+          </button>
+        )}
+      </div>
+
+      <div className="progress-bar-container">
+        <div
+          className="progress-bar-fill"
+          style={{ width: `${progressPercent}%` }}
+        ></div>
       </div>
 
       <div className="matchup-grid">

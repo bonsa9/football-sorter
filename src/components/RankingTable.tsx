@@ -5,12 +5,14 @@ interface RankingTableProps {
   ratings: Rating[];
   playersMap: Map<string, Player>;
   totalVotes: number;
+  targetVotes?: number;
 }
 
 export const RankingTable: React.FC<RankingTableProps> = ({
   ratings,
   playersMap,
   totalVotes,
+  targetVotes = 25,
 }) => {
   if (ratings.length === 0) {
     return (
@@ -20,14 +22,21 @@ export const RankingTable: React.FC<RankingTableProps> = ({
     );
   }
 
+  const isFullCalibration = totalVotes >= targetVotes;
+
   return (
     <div className="ranking-container">
       <div className="ranking-header">
         <div>
-          <h2 className="section-title">Live Squad Rankings</h2>
+          <h2 className="section-title">Squad Rankings</h2>
           <p className="section-subtitle">
-            Derived using Bradley-Terry maximum-likelihood estimation from{" "}
-            <strong>{totalVotes}</strong> total votes.
+            Calculated via Bradley-Terry maximum likelihood estimation from{" "}
+            <strong>{totalVotes}</strong> head-to-head {totalVotes === 1 ? "vote" : "votes"}.
+            {isFullCalibration ? (
+              <span className="text-success font-bold"> (25-vote calibration reached ✓)</span>
+            ) : (
+              <span className="text-muted"> (Target: {targetVotes} votes)</span>
+            )}
           </p>
         </div>
       </div>
@@ -49,10 +58,10 @@ export const RankingTable: React.FC<RankingTableProps> = ({
             {ratings.map((rating, index) => {
               const player = playersMap.get(rating.entityId);
               const rank = index + 1;
-              const hasEnoughVotes = rating.votes >= 5;
+              const isCalibrated = rating.votes >= 2 || (isFullCalibration && rating.votes >= 1);
 
               return (
-                <tr key={rating.entityId} className={hasEnoughVotes ? "row-verified" : "row-provisional"}>
+                <tr key={rating.entityId} className={isCalibrated ? "row-verified" : "row-provisional"}>
                   <td className="rank-cell">
                     <span className={`rank-badge rank-${rank <= 3 ? rank : "other"}`}>
                       #{rank}
@@ -70,11 +79,13 @@ export const RankingTable: React.FC<RankingTableProps> = ({
                   </td>
                   <td className="votes-cell">{rating.votes}</td>
                   <td>
-                    {hasEnoughVotes ? (
+                    {rating.votes === 0 ? (
+                      <span className="badge badge-warning">Unrated (0 votes)</span>
+                    ) : isCalibrated ? (
                       <span className="badge badge-success">Calibrated</span>
                     ) : (
-                      <span className="badge badge-warning" title="Player needs at least 5 votes for a calibrated rating">
-                        Not enough votes yet ({rating.votes}/5)
+                      <span className="badge badge-warning" title="Player needs at least 2 appearances">
+                        Provisional (1 vote)
                       </span>
                     )}
                   </td>

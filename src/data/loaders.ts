@@ -53,3 +53,4 @@ export async function fetchPlayers(): Promise<Player[]> {
     return [];
   }
 }
+

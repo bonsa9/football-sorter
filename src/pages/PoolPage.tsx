@@ -6,6 +6,8 @@ import { getLocalVotes, getSessionId, saveLocalVote, clearLocalVotes } from "../
 import { VoteCard } from "../components/VoteCard";
 import { RankingTable } from "../components/RankingTable";
 
+const TARGET_CALIBRATION_VOTES = 25;
+
 interface PoolPageProps {
   pool: Pool;
   players: Player[];
@@ -16,6 +18,7 @@ export const PoolPage: React.FC<PoolPageProps> = ({ pool, players, onBack }) => 
   const [votes, setVotes] = useState<Vote[]>(() => getLocalVotes(pool.id));
   const [currentPair, setCurrentPair] = useState<[string, string] | null>(null);
   const [activeTab, setActiveTab] = useState<"vote" | "ranking">("vote");
+  const [bonusMode, setBonusMode] = useState<boolean>(false);
 
   const sessionId = useMemo(() => getSessionId(), []);
 
@@ -33,8 +36,6 @@ export const PoolPage: React.FC<PoolPageProps> = ({ pool, players, onBack }) => 
     if (!pool.memberIds || pool.memberIds.length < 2) return [];
     return computeBradleyTerry(pool.id, pool.memberIds, votes);
   }, [pool, votes]);
-
-  const totalPossiblePairs = (pool.memberIds.length * (pool.memberIds.length - 1)) / 2;
 
   // Pick the next pair based on current ratings and session history
   const selectNext = useCallback(() => {
@@ -63,17 +64,26 @@ export const PoolPage: React.FC<PoolPageProps> = ({ pool, players, onBack }) => 
     };
 
     const updated = saveLocalVote(newVote);
-    setVotes(updated.filter((v) => v.poolId === pool.id));
+    const updatedPoolVotes = updated.filter((v) => v.poolId === pool.id);
+    setVotes(updatedPoolVotes);
+
+    // If reaching exactly the target calibration threshold, switch to ranking view
+    if (updatedPoolVotes.length === TARGET_CALIBRATION_VOTES && !bonusMode) {
+      setActiveTab("ranking");
+    }
   };
 
   const handleResetVotes = () => {
     if (window.confirm("Are you sure you want to reset your local votes for this squad?")) {
       clearLocalVotes(pool.id);
       setVotes([]);
+      setBonusMode(false);
       selectNext();
+      setActiveTab("vote");
     }
   };
 
+  const isCalibrationFinished = votes.length >= TARGET_CALIBRATION_VOTES && !bonusMode;
   const playerA = currentPair ? playersMap.get(currentPair[0]) : null;
   const playerB = currentPair ? playersMap.get(currentPair[1]) : null;
 
@@ -95,32 +105,33 @@ export const PoolPage: React.FC<PoolPageProps> = ({ pool, players, onBack }) => 
           className={`tab-btn ${activeTab === "vote" ? "tab-active" : ""}`}
           onClick={() => setActiveTab("vote")}
         >
-          Vote ({votes.length})
+          Vote ({votes.length}/{TARGET_CALIBRATION_VOTES})
         </button>
         <button
           type="button"
           className={`tab-btn ${activeTab === "ranking" ? "tab-active" : ""}`}
           onClick={() => setActiveTab("ranking")}
         >
-          Live Rankings
+          Squad Rankings
         </button>
       </div>
 
       {activeTab === "vote" && (
         <div className="tab-content">
-          {currentPair && playerA && playerB ? (
+          {!isCalibrationFinished && currentPair && playerA && playerB ? (
             <VoteCard
               playerA={playerA}
               playerB={playerB}
               onVote={handleVote}
               voteCount={votes.length}
-              totalPossiblePairs={totalPossiblePairs}
+              targetVotes={TARGET_CALIBRATION_VOTES}
+              onFinishEarly={() => setActiveTab("ranking")}
             />
           ) : (
             <div className="completion-card">
-              <h2>🎉 All Pairs Voted!</h2>
+              <h2>🎉 Squad Calibration Complete!</h2>
               <p>
-                You have voted on all {totalPossiblePairs} possible matchups for this squad in this session!
+                You've completed {votes.length} head-to-head comparisons. The Bradley-Terry engine has converged on a clear, calibrated ranking for this squad.
               </p>
               <div className="completion-actions">
                 <button
@@ -129,6 +140,16 @@ export const PoolPage: React.FC<PoolPageProps> = ({ pool, players, onBack }) => 
                   onClick={() => setActiveTab("ranking")}
                 >
                   View Full Squad Rankings →
+                </button>
+                <button
+                  type="button"
+                  className="btn btn-secondary"
+                  onClick={() => {
+                    setBonusMode(true);
+                    selectNext();
+                  }}
+                >
+                  Keep Voting (Bonus Matchups)
                 </button>
                 <button
                   type="button"
@@ -141,11 +162,11 @@ export const PoolPage: React.FC<PoolPageProps> = ({ pool, players, onBack }) => 
             </div>
           )}
 
-          {/* Quick preview of top 5 rankings right below vote */}
-          {votes.length > 0 && (
+          {/* Quick preview of top 5 rankings below vote */}
+          {votes.length > 0 && !isCalibrationFinished && (
             <div className="mini-ranking-preview">
               <div className="mini-ranking-header">
-                <h3>Current Top 5</h3>
+                <h3>Live Top 5 Preview</h3>
                 <button
                   type="button"
                   className="btn-link"
@@ -178,14 +199,20 @@ export const PoolPage: React.FC<PoolPageProps> = ({ pool, players, onBack }) => 
             ratings={ratings}
             playersMap={playersMap}
             totalVotes={votes.length}
+            targetVotes={TARGET_CALIBRATION_VOTES}
           />
           <div className="ranking-actions">
             <button
               type="button"
               className="btn btn-primary"
-              onClick={() => setActiveTab("vote")}
+              onClick={() => {
+                setBonusMode(true);
+                setActiveTab("vote");
+              }}
             >
-              Continue Voting →
+              {votes.length >= TARGET_CALIBRATION_VOTES
+                ? "Cast More Votes (Refine) →"
+                : "Continue Voting →"}
             </button>
             {votes.length > 0 && (
               <button

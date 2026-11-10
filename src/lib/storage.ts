@@ -51,3 +51,4 @@ export function clearLocalVotes(poolId?: string): void {
     console.error("Failed to clear votes:", err);
   }
 }
+

@@ -39,3 +39,4 @@ export const PoolCard: React.FC<PoolCardProps> = ({ pool, voteCount, onSelect })
     </div>
   );
 };
+

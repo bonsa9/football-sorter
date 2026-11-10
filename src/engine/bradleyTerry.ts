@@ -189,3 +189,4 @@ export function computeBradleyTerry(
 
   return ratings;
 }
+
