@@ -1,0 +1,18 @@
+{
+  "id": "world-goalkeepers",
+  "title": "World's Best Goalkeepers",
+  "kind": "award",
+  "memberIds": [
+    "thibaut-courtois",
+    "alisson-becker",
+    "ederson",
+    "david-raya",
+    "emiliano-martinez",
+    "gianluigi-donnarumma",
+    "jan-oblak",
+    "marc-andre-ter-stegen",
+    "mike-maignan",
+    "unai-simon"
+  ],
+  "createdAt": "2026-11-10T11:00:00Z"
+}

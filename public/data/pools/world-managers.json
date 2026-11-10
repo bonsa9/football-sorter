@@ -1,0 +1,18 @@
+{
+  "id": "world-managers",
+  "title": "World's Top Managers",
+  "kind": "managers",
+  "memberIds": [
+    "pep-guardiola",
+    "carlo-ancelotti",
+    "mikel-arteta",
+    "jurgen-klopp",
+    "xabi-alonso",
+    "luis-de-la-fuente",
+    "hansi-flick",
+    "diego-simeone",
+    "unai-emery",
+    "simone-inzaghi"
+  ],
+  "createdAt": "2026-11-10T11:00:00Z"
+}

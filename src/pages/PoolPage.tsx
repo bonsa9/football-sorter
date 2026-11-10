@@ -39,7 +39,7 @@ export const PoolPage: React.FC<PoolPageProps> = ({ pool, players, onBack }) => 
   const [currentPair, setCurrentPair] = useState<[string, string] | null>(null);
   const [viewState, setViewState] = useState<"roster" | "voting" | "rankings">("roster");
   const [selectedPositions, setSelectedPositions] = useState<Set<Position>>(
-    new Set(["GK", "DEF", "MID", "FWD"])
+    new Set(["GK", "DEF", "MID", "FWD", "MGR"])
   );
   const [kitColor, setKitColor] = useState<"home" | "away" | "third">("home");
 
@@ -130,7 +130,7 @@ export const PoolPage: React.FC<PoolPageProps> = ({ pool, players, onBack }) => 
 
   // Counts by position
   const positionCounts = useMemo(() => {
-    const counts: Record<Position, number> = { GK: 0, DEF: 0, MID: 0, FWD: 0 };
+    const counts: Record<Position, number> = { GK: 0, DEF: 0, MID: 0, FWD: 0, MGR: 0 };
     for (const id of pool.memberIds) {
       const p = playersMap.get(id);
       if (p?.position && counts[p.position] !== undefined) {
@@ -139,6 +139,15 @@ export const PoolPage: React.FC<PoolPageProps> = ({ pool, players, onBack }) => 
     }
     return counts;
   }, [pool.memberIds, playersMap]);
+
+  const getPoolBadge = (id: string) => {
+    if (id.includes("strikers")) return "⚡";
+    if (id.includes("midfielders")) return "🪄";
+    if (id.includes("goalkeepers")) return "🧤";
+    if (id.includes("managers")) return "👔";
+    if (id.includes("arsenal")) return "🔴⚪";
+    return "🇪🇸";
+  };
 
   const togglePosition = (pos: Position) => {
     setSelectedPositions((prev) => {
@@ -238,17 +247,19 @@ export const PoolPage: React.FC<PoolPageProps> = ({ pool, players, onBack }) => 
 
           {/* Squad Header */}
           <div className="squad-hero-header">
-            <div className="squad-badge-large">🇪🇸</div>
+            <div className="squad-badge-large">{getPoolBadge(pool.id)}</div>
             <div className="squad-title-group">
-              <span className="squad-season-tag">2026/27 SQUAD</span>
-              <h1 className="squad-huge-name">SPAIN</h1>
+              <span className="squad-season-tag">
+                {pool.kind === "managers" ? "WORLD ELITE" : "2026/27 ROSTER"}
+              </span>
+              <h1 className="squad-huge-name">{pool.title.toUpperCase()}</h1>
             </div>
           </div>
 
           <p className="squad-feedback-link">
-            Squad list sourced from Wikipedia (Spain national football team) •{" "}
+            Entities sourced from Wikipedia &amp; official football registries •{" "}
             <a
-              href="https://en.wikipedia.org/wiki/Spain_national_football_team"
+              href="https://en.wikipedia.org/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -263,34 +274,51 @@ export const PoolPage: React.FC<PoolPageProps> = ({ pool, players, onBack }) => 
             </h2>
 
             <div className="position-filter-pills">
-              <button
-                type="button"
-                className={`pos-pill ${selectedPositions.has("GK") ? "active" : ""}`}
-                onClick={() => togglePosition("GK")}
-              >
-                Goalkeepers {positionCounts.GK}
-              </button>
-              <button
-                type="button"
-                className={`pos-pill ${selectedPositions.has("DEF") ? "active" : ""}`}
-                onClick={() => togglePosition("DEF")}
-              >
-                Defenders {positionCounts.DEF}
-              </button>
-              <button
-                type="button"
-                className={`pos-pill ${selectedPositions.has("MID") ? "active" : ""}`}
-                onClick={() => togglePosition("MID")}
-              >
-                Midfielders {positionCounts.MID}
-              </button>
-              <button
-                type="button"
-                className={`pos-pill ${selectedPositions.has("FWD") ? "active" : ""}`}
-                onClick={() => togglePosition("FWD")}
-              >
-                Forwards {positionCounts.FWD}
-              </button>
+              {positionCounts.GK > 0 && (
+                <button
+                  type="button"
+                  className={`pos-pill ${selectedPositions.has("GK") ? "active" : ""}`}
+                  onClick={() => togglePosition("GK")}
+                >
+                  Goalkeepers {positionCounts.GK}
+                </button>
+              )}
+              {positionCounts.DEF > 0 && (
+                <button
+                  type="button"
+                  className={`pos-pill ${selectedPositions.has("DEF") ? "active" : ""}`}
+                  onClick={() => togglePosition("DEF")}
+                >
+                  Defenders {positionCounts.DEF}
+                </button>
+              )}
+              {positionCounts.MID > 0 && (
+                <button
+                  type="button"
+                  className={`pos-pill ${selectedPositions.has("MID") ? "active" : ""}`}
+                  onClick={() => togglePosition("MID")}
+                >
+                  Midfielders {positionCounts.MID}
+                </button>
+              )}
+              {positionCounts.FWD > 0 && (
+                <button
+                  type="button"
+                  className={`pos-pill ${selectedPositions.has("FWD") ? "active" : ""}`}
+                  onClick={() => togglePosition("FWD")}
+                >
+                  Forwards {positionCounts.FWD}
+                </button>
+              )}
+              {positionCounts.MGR > 0 && (
+                <button
+                  type="button"
+                  className={`pos-pill ${selectedPositions.has("MGR") ? "active" : ""}`}
+                  onClick={() => togglePosition("MGR")}
+                >
+                  Managers {positionCounts.MGR}
+                </button>
+              )}
             </div>
 
             <div className="roster-sub-status">
@@ -412,6 +440,8 @@ function formatPos(pos?: string): string {
       return "MF";
     case "FWD":
       return "FW";
+    case "MGR":
+      return "MGR";
     default:
       return "—";
   }

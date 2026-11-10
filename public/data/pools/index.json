@@ -1,5 +1,103 @@
 [
   {
+    "id": "world-strikers",
+    "title": "World's Best Strikers",
+    "kind": "award",
+    "memberIds": [
+      "erling-haaland",
+      "kylian-mbappe",
+      "vinicius-junior",
+      "harry-kane",
+      "mohamed-salah",
+      "robert-lewandowski",
+      "viktor-gyokeres",
+      "bukayo-saka",
+      "lamine-yamal",
+      "lautaro-martinez",
+      "cole-palmer",
+      "victor-osimhen"
+    ],
+    "createdAt": "2026-11-10T11:00:00Z"
+  },
+  {
+    "id": "world-midfielders",
+    "title": "World's Best Midfielders",
+    "kind": "award",
+    "memberIds": [
+      "rodri",
+      "jude-bellingham",
+      "kevin-de-bruyne",
+      "pedri",
+      "florian-wirtz",
+      "martin-odegaard",
+      "federico-valverde",
+      "declan-rice",
+      "jamal-musiala",
+      "luka-modric",
+      "bruno-fernandes",
+      "dani-olmo"
+    ],
+    "createdAt": "2026-11-10T11:00:00Z"
+  },
+  {
+    "id": "world-goalkeepers",
+    "title": "World's Best Goalkeepers",
+    "kind": "award",
+    "memberIds": [
+      "thibaut-courtois",
+      "alisson-becker",
+      "ederson",
+      "david-raya",
+      "emiliano-martinez",
+      "gianluigi-donnarumma",
+      "jan-oblak",
+      "marc-andre-ter-stegen",
+      "mike-maignan",
+      "unai-simon"
+    ],
+    "createdAt": "2026-11-10T11:00:00Z"
+  },
+  {
+    "id": "world-managers",
+    "title": "World's Top Managers",
+    "kind": "managers",
+    "memberIds": [
+      "pep-guardiola",
+      "carlo-ancelotti",
+      "mikel-arteta",
+      "jurgen-klopp",
+      "xabi-alonso",
+      "luis-de-la-fuente",
+      "hansi-flick",
+      "diego-simeone",
+      "unai-emery",
+      "simone-inzaghi"
+    ],
+    "createdAt": "2026-11-10T11:00:00Z"
+  },
+  {
+    "id": "arsenal-2026",
+    "title": "Arsenal 2026/27",
+    "kind": "squad",
+    "memberIds": [
+      "david-raya",
+      "william-saliba",
+      "gabriel-magalhaes",
+      "ben-white",
+      "jurrien-timber",
+      "riccardo-calafiori",
+      "declan-rice",
+      "martin-odegaard",
+      "mikel-merino",
+      "kai-havertz",
+      "bukayo-saka",
+      "viktor-gyokeres",
+      "gabriel-martinelli",
+      "gabriel-jesus"
+    ],
+    "createdAt": "2026-11-10T11:00:00Z"
+  },
+  {
     "id": "spain-2026",
     "title": "Spain 2026",
     "kind": "squad",

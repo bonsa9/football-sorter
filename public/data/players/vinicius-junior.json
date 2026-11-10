@@ -1,0 +1,12 @@
+{
+  "id": "vinicius-junior",
+  "name": "Vinícius Júnior",
+  "number": 7,
+  "clubId": "real-madrid",
+  "nationality": "Brazil",
+  "position": "FWD",
+  "birthDate": "2000-07-12",
+  "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Vinicius_Jr_2021.jpg/440px-Vinicius_Jr_2021.jpg",
+  "source": "https://en.wikipedia.org/wiki/Vin%C3%ADcius_J%C3%BAnior",
+  "lastUpdated": "2026-11-10"
+}

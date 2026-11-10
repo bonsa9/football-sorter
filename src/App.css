@@ -270,6 +270,23 @@
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
 }
 
+.card-strikers {
+  background: linear-gradient(135deg, #e11d48 0%, #881337 100%);
+}
+
+.card-midfielders {
+  background: linear-gradient(135deg, #2563eb 0%, #1e3a8a 100%);
+}
+
+.card-goalkeepers {
+  background: linear-gradient(135deg, #d97706 0%, #78350f 100%);
+}
+
+.card-managers {
+  background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+  border: 1px solid rgba(245, 158, 11, 0.4);
+}
+
 .card-arsenal {
   background: linear-gradient(135deg, #db0007 0%, #990005 100%);
 }
@@ -575,6 +592,17 @@
   flex-shrink: 0;
 }
 
+.player-avatar-sm-img {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  border: 1.5px solid #e5e7eb;
+  flex-shrink: 0;
+  background: #f1f5f9;
+}
+
 .roster-player-name {
   flex: 1;
   font-size: 0.95rem;
@@ -729,7 +757,30 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1.5rem 1rem 0.5rem;
+  padding: 1.25rem 1rem 0;
+  height: 220px;
+  overflow: hidden;
+}
+
+.player-photo-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.player-card-photo {
+  max-height: 215px;
+  max-width: 95%;
+  object-fit: contain;
+  object-position: bottom;
+  filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.25));
+  transition: transform 0.25s ease;
+}
+
+.battle-card:hover .player-card-photo {
+  transform: scale(1.04);
 }
 
 .player-avatar-card.lg .avatar-svg {

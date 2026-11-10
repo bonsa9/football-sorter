@@ -1,0 +1,87 @@
+{
+  "poolId": "world-goalkeepers",
+  "computedAt": "2026-11-10T11:00:00Z",
+  "totalVotes": 0,
+  "ratings": [
+    {
+      "poolId": "world-goalkeepers",
+      "entityId": "thibaut-courtois",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "world-goalkeepers",
+      "entityId": "alisson-becker",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "world-goalkeepers",
+      "entityId": "ederson",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "world-goalkeepers",
+      "entityId": "david-raya",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "world-goalkeepers",
+      "entityId": "emiliano-martinez",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "world-goalkeepers",
+      "entityId": "gianluigi-donnarumma",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "world-goalkeepers",
+      "entityId": "jan-oblak",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "world-goalkeepers",
+      "entityId": "marc-andre-ter-stegen",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "world-goalkeepers",
+      "entityId": "mike-maignan",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "world-goalkeepers",
+      "entityId": "unai-simon",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    }
+  ]
+}

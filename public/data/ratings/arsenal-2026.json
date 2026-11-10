@@ -1,0 +1,119 @@
+{
+  "poolId": "arsenal-2026",
+  "computedAt": "2026-11-10T11:00:00Z",
+  "totalVotes": 0,
+  "ratings": [
+    {
+      "poolId": "arsenal-2026",
+      "entityId": "david-raya",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "arsenal-2026",
+      "entityId": "william-saliba",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "arsenal-2026",
+      "entityId": "gabriel-magalhaes",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "arsenal-2026",
+      "entityId": "ben-white",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "arsenal-2026",
+      "entityId": "jurrien-timber",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "arsenal-2026",
+      "entityId": "riccardo-calafiori",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "arsenal-2026",
+      "entityId": "declan-rice",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "arsenal-2026",
+      "entityId": "martin-odegaard",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "arsenal-2026",
+      "entityId": "mikel-merino",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "arsenal-2026",
+      "entityId": "kai-havertz",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "arsenal-2026",
+      "entityId": "bukayo-saka",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "arsenal-2026",
+      "entityId": "viktor-gyokeres",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "arsenal-2026",
+      "entityId": "gabriel-martinelli",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "arsenal-2026",
+      "entityId": "gabriel-jesus",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "alisson-becker",
+  "name": "Alisson Becker",
+  "number": 1,
+  "clubId": "liverpool",
+  "nationality": "Brazil",
+  "position": "GK",
+  "birthDate": "1992-10-02",
+  "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Alisson_Becker_2018.jpg/440px-Alisson_Becker_2018.jpg",
+  "source": "https://en.wikipedia.org/wiki/Alisson",
+  "lastUpdated": "2026-11-10"
+}

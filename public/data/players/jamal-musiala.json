@@ -1,0 +1,12 @@
+{
+  "id": "jamal-musiala",
+  "name": "Jamal Musiala",
+  "number": 42,
+  "clubId": "bayern-munich",
+  "nationality": "Germany",
+  "position": "MID",
+  "birthDate": "2003-02-26",
+  "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Jamal_Musiala_2022.jpg/440px-Jamal_Musiala_2022.jpg",
+  "source": "https://en.wikipedia.org/wiki/Jamal_Musiala",
+  "lastUpdated": "2026-11-10"
+}

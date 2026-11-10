@@ -1,4 +1,5 @@
 import type { Vote } from "../engine/types";
+import { enqueuePendingVote } from "./syncQueue";
 
 const SESSION_STORAGE_KEY = "football_sorter_session_id";
 const VOTES_STORAGE_KEY = "football_sorter_votes";
@@ -29,13 +30,25 @@ export function getLocalVotes(poolId?: string): Vote[] {
 }
 
 export function saveLocalVote(vote: Vote): Vote[] {
+  // Ensure vote has a stable UUID for deduplication across local and remote
+  const id = vote.id || (typeof crypto !== "undefined" && crypto.randomUUID ? crypto.randomUUID() : "v_" + Math.random().toString(36).substring(2) + Date.now().toString(36));
+  const voteWithId: Vote = { ...vote, id };
+
   const currentVotes = getLocalVotes();
-  const updatedVotes = [...currentVotes, vote];
+  const updatedVotes = [...currentVotes, voteWithId];
   try {
     localStorage.setItem(VOTES_STORAGE_KEY, JSON.stringify(updatedVotes));
   } catch (err) {
     console.error("Failed to save local vote:", err);
   }
+
+  // Enqueue for background sync to Supabase (Phase 2)
+  try {
+    enqueuePendingVote(voteWithId);
+  } catch (err) {
+    console.warn("Could not enqueue vote for Supabase sync:", err);
+  }
+
   return updatedVotes;
 }
 

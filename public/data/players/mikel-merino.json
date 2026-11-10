@@ -1,11 +1,12 @@
 {
   "id": "mikel-merino",
   "name": "Mikel Merino",
-  "number": 6,
+  "number": 23,
   "clubId": "arsenal",
   "nationality": "Spain",
   "position": "MID",
   "birthDate": "1996-06-22",
-  "source": "https://en.wikipedia.org/wiki/Spain_national_football_team",
+  "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Mikel_Merino_2024.jpg/440px-Mikel_Merino_2024.jpg",
+  "source": "https://en.wikipedia.org/wiki/Mikel_Merino",
   "lastUpdated": "2026-11-10"
 }

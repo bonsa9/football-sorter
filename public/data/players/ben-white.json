@@ -1,0 +1,12 @@
+{
+  "id": "ben-white",
+  "name": "Ben White",
+  "number": 4,
+  "clubId": "arsenal",
+  "nationality": "England",
+  "position": "DEF",
+  "birthDate": "1997-10-08",
+  "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Ben_White_2021.jpg/440px-Ben_White_2021.jpg",
+  "source": "https://en.wikipedia.org/wiki/Ben_White_(footballer)",
+  "lastUpdated": "2026-11-10"
+}

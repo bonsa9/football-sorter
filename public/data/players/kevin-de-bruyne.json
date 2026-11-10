@@ -1,0 +1,12 @@
+{
+  "id": "kevin-de-bruyne",
+  "name": "Kevin De Bruyne",
+  "number": 17,
+  "clubId": "manchester-city",
+  "nationality": "Belgium",
+  "position": "MID",
+  "birthDate": "1991-06-28",
+  "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Kevin_De_Bruyne_201807091.jpg/440px-Kevin_De_Bruyne_201807091.jpg",
+  "source": "https://en.wikipedia.org/wiki/Kevin_De_Bruyne",
+  "lastUpdated": "2026-11-10"
+}

@@ -12,96 +12,95 @@ export const HomePage: React.FC<HomePageProps> = ({
   localVoteCounts,
   onSelectPool,
 }) => {
-  const [activeTab, setActiveTab] = useState<"ALL" | "NATIONS" | "LALIGA" | "PREMIER">("ALL");
+  const [activeTab, setActiveTab] = useState<"ALL" | "WORLD" | "NATIONS" | "CLUBS">("ALL");
   const [searchQuery, setSearchQuery] = useState("");
 
-  const popularClubs = [
-    {
-      id: "fc-barcelona",
-      title: "FC BARCELONA",
-      league: "LALIGA",
-      season: "2026/27",
-      rankings: "23.1k rankings",
-      bgClass: "card-barca",
-      badge: "🔵🔴",
-    },
-    {
-      id: "real-madrid",
-      title: "REAL MADRID",
-      league: "LALIGA",
-      season: "2026/27",
-      rankings: "18.8k rankings",
-      bgClass: "card-madrid",
-      badge: "👑",
-    },
-    {
-      id: "atletico-madrid",
-      title: "ATLÉTICO DE MADRID",
-      league: "LALIGA",
-      season: "2026/27",
-      rankings: "3.3k rankings",
-      bgClass: "card-atletico",
-      badge: "⚪🔴",
-    },
-    {
-      id: "arsenal",
-      title: "ARSENAL",
-      league: "PREMIER",
-      season: "2026/27",
-      rankings: "15.4k rankings",
-      bgClass: "card-arsenal",
-      badge: "🔴⚪",
-    },
-    {
-      id: "man-city",
-      title: "MANCHESTER CITY",
-      league: "PREMIER",
-      season: "2026/27",
-      rankings: "12.7k rankings",
-      bgClass: "card-mancity",
-      badge: "🩵",
-    },
-    {
-      id: "liverpool",
-      title: "LIVERPOOL",
-      league: "PREMIER",
-      season: "2026/27",
-      rankings: "14.2k rankings",
-      bgClass: "card-liverpool",
-      badge: "🔴",
-    },
-  ];
+  const worldPoolIds = ["world-strikers", "world-midfielders", "world-goalkeepers", "world-managers"];
+  const clubPoolIds = ["arsenal-2026"];
+  const nationPoolIds = ["spain-2026"];
+
+  const getPoolBadge = (poolId: string) => {
+    switch (poolId) {
+      case "world-strikers":
+        return "⚡";
+      case "world-midfielders":
+        return "🪄";
+      case "world-goalkeepers":
+        return "🧤";
+      case "world-managers":
+        return "👔";
+      case "arsenal-2026":
+        return "🔴⚪";
+      case "spain-2026":
+      default:
+        return "🇪🇸";
+    }
+  };
+
+  const getPoolGradient = (poolId: string) => {
+    switch (poolId) {
+      case "world-strikers":
+        return "card-strikers";
+      case "world-midfielders":
+        return "card-midfielders";
+      case "world-goalkeepers":
+        return "card-goalkeepers";
+      case "world-managers":
+        return "card-managers";
+      case "arsenal-2026":
+        return "card-arsenal";
+      case "spain-2026":
+      default:
+        return "card-spain";
+    }
+  };
+
+  const filteredPools = pools.filter((p) => {
+    const matchesSearch = p.title.toLowerCase().includes(searchQuery.toLowerCase());
+    if (!matchesSearch) return false;
+    if (activeTab === "ALL") return true;
+    if (activeTab === "WORLD") return worldPoolIds.includes(p.id);
+    if (activeTab === "CLUBS") return clubPoolIds.includes(p.id);
+    if (activeTab === "NATIONS") return nationPoolIds.includes(p.id);
+    return true;
+  });
 
   return (
     <div className="home-screen-wrapper">
-      {/* Header section matching Image 1 */}
+      {/* Header section matching Screenshot 1 */}
       <header className="home-hero">
-        <span className="home-kicker">FOOTBALL SQUAD SORTER</span>
-        <h1 className="home-huge-title">PICK A SQUAD &amp; START RANKING</h1>
+        <span className="home-kicker">FOOTBALL SQUAD &amp; WORLD SORTER</span>
+        <h1 className="home-huge-title">PICK A CATEGORY &amp; START RANKING</h1>
         <p className="home-subtitle">
-          Pick between two players at a time until your whole squad is ranked.
+          Vote head-to-head on the world's best players, managers, and squads with authentic photos.
         </p>
 
         {/* Feature Pills */}
         <div className="hero-feature-pills">
-          <a
-            href="https://github.com/bonsa9/football-sorter/issues"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hero-pill hero-pill-white"
-          >
-            Missing a squad or player? →
-          </a>
           <button
             type="button"
             className="hero-pill hero-pill-accent"
-            onClick={() => onSelectPool("spain-2026")}
+            onClick={() => onSelectPool("world-strikers")}
           >
-            ✦ Rank Spain 2026 Squad →
+            ⚡ Rank World's Best Strikers →
+          </button>
+          <button
+            type="button"
+            className="hero-pill hero-pill-accent"
+            onClick={() => onSelectPool("world-midfielders")}
+          >
+            🪄 Rank World's Midfielders →
+          </button>
+          <button
+            type="button"
+            className="hero-pill hero-pill-white"
+            onClick={() => onSelectPool("world-managers")}
+          >
+            👔 Rank World's Top Managers →
           </button>
         </div>
 
-        {/* Category bar & Search matching Image 1 */}
+        {/* Category bar & Search matching Screenshot 1 */}
         <div className="home-filter-row">
           <div className="category-segmented-bar">
             <button
@@ -113,24 +112,24 @@ export const HomePage: React.FC<HomePageProps> = ({
             </button>
             <button
               type="button"
+              className={`cat-pill ${activeTab === "WORLD" ? "active" : ""}`}
+              onClick={() => setActiveTab("WORLD")}
+            >
+              WORLD ELITE
+            </button>
+            <button
+              type="button"
+              className={`cat-pill ${activeTab === "CLUBS" ? "active" : ""}`}
+              onClick={() => setActiveTab("CLUBS")}
+            >
+              CLUBS
+            </button>
+            <button
+              type="button"
               className={`cat-pill ${activeTab === "NATIONS" ? "active" : ""}`}
               onClick={() => setActiveTab("NATIONS")}
             >
               NATIONS
-            </button>
-            <button
-              type="button"
-              className={`cat-pill ${activeTab === "LALIGA" ? "active" : ""}`}
-              onClick={() => setActiveTab("LALIGA")}
-            >
-              LALIGA
-            </button>
-            <button
-              type="button"
-              className={`cat-pill ${activeTab === "PREMIER" ? "active" : ""}`}
-              onClick={() => setActiveTab("PREMIER")}
-            >
-              PREMIER LEAGUE
             </button>
           </div>
 
@@ -138,7 +137,7 @@ export const HomePage: React.FC<HomePageProps> = ({
             <span className="search-icon">🔍</span>
             <input
               type="text"
-              placeholder="Search squads..."
+              placeholder="Search players, clubs, awards..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
             />
@@ -146,108 +145,121 @@ export const HomePage: React.FC<HomePageProps> = ({
         </div>
       </header>
 
-      {/* Primary Pool: Spain 2026 */}
+      {/* World Elite Categories */}
+      {(activeTab === "ALL" || activeTab === "WORLD") && (
+        <section className="squad-section">
+          <h2 className="league-title">WORLD POSITIONS &amp; MANAGERS</h2>
+          <div className="squads-cards-grid">
+            {filteredPools
+              .filter((p) => worldPoolIds.includes(p.id))
+              .map((pool) => {
+                const voteCount = localVoteCounts[pool.id] || 0;
+                return (
+                  <div
+                    key={pool.id}
+                    className={`squad-club-card ${getPoolGradient(pool.id)}`}
+                    onClick={() => onSelectPool(pool.id)}
+                    role="button"
+                    tabIndex={0}
+                  >
+                    <div className="card-top-row">
+                      <span className="card-club-badge">{getPoolBadge(pool.id)}</span>
+                      <span className="card-rankings-pill">
+                        {voteCount > 0 ? `${voteCount} votes` : "Ready to rank"}
+                      </span>
+                    </div>
+                    <div className="card-bottom-row">
+                      <h3 className="card-club-name">{pool.title.toUpperCase()}</h3>
+                      <div className="card-club-sub">
+                        GLOBAL POOL · {pool.memberIds.length} ENTITIES · PHOTOS
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
+          </div>
+        </section>
+      )}
+
+      {/* Club Squads */}
+      {(activeTab === "ALL" || activeTab === "CLUBS") && (
+        <section className="squad-section">
+          <h2 className="league-title">CLUB SQUADS (2026/27)</h2>
+          <div className="squads-cards-grid">
+            {filteredPools
+              .filter((p) => clubPoolIds.includes(p.id))
+              .map((pool) => {
+                const voteCount = localVoteCounts[pool.id] || 0;
+                return (
+                  <div
+                    key={pool.id}
+                    className={`squad-club-card ${getPoolGradient(pool.id)}`}
+                    onClick={() => onSelectPool(pool.id)}
+                    role="button"
+                    tabIndex={0}
+                  >
+                    <div className="card-top-row">
+                      <span className="card-club-badge">{getPoolBadge(pool.id)}</span>
+                      <span className="card-rankings-pill">
+                        {voteCount > 0 ? `${voteCount} votes` : "Ready to rank"}
+                      </span>
+                    </div>
+                    <div className="card-bottom-row">
+                      <h3 className="card-club-name">{pool.title.toUpperCase()}</h3>
+                      <div className="card-club-sub">
+                        PREMIER LEAGUE · {pool.memberIds.length} PLAYERS
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
+          </div>
+        </section>
+      )}
+
+      {/* National Teams */}
       {(activeTab === "ALL" || activeTab === "NATIONS") && (
         <section className="squad-section">
-          <h2 className="league-title">NATIONAL SQUADS (2026)</h2>
+          <h2 className="league-title">NATIONAL SQUADS (2026 WORLD CUP)</h2>
           <div className="squads-cards-grid">
-            {pools.map((pool) => {
-              const voteCount = localVoteCounts[pool.id] || 0;
-              return (
-                <div
-                  key={pool.id}
-                  className="squad-club-card card-spain"
-                  onClick={() => onSelectPool(pool.id)}
-                  role="button"
-                  tabIndex={0}
-                >
-                  <div className="card-top-row">
-                    <span className="card-club-badge">🇪🇸</span>
-                    <span className="card-rankings-pill">
-                      {voteCount > 0 ? `${voteCount} votes` : "Ready to rank"}
-                    </span>
-                  </div>
-                  <div className="card-bottom-row">
-                    <h3 className="card-club-name">{pool.title.toUpperCase()}</h3>
-                    <div className="card-club-sub">
-                      2026 SQUAD · {pool.memberIds.length} players
+            {filteredPools
+              .filter((p) => nationPoolIds.includes(p.id))
+              .map((pool) => {
+                const voteCount = localVoteCounts[pool.id] || 0;
+                return (
+                  <div
+                    key={pool.id}
+                    className={`squad-club-card ${getPoolGradient(pool.id)}`}
+                    onClick={() => onSelectPool(pool.id)}
+                    role="button"
+                    tabIndex={0}
+                  >
+                    <div className="card-top-row">
+                      <span className="card-club-badge">{getPoolBadge(pool.id)}</span>
+                      <span className="card-rankings-pill">
+                        {voteCount > 0 ? `${voteCount} votes` : "Ready to rank"}
+                      </span>
+                    </div>
+                    <div className="card-bottom-row">
+                      <h3 className="card-club-name">{pool.title.toUpperCase()}</h3>
+                      <div className="card-club-sub">
+                        2026 SQUAD · {pool.memberIds.length} PLAYERS
+                      </div>
                     </div>
                   </div>
-                </div>
-              );
-            })}
+                );
+              })}
           </div>
         </section>
       )}
 
-      {/* LaLiga & Premier League previews matching Image 1 */}
-      {(activeTab === "ALL" || activeTab === "LALIGA") && (
-        <section className="squad-section">
-          <h2 className="league-title">LALIGA</h2>
-          <div className="squads-cards-grid">
-            {popularClubs
-              .filter((c) => c.league === "LALIGA")
-              .map((club) => (
-                <div
-                  key={club.id}
-                  className={`squad-club-card ${club.bgClass}`}
-                  onClick={() => onSelectPool("spain-2026")}
-                  role="button"
-                  tabIndex={0}
-                >
-                  <div className="card-top-row">
-                    <span className="card-club-badge">{club.badge}</span>
-                    <span className="card-rankings-pill">Available</span>
-                  </div>
-                  <div className="card-bottom-row">
-                    <h3 className="card-club-name">{club.title}</h3>
-                    <div className="card-club-sub">
-                      {club.season} · {club.rankings}
-                    </div>
-                  </div>
-                </div>
-              ))}
-          </div>
-        </section>
-      )}
-
-      {(activeTab === "ALL" || activeTab === "PREMIER") && (
-        <section className="squad-section">
-          <h2 className="league-title">PREMIER LEAGUE</h2>
-          <div className="squads-cards-grid">
-            {popularClubs
-              .filter((c) => c.league === "PREMIER")
-              .map((club) => (
-                <div
-                  key={club.id}
-                  className={`squad-club-card ${club.bgClass}`}
-                  onClick={() => onSelectPool("spain-2026")}
-                  role="button"
-                  tabIndex={0}
-                >
-                  <div className="card-top-row">
-                    <span className="card-club-badge">{club.badge}</span>
-                    <span className="card-rankings-pill">Available</span>
-                  </div>
-                  <div className="card-bottom-row">
-                    <h3 className="card-club-name">{club.title}</h3>
-                    <div className="card-club-sub">
-                      {club.season} · {club.rankings}
-                    </div>
-                  </div>
-                </div>
-              ))}
-          </div>
-        </section>
-      )}
-
-      {/* Attribution footer matching Image 3 */}
+      {/* Attribution footer */}
       <footer className="home-attribution-footer">
         <p>
-          Squads from Wikipedia & official federation rosters.
+          Squad rosters and portraits sourced from Wikipedia &amp; Wikimedia Commons under CC BY-SA 4.0 / Public Domain.
         </p>
         <p>
-          Club names and marks belong to their respective owners. Purely for nominative and comparison purposes.
+          Club names, marks, and player portraits belong to their respective copyright holders. Purely for nominative and comparison ranking purposes.
         </p>
       </footer>
     </div>

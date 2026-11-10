@@ -1,0 +1,11 @@
+{
+  "id": "pep-guardiola",
+  "name": "Pep Guardiola",
+  "clubId": "manchester-city",
+  "nationality": "Spain",
+  "position": "MGR",
+  "birthDate": "1971-01-18",
+  "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Pep_2017_%28cropped%29.jpg/440px-Pep_2017_%28cropped%29.jpg",
+  "source": "https://en.wikipedia.org/wiki/Pep_Guardiola",
+  "lastUpdated": "2026-11-10"
+}

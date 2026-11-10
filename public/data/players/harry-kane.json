@@ -1,0 +1,12 @@
+{
+  "id": "harry-kane",
+  "name": "Harry Kane",
+  "number": 9,
+  "clubId": "bayern-munich",
+  "nationality": "England",
+  "position": "FWD",
+  "birthDate": "1993-07-28",
+  "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Harry_Kane_2024.jpg/440px-Harry_Kane_2024.jpg",
+  "source": "https://en.wikipedia.org/wiki/Harry_Kane",
+  "lastUpdated": "2026-11-10"
+}

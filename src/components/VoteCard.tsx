@@ -70,9 +70,25 @@ export const VoteCard: React.FC<VoteCardProps> = ({
         return "MIDFIELDER";
       case "FWD":
         return "FORWARD";
+      case "MGR":
+        return "MANAGER";
       default:
         return "PLAYER";
     }
+  };
+
+  const getBadge = (player: Player) => {
+    if (player.nationality === "Spain") return "🇪🇸";
+    if (player.nationality === "England") return "🏴󠁧󠁢󠁥󠁮󠁧󠁿";
+    if (player.nationality === "France") return "🇫🇷";
+    if (player.nationality === "Brazil") return "🇧🇷";
+    if (player.nationality === "Argentina") return "🇦🇷";
+    if (player.nationality === "Germany") return "🇩🇪";
+    if (player.nationality === "Norway") return "🇳🇴";
+    if (player.nationality === "Belgium") return "🇧🇪";
+    if (player.nationality === "Italy") return "🇮🇹";
+    if (player.clubId === "arsenal") return "🔴⚪";
+    return "⚽";
   };
 
   return (
@@ -104,7 +120,7 @@ export const VoteCard: React.FC<VoteCardProps> = ({
           tabIndex={0}
           onKeyDown={(e) => e.key === "Enter" && onVote("a")}
         >
-          <div className="battle-card-crest">🇪🇸</div>
+          <div className="battle-card-crest">{getBadge(playerA)}</div>
           <div className="battle-card-avatar">
             <PlayerAvatar player={playerA} kitColor={kitColor} size="lg" />
           </div>
@@ -114,7 +130,7 @@ export const VoteCard: React.FC<VoteCardProps> = ({
             </span>
             <h2 className="card-player-name">{playerA.name}</h2>
             <div className="card-player-sub">
-              #{playerA.number ?? "—"} · ESP
+              {playerA.number ? `#${playerA.number} · ` : ""}{playerA.nationality || "PRO"}
             </div>
           </div>
         </div>
@@ -130,7 +146,7 @@ export const VoteCard: React.FC<VoteCardProps> = ({
           tabIndex={0}
           onKeyDown={(e) => e.key === "Enter" && onVote("b")}
         >
-          <div className="battle-card-crest">🇪🇸</div>
+          <div className="battle-card-crest">{getBadge(playerB)}</div>
           <div className="battle-card-avatar">
             <PlayerAvatar player={playerB} kitColor={kitColor} size="lg" />
           </div>
@@ -140,7 +156,7 @@ export const VoteCard: React.FC<VoteCardProps> = ({
             </span>
             <h2 className="card-player-name">{playerB.name}</h2>
             <div className="card-player-sub">
-              #{playerB.number ?? "—"} · ESP
+              {playerB.number ? `#${playerB.number} · ` : ""}{playerB.nationality || "PRO"}
             </div>
           </div>
         </div>

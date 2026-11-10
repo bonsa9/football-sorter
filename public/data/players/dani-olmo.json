@@ -1,11 +1,12 @@
 {
   "id": "dani-olmo",
   "name": "Dani Olmo",
-  "number": 10,
+  "number": 20,
   "clubId": "barcelona",
   "nationality": "Spain",
   "position": "MID",
   "birthDate": "1998-05-07",
-  "source": "https://en.wikipedia.org/wiki/Spain_national_football_team",
+  "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Dani_Olmo_2024.jpg/440px-Dani_Olmo_2024.jpg",
+  "source": "https://en.wikipedia.org/wiki/Dani_Olmo",
   "lastUpdated": "2026-11-10"
 }

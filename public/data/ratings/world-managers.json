@@ -1,0 +1,87 @@
+{
+  "poolId": "world-managers",
+  "computedAt": "2026-11-10T11:00:00Z",
+  "totalVotes": 0,
+  "ratings": [
+    {
+      "poolId": "world-managers",
+      "entityId": "pep-guardiola",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "world-managers",
+      "entityId": "carlo-ancelotti",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "world-managers",
+      "entityId": "mikel-arteta",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "world-managers",
+      "entityId": "jurgen-klopp",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "world-managers",
+      "entityId": "xabi-alonso",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "world-managers",
+      "entityId": "luis-de-la-fuente",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "world-managers",
+      "entityId": "hansi-flick",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "world-managers",
+      "entityId": "diego-simeone",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "world-managers",
+      "entityId": "unai-emery",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "world-managers",
+      "entityId": "simone-inzaghi",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    }
+  ]
+}

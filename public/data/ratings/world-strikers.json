@@ -1,0 +1,103 @@
+{
+  "poolId": "world-strikers",
+  "computedAt": "2026-11-10T11:00:00Z",
+  "totalVotes": 0,
+  "ratings": [
+    {
+      "poolId": "world-strikers",
+      "entityId": "erling-haaland",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "world-strikers",
+      "entityId": "kylian-mbappe",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "world-strikers",
+      "entityId": "vinicius-junior",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "world-strikers",
+      "entityId": "harry-kane",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "world-strikers",
+      "entityId": "mohamed-salah",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "world-strikers",
+      "entityId": "robert-lewandowski",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "world-strikers",
+      "entityId": "viktor-gyokeres",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "world-strikers",
+      "entityId": "bukayo-saka",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "world-strikers",
+      "entityId": "lamine-yamal",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "world-strikers",
+      "entityId": "lautaro-martinez",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "world-strikers",
+      "entityId": "cole-palmer",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "world-strikers",
+      "entityId": "victor-osimhen",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    }
+  ]
+}

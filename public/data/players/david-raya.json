@@ -1,11 +1,12 @@
 {
   "id": "david-raya",
   "name": "David Raya",
-  "number": 13,
+  "number": 22,
   "clubId": "arsenal",
   "nationality": "Spain",
   "position": "GK",
   "birthDate": "1995-09-15",
-  "source": "https://en.wikipedia.org/wiki/Spain_national_football_team",
+  "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/David_Raya_2022.jpg/440px-David_Raya_2022.jpg",
+  "source": "https://en.wikipedia.org/wiki/David_Raya",
   "lastUpdated": "2026-11-10"
 }

@@ -1,0 +1,12 @@
+{
+  "id": "ederson",
+  "name": "Ederson",
+  "number": 31,
+  "clubId": "manchester-city",
+  "nationality": "Brazil",
+  "position": "GK",
+  "birthDate": "1993-08-17",
+  "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Ederson_Moraes_2018.jpg/440px-Ederson_Moraes_2018.jpg",
+  "source": "https://en.wikipedia.org/wiki/Ederson_(footballer,_born_1993)",
+  "lastUpdated": "2026-11-10"
+}

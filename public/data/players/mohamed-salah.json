@@ -1,0 +1,12 @@
+{
+  "id": "mohamed-salah",
+  "name": "Mohamed Salah",
+  "number": 11,
+  "clubId": "liverpool",
+  "nationality": "Egypt",
+  "position": "FWD",
+  "birthDate": "1992-06-15",
+  "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Mohamed_Salah_2018.jpg/440px-Mohamed_Salah_2018.jpg",
+  "source": "https://en.wikipedia.org/wiki/Mohamed_Salah",
+  "lastUpdated": "2026-11-10"
+}

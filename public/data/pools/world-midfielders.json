@@ -1,0 +1,20 @@
+{
+  "id": "world-midfielders",
+  "title": "World's Best Midfielders",
+  "kind": "award",
+  "memberIds": [
+    "rodri",
+    "jude-bellingham",
+    "kevin-de-bruyne",
+    "pedri",
+    "florian-wirtz",
+    "martin-odegaard",
+    "federico-valverde",
+    "declan-rice",
+    "jamal-musiala",
+    "luka-modric",
+    "bruno-fernandes",
+    "dani-olmo"
+  ],
+  "createdAt": "2026-11-10T11:00:00Z"
+}

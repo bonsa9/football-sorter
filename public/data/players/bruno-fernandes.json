@@ -1,0 +1,12 @@
+{
+  "id": "bruno-fernandes",
+  "name": "Bruno Fernandes",
+  "number": 8,
+  "clubId": "manchester-united",
+  "nationality": "Portugal",
+  "position": "MID",
+  "birthDate": "1994-09-08",
+  "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Bruno_Fernandes_2021.jpg/440px-Bruno_Fernandes_2021.jpg",
+  "source": "https://en.wikipedia.org/wiki/Bruno_Fernandes",
+  "lastUpdated": "2026-11-10"
+}
