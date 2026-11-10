@@ -3,6 +3,7 @@ export type Position = "GK" | "DEF" | "MID" | "FWD";
 export type Player = {
   id: string; // stable slug, e.g. "lamine-yamal"
   name: string;
+  number?: number;
   clubId?: string;
   nationality?: string;
   position?: Position;
@@ -47,4 +48,3 @@ export type RatingFile = {
   totalVotes: number;
   ratings: Rating[]; // sorted best to worst
 };
-

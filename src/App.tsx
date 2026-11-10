@@ -11,7 +11,6 @@ export function App() {
   const [players, setPlayers] = useState<Player[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
   const [selectedPoolId, setSelectedPoolId] = useState<string | null>(() => {
-    // Check initial hash like #/pool/spain-2026
     const hash = window.location.hash;
     if (hash.startsWith("#/pool/")) {
       return hash.replace("#/pool/", "");
@@ -68,62 +67,31 @@ export function App() {
 
   const currentPool = pools.find((p) => p.id === selectedPoolId);
 
+  if (loading) {
+    return (
+      <div className="home-screen-wrapper">
+        <div className="loading-state">
+          <p>Loading squad data...</p>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="app-shell">
-      <nav className="site-nav">
-        <div className="nav-inner">
-          <div className="nav-brand" onClick={handleBackHome}>
-            ⚽ <span>Football Sorter</span>
-          </div>
-          <div className="nav-links">
-            <button
-              type="button"
-              className={`nav-link ${!selectedPoolId ? "active" : ""}`}
-              onClick={handleBackHome}
-            >
-              Squads
-            </button>
-            <a
-              href="https://github.com/bonsa9/football-sorter"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="nav-link"
-            >
-              GitHub
-            </a>
-          </div>
-        </div>
-      </nav>
-
-      <main className="main-content">
-        {loading ? (
-          <div className="loading-state">
-            <div className="spinner"></div>
-            <p>Loading squad data...</p>
-          </div>
-        ) : currentPool ? (
-          <PoolPage
-            pool={currentPool}
-            players={players}
-            onBack={handleBackHome}
-          />
-        ) : (
-          <HomePage
-            pools={pools}
-            localVoteCounts={localVoteCounts}
-            onSelectPool={handleSelectPool}
-          />
-        )}
-      </main>
-
-      <footer className="site-footer">
-        <div className="footer-inner">
-          <p>© 2026 Football Sorter • Bradley-Terry Pairwise Ranking</p>
-          <p className="text-muted text-xs">
-            Data sourced from Wikipedia under CC BY-SA 4.0. No club crests or copyrighted photos hosted.
-          </p>
-        </div>
-      </footer>
+      {currentPool ? (
+        <PoolPage
+          pool={currentPool}
+          players={players}
+          onBack={handleBackHome}
+        />
+      ) : (
+        <HomePage
+          pools={pools}
+          localVoteCounts={localVoteCounts}
+          onSelectPool={handleSelectPool}
+        />
+      )}
     </div>
   );
 }

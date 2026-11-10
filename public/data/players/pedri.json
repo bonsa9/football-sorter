@@ -1,6 +1,7 @@
 {
   "id": "pedri",
   "name": "Pedri",
+  "number": 8,
   "clubId": "barcelona",
   "nationality": "Spain",
   "position": "MID",

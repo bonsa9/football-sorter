@@ -39,6 +39,29 @@ export function saveLocalVote(vote: Vote): Vote[] {
   return updatedVotes;
 }
 
+export function popLocalVote(poolId: string): Vote[] {
+  const currentVotes = getLocalVotes();
+  // Find last vote for this pool
+  let lastIndex = -1;
+  for (let i = currentVotes.length - 1; i >= 0; i--) {
+    if (currentVotes[i].poolId === poolId) {
+      lastIndex = i;
+      break;
+    }
+  }
+
+  if (lastIndex !== -1) {
+    currentVotes.splice(lastIndex, 1);
+    try {
+      localStorage.setItem(VOTES_STORAGE_KEY, JSON.stringify(currentVotes));
+    } catch (err) {
+      console.error("Failed to update votes after undo:", err);
+    }
+  }
+
+  return currentVotes.filter((v) => v.poolId === poolId);
+}
+
 export function clearLocalVotes(poolId?: string): void {
   try {
     if (poolId) {
@@ -51,4 +74,3 @@ export function clearLocalVotes(poolId?: string): void {
     console.error("Failed to clear votes:", err);
   }
 }
-

@@ -1,6 +1,7 @@
 {
   "id": "pedro-porro",
   "name": "Pedro Porro",
+  "number": 23,
   "clubId": "tottenham-hotspur",
   "nationality": "Spain",
   "position": "DEF",

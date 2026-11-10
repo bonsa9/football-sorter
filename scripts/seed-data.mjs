@@ -5,6 +5,7 @@ const spainPlayers = [
   {
     id: "unai-simon",
     name: "Unai Simón",
+    number: 1,
     clubId: "athletic-bilbao",
     nationality: "Spain",
     position: "GK",
@@ -15,6 +16,7 @@ const spainPlayers = [
   {
     id: "david-raya",
     name: "David Raya",
+    number: 13,
     clubId: "arsenal",
     nationality: "Spain",
     position: "GK",
@@ -25,6 +27,7 @@ const spainPlayers = [
   {
     id: "dani-carvajal",
     name: "Dani Carvajal",
+    number: 2,
     clubId: "real-madrid",
     nationality: "Spain",
     position: "DEF",
@@ -35,6 +38,7 @@ const spainPlayers = [
   {
     id: "robin-le-normand",
     name: "Robin Le Normand",
+    number: 3,
     clubId: "atletico-madrid",
     nationality: "Spain",
     position: "DEF",
@@ -45,6 +49,7 @@ const spainPlayers = [
   {
     id: "aymeric-laporte",
     name: "Aymeric Laporte",
+    number: 14,
     clubId: "al-nassr",
     nationality: "Spain",
     position: "DEF",
@@ -55,6 +60,7 @@ const spainPlayers = [
   {
     id: "pau-cubarsi",
     name: "Pau Cubarsí",
+    number: 5,
     clubId: "barcelona",
     nationality: "Spain",
     position: "DEF",
@@ -65,6 +71,7 @@ const spainPlayers = [
   {
     id: "marc-cucurella",
     name: "Marc Cucurella",
+    number: 24,
     clubId: "chelsea",
     nationality: "Spain",
     position: "DEF",
@@ -75,6 +82,7 @@ const spainPlayers = [
   {
     id: "alejandro-grimaldo",
     name: "Alejandro Grimaldo",
+    number: 12,
     clubId: "bayer-leverkusen",
     nationality: "Spain",
     position: "DEF",
@@ -85,6 +93,7 @@ const spainPlayers = [
   {
     id: "pedro-porro",
     name: "Pedro Porro",
+    number: 23,
     clubId: "tottenham-hotspur",
     nationality: "Spain",
     position: "DEF",
@@ -95,6 +104,7 @@ const spainPlayers = [
   {
     id: "rodri",
     name: "Rodri",
+    number: 16,
     clubId: "manchester-city",
     nationality: "Spain",
     position: "MID",
@@ -105,6 +115,7 @@ const spainPlayers = [
   {
     id: "martin-zubimendi",
     name: "Martín Zubimendi",
+    number: 18,
     clubId: "real-sociedad",
     nationality: "Spain",
     position: "MID",
@@ -115,6 +126,7 @@ const spainPlayers = [
   {
     id: "pedri",
     name: "Pedri",
+    number: 8,
     clubId: "barcelona",
     nationality: "Spain",
     position: "MID",
@@ -125,6 +137,7 @@ const spainPlayers = [
   {
     id: "dani-olmo",
     name: "Dani Olmo",
+    number: 10,
     clubId: "barcelona",
     nationality: "Spain",
     position: "MID",
@@ -135,6 +148,7 @@ const spainPlayers = [
   {
     id: "fabian-ruiz",
     name: "Fabián Ruiz",
+    number: 17,
     clubId: "paris-saint-germain",
     nationality: "Spain",
     position: "MID",
@@ -145,6 +159,7 @@ const spainPlayers = [
   {
     id: "mikel-merino",
     name: "Mikel Merino",
+    number: 6,
     clubId: "arsenal",
     nationality: "Spain",
     position: "MID",
@@ -155,6 +170,7 @@ const spainPlayers = [
   {
     id: "lamine-yamal",
     name: "Lamine Yamal",
+    number: 19,
     clubId: "barcelona",
     nationality: "Spain",
     position: "FWD",
@@ -165,6 +181,7 @@ const spainPlayers = [
   {
     id: "nico-williams",
     name: "Nico Williams",
+    number: 11,
     clubId: "athletic-bilbao",
     nationality: "Spain",
     position: "FWD",
@@ -175,6 +192,7 @@ const spainPlayers = [
   {
     id: "alvaro-morata",
     name: "Álvaro Morata",
+    number: 7,
     clubId: "milan",
     nationality: "Spain",
     position: "FWD",
@@ -185,6 +203,7 @@ const spainPlayers = [
   {
     id: "mikel-oyarzabal",
     name: "Mikel Oyarzabal",
+    number: 21,
     clubId: "real-sociedad",
     nationality: "Spain",
     position: "FWD",
@@ -195,6 +214,7 @@ const spainPlayers = [
   {
     id: "ferran-torres",
     name: "Ferran Torres",
+    number: 11,
     clubId: "barcelona",
     nationality: "Spain",
     position: "FWD",
@@ -224,8 +244,8 @@ for (const player of spainPlayers) {
   );
 }
 fs.writeFileSync(
-    path.join(playersDir, "index.json"),
-    JSON.stringify(spainPlayers, null, 2)
+  path.join(playersDir, "index.json"),
+  JSON.stringify(spainPlayers, null, 2)
 );
 
 // Save pools
@@ -261,5 +281,4 @@ fs.writeFileSync(
   JSON.stringify(initialRatings, null, 2)
 );
 
-console.log("Successfully seeded Spain 2026 pool and player data.");
-
+console.log("Successfully seeded Spain 2026 pool and player data with numbers.");
