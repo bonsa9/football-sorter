@@ -1,0 +1,30 @@
+[
+  {
+    "id": "spain-2026",
+    "title": "Spain 2026",
+    "kind": "squad",
+    "memberIds": [
+      "unai-simon",
+      "david-raya",
+      "dani-carvajal",
+      "robin-le-normand",
+      "aymeric-laporte",
+      "pau-cubarsi",
+      "marc-cucurella",
+      "alejandro-grimaldo",
+      "pedro-porro",
+      "rodri",
+      "martin-zubimendi",
+      "pedri",
+      "dani-olmo",
+      "fabian-ruiz",
+      "mikel-merino",
+      "lamine-yamal",
+      "nico-williams",
+      "alvaro-morata",
+      "mikel-oyarzabal",
+      "ferran-torres"
+    ],
+    "createdAt": "2026-11-10T10:00:00Z"
+  }
+]
