@@ -25,6 +25,7 @@ export type Pool = {
 export type VoteResult = "a" | "b" | "tie";
 
 export type Vote = {
+  id?: string; // UUID for deduplication
   poolId: string;
   a: string; // entity id
   b: string; // entity id

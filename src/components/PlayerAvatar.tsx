@@ -137,3 +137,4 @@ function darken(hex: string, percent: number): string {
   const B = Math.max(0, (num & 0x0000ff) - amt);
   return "#" + (0x1000000 + R * 0x10000 + G * 0x100 + B).toString(16).slice(1);
 }
+

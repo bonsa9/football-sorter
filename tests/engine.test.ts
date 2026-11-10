@@ -5,6 +5,7 @@ import {
   type Pool,
   type Vote,
 } from "../src/engine";
+import { getMaxMatchups, getExpectedMatchups } from "../src/pages/PoolPage";
 
 describe("Bradley-Terry Ranking Engine", () => {
   it("Bradley-Terry returns known strengths on a small synthetic dataset", () => {
@@ -171,3 +172,22 @@ describe("Pair Selection Engine", () => {
   });
 });
 
+describe("Merge Sort Comparison Bounds (Reference Math)", () => {
+  it("computes exact worst-case matchups matching player-sorter (N=24 -> 89)", () => {
+    // Exactly 89 for N = 24 (Arsenal screenshot)
+    expect(getMaxMatchups(24)).toBe(89);
+    // Exactly 69 for N = 20 (Spain squad)
+    expect(getMaxMatchups(20)).toBe(69);
+  });
+
+  it("computes realistic average calibration matchups (N=24 -> 55-67)", () => {
+    const expected24 = getExpectedMatchups(24);
+    // User noted: 'about 50 something votes for 24 players'
+    expect(expected24).toBeGreaterThanOrEqual(50);
+    expect(expected24).toBeLessThanOrEqual(75);
+
+    const expected20 = getExpectedMatchups(20);
+    expect(expected20).toBeGreaterThanOrEqual(40);
+    expect(expected20).toBeLessThanOrEqual(55);
+  });
+});

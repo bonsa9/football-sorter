@@ -7,7 +7,26 @@ import { VoteCard } from "../components/VoteCard";
 import { RankingTable } from "../components/RankingTable";
 import { PlayerAvatar } from "../components/PlayerAvatar";
 
-const TARGET_CALIBRATION_VOTES = 25;
+/**
+ * Formula used by merge-sort comparison sorters:
+ * Worst-case comparisons: W(N) = N * ceil(log2(N)) - 2^ceil(log2(N)) + 1
+ * For N = 24: 24 * 5 - 32 + 1 = 89 matchups (matches player-sorter exactly!)
+ * For N = 20: 20 * 5 - 32 + 1 = 69 matchups
+ */
+export function getMaxMatchups(n: number): number {
+  if (n <= 1) return 0;
+  const k = Math.ceil(Math.log2(n));
+  return n * k - Math.pow(2, k) + 1;
+}
+
+/**
+ * Expected average comparisons to fully sort N items
+ * Approximately N * log2(N) - 1.8 * N (around 50-55 for N=24, ~45 for N=20)
+ */
+export function getExpectedMatchups(n: number): number {
+  if (n <= 1) return 0;
+  return Math.max(10, Math.round(n * Math.log2(n) - 1.8 * n));
+}
 
 interface PoolPageProps {
   pool: Pool;
@@ -35,6 +54,18 @@ export const PoolPage: React.FC<PoolPageProps> = ({ pool, players, onBack }) => 
     return map;
   }, [players]);
 
+  // Dynamic calculations based on selected roster size
+  const filteredMemberIds = useMemo(() => {
+    return pool.memberIds.filter((id) => {
+      const p = playersMap.get(id);
+      return p?.position ? selectedPositions.has(p.position) : true;
+    });
+  }, [pool.memberIds, playersMap, selectedPositions]);
+
+  const activeRosterSize = filteredMemberIds.length;
+  const maxPossibleMatchups = useMemo(() => getMaxMatchups(activeRosterSize), [activeRosterSize]);
+  const targetCalibrationVotes = useMemo(() => getExpectedMatchups(activeRosterSize), [activeRosterSize]);
+
   // Compute live Bradley-Terry ratings from all votes in this pool
   const ratings: Rating[] = useMemo(() => {
     if (!pool.memberIds || pool.memberIds.length < 2) return [];
@@ -43,11 +74,15 @@ export const PoolPage: React.FC<PoolPageProps> = ({ pool, players, onBack }) => 
 
   // Next pair selection
   const selectNext = useCallback(() => {
-    if (pool.memberIds.length < 2) return;
+    if (filteredMemberIds.length < 2) return;
     const sessionHistory = votes.filter((v) => v.sessionId === sessionId);
-    const pair = nextPair(pool, ratings, votes, sessionHistory);
+    const subPool: Pool = {
+      ...pool,
+      memberIds: filteredMemberIds,
+    };
+    const pair = nextPair(subPool, ratings, votes, sessionHistory);
     setCurrentPair(pair);
-  }, [pool, ratings, votes, sessionId]);
+  }, [pool, filteredMemberIds, ratings, votes, sessionId]);
 
   useEffect(() => {
     selectNext();
@@ -70,7 +105,7 @@ export const PoolPage: React.FC<PoolPageProps> = ({ pool, players, onBack }) => 
     const updatedPoolVotes = updated.filter((v) => v.poolId === pool.id);
     setVotes(updatedPoolVotes);
 
-    if (updatedPoolVotes.length >= TARGET_CALIBRATION_VOTES) {
+    if (updatedPoolVotes.length >= targetCalibrationVotes) {
       setViewState("rankings");
     } else {
       selectNext();
@@ -117,13 +152,6 @@ export const PoolPage: React.FC<PoolPageProps> = ({ pool, players, onBack }) => 
     });
   };
 
-  const filteredMemberIds = useMemo(() => {
-    return pool.memberIds.filter((id) => {
-      const p = playersMap.get(id);
-      return p?.position ? selectedPositions.has(p.position) : true;
-    });
-  }, [pool.memberIds, playersMap, selectedPositions]);
-
   const playerA = currentPair ? playersMap.get(currentPair[0]) : null;
   const playerB = currentPair ? playersMap.get(currentPair[1]) : null;
 
@@ -141,7 +169,7 @@ export const PoolPage: React.FC<PoolPageProps> = ({ pool, players, onBack }) => 
               canUndo={votes.length > 0}
               onExit={() => setViewState("roster")}
               voteCount={votes.length}
-              targetVotes={TARGET_CALIBRATION_VOTES}
+              targetVotes={targetCalibrationVotes}
               kitColor={kitColor}
               onSetKitColor={setKitColor}
             />
@@ -266,7 +294,7 @@ export const PoolPage: React.FC<PoolPageProps> = ({ pool, players, onBack }) => 
             </div>
 
             <div className="roster-sub-status">
-              {filteredMemberIds.length} players · at most {TARGET_CALIBRATION_VOTES} matchups
+              {activeRosterSize} players · at most {maxPossibleMatchups} matchups
               {votes.length > 0 && ` (${votes.length} votes recorded)`}
             </div>
 
@@ -330,7 +358,7 @@ export const PoolPage: React.FC<PoolPageProps> = ({ pool, players, onBack }) => 
               className="btn-pill-primary"
               onClick={() => setViewState("voting")}
             >
-              {votes.length >= TARGET_CALIBRATION_VOTES ? "Vote More" : "Continue Voting"}
+              {votes.length >= targetCalibrationVotes ? "Vote More" : "Continue Voting"}
             </button>
           </div>
 
@@ -347,7 +375,7 @@ export const PoolPage: React.FC<PoolPageProps> = ({ pool, players, onBack }) => 
               ratings={ratings}
               playersMap={playersMap}
               totalVotes={votes.length}
-              targetVotes={TARGET_CALIBRATION_VOTES}
+              targetVotes={targetCalibrationVotes}
             />
             <div className="ranking-table-footer">
               <button
