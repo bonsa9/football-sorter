@@ -5,12 +5,14 @@ interface HomePageProps {
   pools: Pool[];
   localVoteCounts: Record<string, number>;
   onSelectPool: (poolId: string) => void;
+  onNavigateToBuilder?: () => void;
 }
 
 export const HomePage: React.FC<HomePageProps> = ({
   pools,
   localVoteCounts,
   onSelectPool,
+  onNavigateToBuilder,
 }) => {
   const [activeTab, setActiveTab] = useState<"ALL" | "PREMIER_LEAGUE" | "POSITIONS" | "NATIONS">("ALL");
   const [searchQuery, setSearchQuery] = useState("");
@@ -99,6 +101,15 @@ export const HomePage: React.FC<HomePageProps> = ({
 
         {/* Feature quick links */}
         <div className="hero-feature-pills">
+          {onNavigateToBuilder && (
+            <button
+              type="button"
+              className="hero-pill hero-pill-build-own"
+              onClick={onNavigateToBuilder}
+            >
+              ✦ New: Build your own ranking →
+            </button>
+          )}
           <button
             type="button"
             className="hero-pill hero-pill-accent"

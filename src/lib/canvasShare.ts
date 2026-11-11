@@ -348,3 +348,4 @@ export async function shareToSocial(options: GenerateShareOptions): Promise<bool
     }, "image/png");
   });
 }
+

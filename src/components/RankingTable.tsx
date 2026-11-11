@@ -1,6 +1,19 @@
-import React, { useState } from "react";
+import React, { useState, useMemo } from "react";
 import type { Player, Rating, RatingFile } from "../engine/types";
 import { PlayerAvatar } from "./PlayerAvatar";
+
+interface TierItem {
+  rating: Rating;
+  player?: Player;
+  rank: number;
+}
+
+interface TierGroup {
+  name: string;
+  label: string;
+  color: string;
+  items: TierItem[];
+}
 
 interface RankingTableProps {
   myRatings: Rating[];
@@ -24,6 +37,7 @@ export const RankingTable: React.FC<RankingTableProps> = ({
   onOpenShareModal,
 }) => {
   const [activeTab, setActiveTab] = useState<"my" | "community">("my");
+  const [viewLayout, setViewLayout] = useState<"table" | "tierlist">("table");
   const [copied, setCopied] = useState(false);
 
   const displayedRatings =
@@ -37,6 +51,54 @@ export const RankingTable: React.FC<RankingTableProps> = ({
       : totalVotes;
 
   const isFullCalibration = displayedVotes >= targetVotes;
+
+  // Group players into S, A, B, C, D tiers
+  const tiers = useMemo<TierGroup[]>(() => {
+    const hasVariance = displayedRatings.some(
+      (r) => Math.abs(r.strength - (displayedRatings[0]?.strength || 0)) > 0.05
+    );
+
+    const S: { rating: Rating; player?: Player; rank: number }[] = [];
+    const A: { rating: Rating; player?: Player; rank: number }[] = [];
+    const B: { rating: Rating; player?: Player; rank: number }[] = [];
+    const C: { rating: Rating; player?: Player; rank: number }[] = [];
+    const D: { rating: Rating; player?: Player; rank: number }[] = [];
+
+    displayedRatings.forEach((rating, idx) => {
+      const player = playersMap.get(rating.entityId);
+      const item = { rating, player, rank: idx + 1 };
+
+      if (hasVariance) {
+        if (rating.strength >= 1.2) {
+          S.push(item);
+        } else if (rating.strength >= 0.4) {
+          A.push(item);
+        } else if (rating.strength >= -0.4) {
+          B.push(item);
+        } else if (rating.strength >= -1.2) {
+          C.push(item);
+        } else {
+          D.push(item);
+        }
+      } else {
+        // Fallback percentile tiers if all strengths are equal (unvoted)
+        const total = displayedRatings.length;
+        if (idx < Math.ceil(total * 0.15)) S.push(item);
+        else if (idx < Math.ceil(total * 0.4)) A.push(item);
+        else if (idx < Math.ceil(total * 0.7)) B.push(item);
+        else if (idx < Math.ceil(total * 0.9)) C.push(item);
+        else D.push(item);
+      }
+    });
+
+    return [
+      { name: "S", label: "GOD TIER / MVP", color: "#eab308", items: S },
+      { name: "A", label: "WORLD CLASS", color: "#10b981", items: A },
+      { name: "B", label: "ELITE STARTER", color: "#0ea5e9", items: B },
+      { name: "C", label: "SQUAD ROTATION", color: "#8b5cf6", items: C },
+      { name: "D", label: "BENCH / PROVISIONAL", color: "#64748b", items: D },
+    ];
+  }, [displayedRatings, playersMap]);
 
   const handleShare = () => {
     const text = `Check out my Football Sorter rankings! Ranked via head-to-head battles: ${window.location.href}`;
@@ -97,7 +159,7 @@ export const RankingTable: React.FC<RankingTableProps> = ({
         </div>
       </div>
 
-      {/* Subtitle info */}
+      {/* Subtitle info & Layout Switcher */}
       <div className="ranking-info-banner">
         <p className="ranking-subtitle-text">
           {activeTab === "my" ? (
@@ -120,9 +182,27 @@ export const RankingTable: React.FC<RankingTableProps> = ({
             </>
           )}
         </p>
+
+        {/* View Layout Toggle: Table vs Tier List */}
+        <div className="layout-toggle-pills">
+          <button
+            type="button"
+            className={`layout-pill-btn ${viewLayout === "table" ? "active" : ""}`}
+            onClick={() => setViewLayout("table")}
+          >
+            📊 Table View
+          </button>
+          <button
+            type="button"
+            className={`layout-pill-btn ${viewLayout === "tierlist" ? "active" : ""}`}
+            onClick={() => setViewLayout("tierlist")}
+          >
+            🏆 Tier List View
+          </button>
+        </div>
       </div>
 
-      {/* Table */}
+      {/* Empty State */}
       {displayedRatings.length === 0 ? (
         <div className="empty-ranking-card">
           <p>No votes recorded for this ranking yet.</p>
@@ -132,7 +212,45 @@ export const RankingTable: React.FC<RankingTableProps> = ({
             </button>
           )}
         </div>
+      ) : viewLayout === "tierlist" ? (
+        /* Tier List View */
+        <div className="tierlist-container">
+          {tiers.map((tier: TierGroup) => (
+            <div key={tier.name} className="tier-row">
+              <div className="tier-header-badge" style={{ backgroundColor: tier.color }}>
+                <span className="tier-letter">{tier.name}</span>
+                <span className="tier-caption">{tier.label}</span>
+              </div>
+              <div className="tier-cards-row">
+                {tier.items.length === 0 ? (
+                  <span className="tier-empty-label">No players in this tier yet</span>
+                ) : (
+                  tier.items.map(({ player, rating, rank }: TierItem) => (
+                    <div key={rating.entityId} className="tier-player-chip">
+                      <div className="chip-avatar">
+                        {player ? (
+                          <PlayerAvatar player={player} kitColor={kitColor} size="sm" />
+                        ) : null}
+                      </div>
+                      <div className="chip-info">
+                        <span className="chip-rank">#{rank}</span>
+                        <span className="chip-name">{player?.name || rating.entityId}</span>
+                        <div className="chip-meta">
+                          {player?.crestUrl && (
+                            <img src={player.crestUrl} alt="" className="chip-crest" />
+                          )}
+                          <span>{player?.position || "—"}</span>
+                        </div>
+                      </div>
+                    </div>
+                  ))
+                )}
+              </div>
+            </div>
+          ))}
+        </div>
       ) : (
+        /* Table View */
         <div className="table-responsive">
           <table className="ranking-table">
             <thead>

@@ -8,3 +8,4 @@ describe("Canvas Share Poster Module", () => {
     expect(typeof shareToSocial).toBe("function");
   });
 });
+
