@@ -7,6 +7,7 @@ import { fetchRatings } from "../data/loaders";
 import { VoteCard } from "../components/VoteCard";
 import { RankingTable } from "../components/RankingTable";
 import { PlayerAvatar } from "../components/PlayerAvatar";
+import { ShareModal } from "../components/ShareModal";
 
 /**
  * Formula used by merge-sort comparison sorters:
@@ -44,6 +45,7 @@ export const PoolPage: React.FC<PoolPageProps> = ({ pool, players, onBack }) => 
   );
   const [kitColor, setKitColor] = useState<"home" | "away" | "third">("home");
   const [communityRatings, setCommunityRatings] = useState<RatingFile | null>(null);
+  const [isShareModalOpen, setIsShareModalOpen] = useState(false);
 
   // Load published community ratings if available
   useEffect(() => {
@@ -241,6 +243,13 @@ export const PoolPage: React.FC<PoolPageProps> = ({ pool, players, onBack }) => 
                   onClick={() => setViewState("rankings")}
                 >
                   View Final Rankings →
+                </button>
+                <button
+                  type="button"
+                  className="btn-pill-share"
+                  onClick={() => setIsShareModalOpen(true)}
+                >
+                  📸 Export Poster / Story
                 </button>
                 <button
                   type="button"
@@ -462,6 +471,7 @@ export const PoolPage: React.FC<PoolPageProps> = ({ pool, players, onBack }) => 
               targetVotes={targetCalibrationVotes}
               kitColor={kitColor}
               onContinueVoting={() => setViewState("voting")}
+              onOpenShareModal={() => setIsShareModalOpen(true)}
             />
             <div className="ranking-table-footer">
               <button
@@ -470,6 +480,13 @@ export const PoolPage: React.FC<PoolPageProps> = ({ pool, players, onBack }) => 
                 onClick={() => setViewState("voting")}
               >
                 Keep Voting
+              </button>
+              <button
+                type="button"
+                className="btn-community-ranking"
+                onClick={() => setIsShareModalOpen(true)}
+              >
+                📸 Export Poster / Story
               </button>
               {votes.length > 0 && (
                 <button
@@ -484,6 +501,16 @@ export const PoolPage: React.FC<PoolPageProps> = ({ pool, players, onBack }) => 
           </div>
         </div>
       )}
+
+      {/* Share Poster Modal */}
+      <ShareModal
+        isOpen={isShareModalOpen}
+        onClose={() => setIsShareModalOpen(false)}
+        pool={pool}
+        ratings={ratings}
+        playersMap={playersMap}
+        kitColor={kitColor}
+      />
     </div>
   );
 };

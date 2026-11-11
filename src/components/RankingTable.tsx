@@ -10,6 +10,7 @@ interface RankingTableProps {
   targetVotes?: number;
   kitColor?: "home" | "away" | "third";
   onContinueVoting?: () => void;
+  onOpenShareModal?: () => void;
 }
 
 export const RankingTable: React.FC<RankingTableProps> = ({
@@ -20,6 +21,7 @@ export const RankingTable: React.FC<RankingTableProps> = ({
   targetVotes = 25,
   kitColor = "home",
   onContinueVoting,
+  onOpenShareModal,
 }) => {
   const [activeTab, setActiveTab] = useState<"my" | "community">("my");
   const [copied, setCopied] = useState(false);
@@ -76,12 +78,21 @@ export const RankingTable: React.FC<RankingTableProps> = ({
               ⚡ Vote More Matchups
             </button>
           )}
+          {onOpenShareModal && (
+            <button
+              type="button"
+              className="btn-rank-action btn-export-poster"
+              onClick={onOpenShareModal}
+            >
+              📸 Export Poster / Story
+            </button>
+          )}
           <button
             type="button"
             className="btn-rank-action btn-share-link"
             onClick={handleShare}
           >
-            {copied ? "✓ Link Copied!" : "🔗 Share Ranking"}
+            {copied ? "✓ Link Copied!" : "🔗 Copy Link"}
           </button>
         </div>
       </div>
