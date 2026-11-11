@@ -1,11 +1,11 @@
 {
   "poolId": "pl-centre-backs",
-  "computedAt": "2026-11-10T12:00:00Z",
+  "computedAt": "2026-11-11T08:46:38.582Z",
   "totalVotes": 0,
   "ratings": [
     {
       "poolId": "pl-centre-backs",
-      "entityId": "arsenal-saliba",
+      "entityId": "arsenal-calafiori",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -21,7 +21,7 @@
     },
     {
       "poolId": "pl-centre-backs",
-      "entityId": "liverpool-van-dijk",
+      "entityId": "arsenal-konsa",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -29,47 +29,7 @@
     },
     {
       "poolId": "pl-centre-backs",
-      "entityId": "manchester-city-ruben-dias",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "pl-centre-backs",
-      "entityId": "manchester-city-guehi",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "pl-centre-backs",
-      "entityId": "tottenham-van-de-ven",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "pl-centre-backs",
-      "entityId": "tottenham-porro",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "pl-centre-backs",
-      "entityId": "tottenham-udogie",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "pl-centre-backs",
-      "entityId": "arsenal-calafiori",
+      "entityId": "arsenal-saliba",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -93,7 +53,15 @@
     },
     {
       "poolId": "pl-centre-backs",
-      "entityId": "arsenal-konsa",
+      "entityId": "aston-villa-maatsen",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-centre-backs",
+      "entityId": "aston-villa-pau-torres",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -109,7 +77,7 @@
     },
     {
       "poolId": "pl-centre-backs",
-      "entityId": "chelsea-reece-james",
+      "entityId": "chelsea-gusto",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -117,7 +85,7 @@
     },
     {
       "poolId": "pl-centre-backs",
-      "entityId": "chelsea-gusto",
+      "entityId": "chelsea-reece-james",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -141,7 +109,7 @@
     },
     {
       "poolId": "pl-centre-backs",
-      "entityId": "manchester-city-gvardiol",
+      "entityId": "liverpool-van-dijk",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -157,7 +125,23 @@
     },
     {
       "poolId": "pl-centre-backs",
-      "entityId": "manchester-united-lisandro-martinez",
+      "entityId": "manchester-city-guehi",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-centre-backs",
+      "entityId": "manchester-city-gvardiol",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-centre-backs",
+      "entityId": "manchester-city-ruben-dias",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -173,7 +157,7 @@
     },
     {
       "poolId": "pl-centre-backs",
-      "entityId": "aston-villa-pau-torres",
+      "entityId": "manchester-united-lisandro-martinez",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -181,7 +165,23 @@
     },
     {
       "poolId": "pl-centre-backs",
-      "entityId": "aston-villa-maatsen",
+      "entityId": "tottenham-porro",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-centre-backs",
+      "entityId": "tottenham-udogie",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-centre-backs",
+      "entityId": "tottenham-van-de-ven",
       "strength": 0,
       "votes": 0,
       "low": 0,

@@ -1,11 +1,211 @@
 {
   "poolId": "chelsea-2026",
-  "computedAt": "2026-11-10T12:00:00Z",
+  "computedAt": "2026-11-11T08:46:38.582Z",
   "totalVotes": 0,
   "ratings": [
     {
       "poolId": "chelsea-2026",
+      "entityId": "chelsea-acheampong",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "chelsea-2026",
+      "entityId": "chelsea-anselmino",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "chelsea-2026",
+      "entityId": "chelsea-barco",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "chelsea-2026",
+      "entityId": "chelsea-caicedo",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "chelsea-2026",
+      "entityId": "chelsea-chavarria",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "chelsea-2026",
+      "entityId": "chelsea-colwill",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "chelsea-2026",
+      "entityId": "chelsea-emegha",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "chelsea-2026",
       "entityId": "chelsea-emiliano-martinez",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "chelsea-2026",
+      "entityId": "chelsea-estevao",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "chelsea-2026",
+      "entityId": "chelsea-fofana",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "chelsea-2026",
+      "entityId": "chelsea-gittens",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "chelsea-2026",
+      "entityId": "chelsea-gusto",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "chelsea-2026",
+      "entityId": "chelsea-hato",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "chelsea-2026",
+      "entityId": "chelsea-henderson",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "chelsea-2026",
+      "entityId": "chelsea-joao-pedro",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "chelsea-2026",
+      "entityId": "chelsea-lacroix",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "chelsea-2026",
+      "entityId": "chelsea-lavia",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "chelsea-2026",
+      "entityId": "chelsea-neto",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "chelsea-2026",
+      "entityId": "chelsea-nicoll-jazuli",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "chelsea-2026",
+      "entityId": "chelsea-palestra",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "chelsea-2026",
+      "entityId": "chelsea-palmer",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "chelsea-2026",
+      "entityId": "chelsea-penders",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "chelsea-2026",
+      "entityId": "chelsea-quenda",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "chelsea-2026",
+      "entityId": "chelsea-reece-james",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "chelsea-2026",
+      "entityId": "chelsea-reggie-watson",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "chelsea-2026",
+      "entityId": "chelsea-rogers",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -29,207 +229,7 @@
     },
     {
       "poolId": "chelsea-2026",
-      "entityId": "chelsea-penders",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "chelsea-2026",
-      "entityId": "chelsea-palestra",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "chelsea-2026",
-      "entityId": "chelsea-fofana",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "chelsea-2026",
-      "entityId": "chelsea-barco",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "chelsea-2026",
-      "entityId": "chelsea-lacroix",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "chelsea-2026",
-      "entityId": "chelsea-colwill",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "chelsea-2026",
-      "entityId": "chelsea-hato",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "chelsea-2026",
-      "entityId": "chelsea-reece-james",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "chelsea-2026",
-      "entityId": "chelsea-gusto",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "chelsea-2026",
-      "entityId": "chelsea-chavarria",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "chelsea-2026",
-      "entityId": "chelsea-anselmino",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "chelsea-2026",
-      "entityId": "chelsea-acheampong",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "chelsea-2026",
-      "entityId": "chelsea-palmer",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "chelsea-2026",
-      "entityId": "chelsea-henderson",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "chelsea-2026",
-      "entityId": "chelsea-rogers",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "chelsea-2026",
-      "entityId": "chelsea-caicedo",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "chelsea-2026",
-      "entityId": "chelsea-lavia",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "chelsea-2026",
-      "entityId": "chelsea-reggie-watson",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "chelsea-2026",
-      "entityId": "chelsea-nicoll-jazuli",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "chelsea-2026",
-      "entityId": "chelsea-neto",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "chelsea-2026",
-      "entityId": "chelsea-joao-pedro",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "chelsea-2026",
-      "entityId": "chelsea-gittens",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "chelsea-2026",
       "entityId": "chelsea-welbeck",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "chelsea-2026",
-      "entityId": "chelsea-emegha",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "chelsea-2026",
-      "entityId": "chelsea-quenda",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "chelsea-2026",
-      "entityId": "chelsea-estevao",
       "strength": 0,
       "votes": 0,
       "low": 0,

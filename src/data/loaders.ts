@@ -1,4 +1,4 @@
-import type { Player, Pool } from "../engine/types";
+import type { Player, Pool, RatingFile } from "../engine/types";
 
 // Base URL provided by Vite for GitHub Pages (e.g. /football-sorter/)
 const BASE_URL = import.meta.env.BASE_URL || "/";
@@ -10,36 +10,7 @@ export async function fetchPools(): Promise<Pool[]> {
     return await res.json();
   } catch (err) {
     console.warn("Falling back to embedded pool data:", err);
-    return [
-      {
-        id: "spain-2026",
-        title: "Spain 2026",
-        kind: "squad",
-        memberIds: [
-          "unai-simon",
-          "david-raya",
-          "dani-carvajal",
-          "robin-le-normand",
-          "aymeric-laporte",
-          "pau-cubarsi",
-          "marc-cucurella",
-          "alejandro-grimaldo",
-          "pedro-porro",
-          "rodri",
-          "martin-zubimendi",
-          "pedri",
-          "dani-olmo",
-          "fabian-ruiz",
-          "mikel-merino",
-          "lamine-yamal",
-          "nico-williams",
-          "alvaro-morata",
-          "mikel-oyarzabal",
-          "ferran-torres"
-        ],
-        createdAt: "2026-11-10T10:00:00Z"
-      }
-    ];
+    return [];
   }
 }
 
@@ -51,6 +22,17 @@ export async function fetchPlayers(): Promise<Player[]> {
   } catch (err) {
     console.warn("Falling back to embedded player data:", err);
     return [];
+  }
+}
+
+export async function fetchRatings(poolId: string): Promise<RatingFile | null> {
+  try {
+    const res = await fetch(`${BASE_URL}data/ratings/${poolId}.json`);
+    if (!res.ok) return null;
+    return await res.json();
+  } catch (err) {
+    console.warn(`Could not load ratings for ${poolId}:`, err);
+    return null;
   }
 }
 

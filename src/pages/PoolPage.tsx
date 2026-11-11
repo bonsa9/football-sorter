@@ -1,8 +1,9 @@
 import React, { useState, useEffect, useMemo, useCallback } from "react";
-import type { Player, Pool, Rating, Vote, Position } from "../engine/types";
+import type { Player, Pool, Rating, Vote, Position, RatingFile } from "../engine/types";
 import { computeBradleyTerry } from "../engine/bradleyTerry";
 import { nextPair } from "../engine/pairSelection";
 import { getLocalVotes, getSessionId, saveLocalVote, popLocalVote, clearLocalVotes } from "../lib/storage";
+import { fetchRatings } from "../data/loaders";
 import { VoteCard } from "../components/VoteCard";
 import { RankingTable } from "../components/RankingTable";
 import { PlayerAvatar } from "../components/PlayerAvatar";
@@ -42,6 +43,14 @@ export const PoolPage: React.FC<PoolPageProps> = ({ pool, players, onBack }) => 
     new Set(["GK", "DEF", "MID", "FWD", "MGR"])
   );
   const [kitColor, setKitColor] = useState<"home" | "away" | "third">("home");
+  const [communityRatings, setCommunityRatings] = useState<RatingFile | null>(null);
+
+  // Load published community ratings if available
+  useEffect(() => {
+    fetchRatings(pool.id).then((data) => {
+      if (data) setCommunityRatings(data);
+    });
+  }, [pool.id]);
 
   const sessionId = useMemo(() => getSessionId(), []);
 
@@ -446,10 +455,13 @@ export const PoolPage: React.FC<PoolPageProps> = ({ pool, players, onBack }) => 
 
           <div className="rankings-inner-card">
             <RankingTable
-              ratings={ratings}
+              myRatings={ratings}
+              communityRatings={communityRatings}
               playersMap={playersMap}
               totalVotes={votes.length}
               targetVotes={targetCalibrationVotes}
+              kitColor={kitColor}
+              onContinueVoting={() => setViewState("voting")}
             />
             <div className="ranking-table-footer">
               <button

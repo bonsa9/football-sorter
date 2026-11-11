@@ -1,115 +1,11 @@
 {
   "poolId": "tottenham-2026",
-  "computedAt": "2026-11-10T12:00:00Z",
+  "computedAt": "2026-11-11T08:46:38.582Z",
   "totalVotes": 0,
   "ratings": [
     {
       "poolId": "tottenham-2026",
-      "entityId": "tottenham-kinsky",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "tottenham-2026",
-      "entityId": "tottenham-dubravka",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "tottenham-2026",
-      "entityId": "tottenham-austin",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "tottenham-2026",
-      "entityId": "tottenham-robertson",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "tottenham-2026",
       "entityId": "tottenham-adarabioyo",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "tottenham-2026",
-      "entityId": "tottenham-senesi",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "tottenham-2026",
-      "entityId": "tottenham-van-hecke",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "tottenham-2026",
-      "entityId": "tottenham-udogie",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "tottenham-2026",
-      "entityId": "tottenham-porro",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "tottenham-2026",
-      "entityId": "tottenham-ben-davies",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "tottenham-2026",
-      "entityId": "tottenham-van-de-ven",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "tottenham-2026",
-      "entityId": "tottenham-xavi-simons",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "tottenham-2026",
-      "entityId": "tottenham-gallagher",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "tottenham-2026",
-      "entityId": "tottenham-maddison",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -125,7 +21,7 @@
     },
     {
       "poolId": "tottenham-2026",
-      "entityId": "tottenham-bergvall",
+      "entityId": "tottenham-austin",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -133,23 +29,7 @@
     },
     {
       "poolId": "tottenham-2026",
-      "entityId": "tottenham-tonali",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "tottenham-2026",
-      "entityId": "tottenham-fernandes",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "tottenham-2026",
-      "entityId": "tottenham-kulusevski",
+      "entityId": "tottenham-ben-davies",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -165,7 +45,7 @@
     },
     {
       "poolId": "tottenham-2026",
-      "entityId": "tottenham-williams-barnett",
+      "entityId": "tottenham-bergvall",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -173,7 +53,7 @@
     },
     {
       "poolId": "tottenham-2026",
-      "entityId": "tottenham-tel",
+      "entityId": "tottenham-dubravka",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -181,7 +61,7 @@
     },
     {
       "poolId": "tottenham-2026",
-      "entityId": "tottenham-savio",
+      "entityId": "tottenham-fernandes",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -189,7 +69,15 @@
     },
     {
       "poolId": "tottenham-2026",
-      "entityId": "tottenham-solanke",
+      "entityId": "tottenham-gallagher",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "tottenham-2026",
+      "entityId": "tottenham-kinsky",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -198,6 +86,22 @@
     {
       "poolId": "tottenham-2026",
       "entityId": "tottenham-kudus",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "tottenham-2026",
+      "entityId": "tottenham-kulusevski",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "tottenham-2026",
+      "entityId": "tottenham-maddison",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -222,6 +126,102 @@
     {
       "poolId": "tottenham-2026",
       "entityId": "tottenham-odobert",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "tottenham-2026",
+      "entityId": "tottenham-porro",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "tottenham-2026",
+      "entityId": "tottenham-robertson",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "tottenham-2026",
+      "entityId": "tottenham-savio",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "tottenham-2026",
+      "entityId": "tottenham-senesi",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "tottenham-2026",
+      "entityId": "tottenham-solanke",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "tottenham-2026",
+      "entityId": "tottenham-tel",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "tottenham-2026",
+      "entityId": "tottenham-tonali",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "tottenham-2026",
+      "entityId": "tottenham-udogie",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "tottenham-2026",
+      "entityId": "tottenham-van-de-ven",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "tottenham-2026",
+      "entityId": "tottenham-van-hecke",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "tottenham-2026",
+      "entityId": "tottenham-williams-barnett",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "tottenham-2026",
+      "entityId": "tottenham-xavi-simons",
       "strength": 0,
       "votes": 0,
       "low": 0,

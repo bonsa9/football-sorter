@@ -1,115 +1,11 @@
 {
   "poolId": "manutd-2026",
-  "computedAt": "2026-11-10T12:00:00Z",
+  "computedAt": "2026-11-11T08:46:38.582Z",
   "totalVotes": 0,
   "ratings": [
     {
       "poolId": "manutd-2026",
-      "entityId": "manchester-united-lammens",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "manutd-2026",
-      "entityId": "manchester-united-darlow",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "manutd-2026",
-      "entityId": "manchester-united-heaton",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "manutd-2026",
-      "entityId": "manchester-united-mee",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "manutd-2026",
-      "entityId": "manchester-united-dalot",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "manutd-2026",
-      "entityId": "manchester-united-mazraoui",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "manutd-2026",
-      "entityId": "manchester-united-de-ligt",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "manutd-2026",
-      "entityId": "manchester-united-maguire",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "manutd-2026",
-      "entityId": "manchester-united-lisandro-martinez",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "manutd-2026",
-      "entityId": "manchester-united-dorgu",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "manutd-2026",
-      "entityId": "manchester-united-yoro",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "manutd-2026",
-      "entityId": "manchester-united-shaw",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "manutd-2026",
-      "entityId": "manchester-united-mount",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "manutd-2026",
-      "entityId": "manchester-united-bruno-fernandes",
+      "entityId": "manchester-united-amad",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -125,14 +21,6 @@
     },
     {
       "poolId": "manutd-2026",
-      "entityId": "manchester-united-tielemans",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "manutd-2026",
       "entityId": "manchester-united-baleba",
       "strength": 0,
       "votes": 0,
@@ -141,31 +29,7 @@
     },
     {
       "poolId": "manutd-2026",
-      "entityId": "manchester-united-ugarte",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "manutd-2026",
-      "entityId": "manchester-united-heaven",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "manutd-2026",
-      "entityId": "manchester-united-mainoo",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "manutd-2026",
-      "entityId": "manchester-united-rashford",
+      "entityId": "manchester-united-bruno-fernandes",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -181,7 +45,7 @@
     },
     {
       "poolId": "manutd-2026",
-      "entityId": "manchester-united-zirkzee",
+      "entityId": "manchester-united-dalot",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -189,7 +53,79 @@
     },
     {
       "poolId": "manutd-2026",
-      "entityId": "manchester-united-amad",
+      "entityId": "manchester-united-darlow",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "manutd-2026",
+      "entityId": "manchester-united-de-ligt",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "manutd-2026",
+      "entityId": "manchester-united-dorgu",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "manutd-2026",
+      "entityId": "manchester-united-heaton",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "manutd-2026",
+      "entityId": "manchester-united-heaven",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "manutd-2026",
+      "entityId": "manchester-united-lammens",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "manutd-2026",
+      "entityId": "manchester-united-lisandro-martinez",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "manutd-2026",
+      "entityId": "manchester-united-maguire",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "manutd-2026",
+      "entityId": "manchester-united-mainoo",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "manutd-2026",
+      "entityId": "manchester-united-mazraoui",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -205,7 +141,23 @@
     },
     {
       "poolId": "manutd-2026",
-      "entityId": "manchester-united-tynan-thompson",
+      "entityId": "manchester-united-mee",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "manutd-2026",
+      "entityId": "manchester-united-mount",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "manutd-2026",
+      "entityId": "manchester-united-rashford",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -221,7 +173,55 @@
     },
     {
       "poolId": "manutd-2026",
+      "entityId": "manchester-united-shaw",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "manutd-2026",
       "entityId": "manchester-united-shea-lacey",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "manutd-2026",
+      "entityId": "manchester-united-tielemans",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "manutd-2026",
+      "entityId": "manchester-united-tynan-thompson",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "manutd-2026",
+      "entityId": "manchester-united-ugarte",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "manutd-2026",
+      "entityId": "manchester-united-yoro",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "manutd-2026",
+      "entityId": "manchester-united-zirkzee",
       "strength": 0,
       "votes": 0,
       "low": 0,

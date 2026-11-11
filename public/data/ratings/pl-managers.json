@@ -1,19 +1,11 @@
 {
   "poolId": "pl-managers",
-  "computedAt": "2026-11-10T12:00:00Z",
+  "computedAt": "2026-11-11T08:46:38.582Z",
   "totalVotes": 0,
   "ratings": [
     {
       "poolId": "pl-managers",
-      "entityId": "pep-guardiola",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "pl-managers",
-      "entityId": "mikel-arteta",
+      "entityId": "ange-postecoglou",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -29,15 +21,7 @@
     },
     {
       "poolId": "pl-managers",
-      "entityId": "unai-emery",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "pl-managers",
-      "entityId": "ange-postecoglou",
+      "entityId": "eddie-howe",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -53,7 +37,7 @@
     },
     {
       "poolId": "pl-managers",
-      "entityId": "ruben-amorim",
+      "entityId": "marco-silva",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -61,7 +45,23 @@
     },
     {
       "poolId": "pl-managers",
-      "entityId": "eddie-howe",
+      "entityId": "mikel-arteta",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-managers",
+      "entityId": "pep-guardiola",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "pl-managers",
+      "entityId": "ruben-amorim",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -77,7 +77,7 @@
     },
     {
       "poolId": "pl-managers",
-      "entityId": "marco-silva",
+      "entityId": "unai-emery",
       "strength": 0,
       "votes": 0,
       "low": 0,

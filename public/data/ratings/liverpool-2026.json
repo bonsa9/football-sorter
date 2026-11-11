@@ -1,99 +1,11 @@
 {
   "poolId": "liverpool-2026",
-  "computedAt": "2026-11-10T12:00:00Z",
+  "computedAt": "2026-11-11T08:46:38.582Z",
   "totalVotes": 0,
   "ratings": [
     {
       "poolId": "liverpool-2026",
       "entityId": "liverpool-alisson",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "liverpool-2026",
-      "entityId": "liverpool-mamardashvili",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "liverpool-2026",
-      "entityId": "liverpool-woodman",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "liverpool-2026",
-      "entityId": "liverpool-jaros",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "liverpool-2026",
-      "entityId": "liverpool-gomez",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "liverpool-2026",
-      "entityId": "liverpool-van-dijk",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "liverpool-2026",
-      "entityId": "liverpool-jacquet",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "liverpool-2026",
-      "entityId": "liverpool-kerkez",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "liverpool-2026",
-      "entityId": "liverpool-bradley",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "liverpool-2026",
-      "entityId": "liverpool-leoni",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "liverpool-2026",
-      "entityId": "liverpool-tsimikas",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "liverpool-2026",
-      "entityId": "liverpool-frimpong",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -109,6 +21,22 @@
     },
     {
       "poolId": "liverpool-2026",
+      "entityId": "liverpool-barcola",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "liverpool-2026",
+      "entityId": "liverpool-bradley",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "liverpool-2026",
       "entityId": "liverpool-chambers",
       "strength": 0,
       "votes": 0,
@@ -117,87 +45,7 @@
     },
     {
       "poolId": "liverpool-2026",
-      "entityId": "liverpool-wirtz",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "liverpool-2026",
-      "entityId": "liverpool-szoboszlai",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "liverpool-2026",
-      "entityId": "liverpool-mac-allister",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "liverpool-2026",
-      "entityId": "liverpool-victor-munoz",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "liverpool-2026",
-      "entityId": "liverpool-gravenberch",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "liverpool-2026",
-      "entityId": "liverpool-nyoni",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "liverpool-2026",
-      "entityId": "liverpool-mcconnell",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "liverpool-2026",
-      "entityId": "liverpool-endo",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "liverpool-2026",
-      "entityId": "liverpool-koumas",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "liverpool-2026",
-      "entityId": "liverpool-isak",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "liverpool-2026",
-      "entityId": "liverpool-gakpo",
+      "entityId": "liverpool-chiesa",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -213,7 +61,111 @@
     },
     {
       "poolId": "liverpool-2026",
-      "entityId": "liverpool-barcola",
+      "entityId": "liverpool-endo",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "liverpool-2026",
+      "entityId": "liverpool-frimpong",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "liverpool-2026",
+      "entityId": "liverpool-gakpo",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "liverpool-2026",
+      "entityId": "liverpool-gomez",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "liverpool-2026",
+      "entityId": "liverpool-gravenberch",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "liverpool-2026",
+      "entityId": "liverpool-isak",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "liverpool-2026",
+      "entityId": "liverpool-jacquet",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "liverpool-2026",
+      "entityId": "liverpool-jaros",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "liverpool-2026",
+      "entityId": "liverpool-kerkez",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "liverpool-2026",
+      "entityId": "liverpool-koumas",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "liverpool-2026",
+      "entityId": "liverpool-leoni",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "liverpool-2026",
+      "entityId": "liverpool-mac-allister",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "liverpool-2026",
+      "entityId": "liverpool-mamardashvili",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "liverpool-2026",
+      "entityId": "liverpool-mcconnell",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -229,7 +181,55 @@
     },
     {
       "poolId": "liverpool-2026",
-      "entityId": "liverpool-chiesa",
+      "entityId": "liverpool-nyoni",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "liverpool-2026",
+      "entityId": "liverpool-szoboszlai",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "liverpool-2026",
+      "entityId": "liverpool-tsimikas",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "liverpool-2026",
+      "entityId": "liverpool-van-dijk",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "liverpool-2026",
+      "entityId": "liverpool-victor-munoz",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "liverpool-2026",
+      "entityId": "liverpool-wirtz",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "liverpool-2026",
+      "entityId": "liverpool-woodman",
       "strength": 0,
       "votes": 0,
       "low": 0,

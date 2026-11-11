@@ -1,91 +1,11 @@
 {
   "poolId": "mancity-2026",
-  "computedAt": "2026-11-10T12:00:00Z",
+  "computedAt": "2026-11-11T08:46:38.582Z",
   "totalVotes": 0,
   "ratings": [
     {
       "poolId": "mancity-2026",
-      "entityId": "manchester-city-donnarumma",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "mancity-2026",
-      "entityId": "manchester-city-bettinelli",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "mancity-2026",
-      "entityId": "manchester-city-rulli",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "mancity-2026",
-      "entityId": "manchester-city-chabot",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "mancity-2026",
-      "entityId": "manchester-city-ruben-dias",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "mancity-2026",
-      "entityId": "manchester-city-guehi",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "mancity-2026",
       "entityId": "manchester-city-ait-nouri",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "mancity-2026",
-      "entityId": "manchester-city-vitor-reis",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "mancity-2026",
-      "entityId": "manchester-city-gvardiol",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "mancity-2026",
-      "entityId": "manchester-city-khusanov",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "mancity-2026",
-      "entityId": "manchester-city-rico-lewis",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -101,7 +21,23 @@
     },
     {
       "poolId": "mancity-2026",
-      "entityId": "manchester-city-kovacic",
+      "entityId": "manchester-city-bettinelli",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "mancity-2026",
+      "entityId": "manchester-city-bouaddi",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "mancity-2026",
+      "entityId": "manchester-city-chabot",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -125,63 +61,7 @@
     },
     {
       "poolId": "mancity-2026",
-      "entityId": "manchester-city-enzo-fernandez",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "mancity-2026",
-      "entityId": "manchester-city-nunes",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "mancity-2026",
-      "entityId": "manchester-city-bouaddi",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "mancity-2026",
-      "entityId": "manchester-city-oreilly",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "mancity-2026",
-      "entityId": "manchester-city-foden",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "mancity-2026",
-      "entityId": "manchester-city-samba",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "mancity-2026",
-      "entityId": "manchester-city-ndiaye",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "mancity-2026",
-      "entityId": "manchester-city-haaland",
+      "entityId": "manchester-city-donnarumma",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -197,7 +77,55 @@
     },
     {
       "poolId": "mancity-2026",
-      "entityId": "manchester-city-semenyo",
+      "entityId": "manchester-city-enzo-fernandez",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "mancity-2026",
+      "entityId": "manchester-city-foden",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "mancity-2026",
+      "entityId": "manchester-city-guehi",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "mancity-2026",
+      "entityId": "manchester-city-gvardiol",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "mancity-2026",
+      "entityId": "manchester-city-haaland",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "mancity-2026",
+      "entityId": "manchester-city-khusanov",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "mancity-2026",
+      "entityId": "manchester-city-kovacic",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -206,6 +134,78 @@
     {
       "poolId": "mancity-2026",
       "entityId": "manchester-city-mcaidoo",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "mancity-2026",
+      "entityId": "manchester-city-ndiaye",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "mancity-2026",
+      "entityId": "manchester-city-nunes",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "mancity-2026",
+      "entityId": "manchester-city-oreilly",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "mancity-2026",
+      "entityId": "manchester-city-rico-lewis",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "mancity-2026",
+      "entityId": "manchester-city-ruben-dias",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "mancity-2026",
+      "entityId": "manchester-city-rulli",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "mancity-2026",
+      "entityId": "manchester-city-samba",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "mancity-2026",
+      "entityId": "manchester-city-semenyo",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "mancity-2026",
+      "entityId": "manchester-city-vitor-reis",
       "strength": 0,
       "votes": 0,
       "low": 0,

@@ -1,83 +1,11 @@
 {
   "poolId": "arsenal-2026",
-  "computedAt": "2026-11-10T12:00:00Z",
+  "computedAt": "2026-11-11T08:46:38.582Z",
   "totalVotes": 0,
   "ratings": [
     {
       "poolId": "arsenal-2026",
-      "entityId": "arsenal-raya",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "arsenal-2026",
-      "entityId": "arsenal-kepa",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "arsenal-2026",
-      "entityId": "arsenal-meslier",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "arsenal-2026",
-      "entityId": "arsenal-saliba",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "arsenal-2026",
-      "entityId": "arsenal-mosquera",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "arsenal-2026",
-      "entityId": "arsenal-white",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "arsenal-2026",
-      "entityId": "arsenal-hincapie",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "arsenal-2026",
-      "entityId": "arsenal-gabriel",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "arsenal-2026",
-      "entityId": "arsenal-timber",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "arsenal-2026",
-      "entityId": "arsenal-konsa",
+      "entityId": "arsenal-bruno-guimaraes",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -93,7 +21,7 @@
     },
     {
       "poolId": "arsenal-2026",
-      "entityId": "arsenal-odegaard",
+      "entityId": "arsenal-dowman",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -102,6 +30,62 @@
     {
       "poolId": "arsenal-2026",
       "entityId": "arsenal-eze",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "arsenal-2026",
+      "entityId": "arsenal-gabriel",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "arsenal-2026",
+      "entityId": "arsenal-gyokeres",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "arsenal-2026",
+      "entityId": "arsenal-havertz",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "arsenal-2026",
+      "entityId": "arsenal-hincapie",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "arsenal-2026",
+      "entityId": "arsenal-kepa",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "arsenal-2026",
+      "entityId": "arsenal-konsa",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "arsenal-2026",
+      "entityId": "arsenal-lewis-skelly",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -125,7 +109,7 @@
     },
     {
       "poolId": "arsenal-2026",
-      "entityId": "arsenal-havertz",
+      "entityId": "arsenal-meslier",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -133,7 +117,7 @@
     },
     {
       "poolId": "arsenal-2026",
-      "entityId": "arsenal-zubimendi",
+      "entityId": "arsenal-mosquera",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -141,7 +125,15 @@
     },
     {
       "poolId": "arsenal-2026",
-      "entityId": "arsenal-bruno-guimaraes",
+      "entityId": "arsenal-odegaard",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "arsenal-2026",
+      "entityId": "arsenal-raya",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -157,22 +149,6 @@
     },
     {
       "poolId": "arsenal-2026",
-      "entityId": "arsenal-lewis-skelly",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "arsenal-2026",
-      "entityId": "arsenal-dowman",
-      "strength": 0,
-      "votes": 0,
-      "low": 0,
-      "high": 0
-    },
-    {
-      "poolId": "arsenal-2026",
       "entityId": "arsenal-saka",
       "strength": 0,
       "votes": 0,
@@ -181,7 +157,15 @@
     },
     {
       "poolId": "arsenal-2026",
-      "entityId": "arsenal-gyokeres",
+      "entityId": "arsenal-saliba",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "arsenal-2026",
+      "entityId": "arsenal-timber",
       "strength": 0,
       "votes": 0,
       "low": 0,
@@ -190,6 +174,22 @@
     {
       "poolId": "arsenal-2026",
       "entityId": "arsenal-tzolis",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "arsenal-2026",
+      "entityId": "arsenal-white",
+      "strength": 0,
+      "votes": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "poolId": "arsenal-2026",
+      "entityId": "arsenal-zubimendi",
       "strength": 0,
       "votes": 0,
       "low": 0,

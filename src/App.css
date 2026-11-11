@@ -1037,11 +1037,231 @@
   cursor: pointer;
 }
 
+/* Ranking Top Bar & Controls */
+.ranking-top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.ranking-toggle-segmented {
+  display: flex;
+  background: #f1f5f9;
+  padding: 4px;
+  border-radius: 9999px;
+  gap: 4px;
+}
+
+.ranking-toggle-btn {
+  border: none;
+  background: transparent;
+  padding: 0.5rem 1.15rem;
+  border-radius: 9999px;
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  color: #64748b;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.ranking-toggle-btn.active {
+  background: #ffffff;
+  color: #0f172a;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.ranking-actions-group {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  flex-wrap: wrap;
+}
+
+.btn-rank-action {
+  border: none;
+  padding: 0.55rem 1.15rem;
+  border-radius: 9999px;
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.btn-vote-more {
+  background: #ba181b;
+  color: #ffffff;
+}
+
+.btn-vote-more:hover {
+  background: #990005;
+  transform: translateY(-1px);
+}
+
+.btn-share-link {
+  background: #f1f5f9;
+  color: #1e293b;
+  border: 1px solid #cbd5e1;
+}
+
+.btn-share-link:hover {
+  background: #e2e8f0;
+}
+
+.ranking-info-banner {
+  margin-bottom: 1.25rem;
+}
+
+.ranking-subtitle-text {
+  font-size: 0.92rem;
+  color: #475569;
+  line-height: 1.5;
+}
+
+.text-calibrated {
+  color: #15803d;
+  font-weight: 700;
+}
+
+.text-provisional {
+  color: #b45309;
+}
+
+.community-updated-at {
+  color: #64748b;
+  font-size: 0.85rem;
+}
+
+.empty-ranking-card {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: #64748b;
+}
+
+/* Player Row Content */
+.player-row-content {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.player-row-avatar {
+  flex-shrink: 0;
+}
+
+.player-row-names {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+}
+
+.player-row-name {
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.player-row-number {
+  font-size: 0.8rem;
+  color: #64748b;
+  font-weight: 600;
+}
+
+.pos-pill-tag {
+  display: inline-block;
+  padding: 0.2rem 0.55rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  font-family: var(--font-display);
+}
+
+.pos-GK {
+  background: #fef3c7;
+  color: #b45309;
+}
+
+.pos-DEF {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.pos-MID {
+  background: #ede9fe;
+  color: #6d28d9;
+}
+
+.pos-FWD {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.pos-MGR {
+  background: #f1f5f9;
+  color: #334155;
+}
+
+.club-cell-content {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.88rem;
+  color: #334155;
+}
+
+.rank-crest-icon {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+}
+
+/* Strength Visualizer */
+.strength-bar-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  min-width: 130px;
+}
+
+.strength-bar-fill {
+  height: 8px;
+  border-radius: 9999px;
+  background: linear-gradient(90deg, #3b82f6 0%, #10b981 100%);
+  display: block;
+}
+
+.strength-number {
+  font-weight: 800;
+  font-size: 0.88rem;
+  color: #059669;
+}
+
+/* Podium Rows */
+.podium-rank-1 td {
+  background: #fffdf5;
+}
+
+.podium-rank-2 td {
+  background: #fbfbfc;
+}
+
+.podium-rank-3 td {
+  background: #fffaf5;
+}
+
 /* Ranking Table Styles */
 .table-responsive {
   width: 100%;
   overflow-x: auto;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 
 .ranking-table {
@@ -1069,7 +1289,7 @@
 }
 
 .ranking-table tr:hover td {
-  background: #f9fafb;
+  background: #f8fafc;
 }
 
 .rank-cell {
@@ -1089,22 +1309,25 @@
 }
 
 .rank-1 {
-  background: #fef3c7;
-  color: #b45309;
+  background: #fef08a;
+  color: #854d0e;
+  border: 1.5px solid #facc15;
 }
 
 .rank-2 {
-  background: #f3f4f6;
-  color: #4b5563;
+  background: #e2e8f0;
+  color: #334155;
+  border: 1.5px solid #cbd5e1;
 }
 
 .rank-3 {
-  background: #ffedd5;
-  color: #c2410c;
+  background: #fed7aa;
+  color: #9a3412;
+  border: 1.5px solid #fb923c;
 }
 
 .rank-other {
-  color: #9ca3af;
+  color: #94a3b8;
 }
 
 .pos-badge {
